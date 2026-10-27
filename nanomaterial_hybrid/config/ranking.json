@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "weights": {"suitability": 0.6, "setup": 0.25, "recovery": 0.15},
+  "alternative_weights": [
+    {"suitability": 0.5, "setup": 0.3, "recovery": 0.2},
+    {"suitability": 0.7, "setup": 0.2, "recovery": 0.1}
+  ],
+  "score_meaning": "Project chosen evidence applicability and practical setup preference score. Not a removal percentage, efficiency prediction or probability.",
+  "rubric": {
+    "suitability": {"0": "Inspected evidence demonstrates failure for the exact objective", "1": "Relevant pollutant and formulation evidence or eligible experimental ML, but no fully matched observed treatment objective", "2": "A reported removal observation matches all five operating inputs and supports the declared removal target", "unknown": "No verified basis"},
+    "setup": {"0": "Documented route conflicts with explicitly available setup", "1": "Partial setup match or unresolved wavelength, formulation or conditions", "2": "Declared laboratory setup meets the checked route requirements", "unknown": "Setup unspecified"},
+    "recovery": {"0": "The documented recovery method is explicitly unavailable", "1": "Analytical separation reported without demonstrated complete recovery", "2": "Documented laboratory separation method is available for the specified profile", "unknown": "Recovery not demonstrated or equipment unknown"}
+  },
+  "profile_requirements": {
+    "P01": {"mixing_required": true},
+    "P02": {"mixing_required": true},
+    "P03": {"mixing_required": false},
+    "P04": {"mixing_required": true},
+    "P05": {"mixing_required": true},
+    "P06": {"mixing_required": true},
+    "P07": {"mixing_required": true, "recovery_equipment": "filtration", "recovery_rating": 1},
+    "P08": {"mixing_required": true},
+    "P09": {"mixing_required": true, "recovery_equipment": "centrifuge", "recovery_rating": 2},
+    "P10": {"mixing_required": true},
+    "P11": {"mixing_required": true, "setup_incompletely_documented": true}
+  },
+  "design_assumptions": [
+    "Batch mixing is a prototype setup requirement; where the abstract does not describe agitation, this is an engineering assumption rather than an extracted experiment parameter.",
+    "Unknown criterion ratings span zero to two; no midpoint or weight renormalisation is used.",
+    "One family row describes a named chosen profile, not universal performance of every material in that family.",
+    "Conditional candidates are ranked only when allow_conditional_ranking is explicitly true.",
+    "The policy never gives extra score merely because a candidate has an ML prediction.",
+    "Known mismatched conditions imply conditional transferability, not proof of poor removal."
+  ]
+}

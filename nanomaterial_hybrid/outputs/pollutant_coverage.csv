@@ -1,0 +1,76 @@
+Molecule_Name,SMILES,records,distinct_input_groups
+Sulfamethoxazole,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,25,22
+Amaranth,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],24,24
+Benzylparaben,C1=CC=C(C=C1)COC(=O)C2=CC=C(C=C2)O,14,14
+Bisphenol A,CC(C)(C1=CC=C(C=C1)O)C2=CC=C(C=C2)O,13,13
+Atenolol,CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O,13,13
+Tebuthiuron,CC(C)(C)C1=NN=C(S1)N(C)C(=O)NC,13,13
+Propachlor,CC(C)N(C1=CC=CC=C1)C(=O)CCl,13,13
+Dinoseb,CCC(C)C1=C(C(=CC(=C1)[N+](=O)[O-])[N+](=O)[O-])O,12,12
+Propham,CC(C)OC(=O)NC1=CC=CC=C1,12,12
+Ofloxacin,CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O,11,11
+4-Chlorophenol,C1=CC(=CC=C1O)Cl,11,11
+Indole-3-butyric acid,C1=CC=C2C(=C1)C(=CN2)CCCC(=O)O,10,10
+Daminozide,CN(C)NC(=O)CCC(=O)O,10,10
+Triclopyr,C1=C(C(=NC(=C1Cl)Cl)OCC(=O)O)Cl,10,10
+Lamivudine,C1C(OC(S1)CO)N2C=CC(=NC2=O)N,10,10
+Indole-3-acetic acid,C1=CC=C2C(=C1)C(=CN2)CC(=O)O,10,10
+Gemfibrozil,CC1=CC(=C(C=C1)C)OCCCC(C)(C)C(=O)O,9,9
+n-Nitrosodimethylamine,CN(C)N=O,9,9
+Dichlorvos,COP(=O)(OC)OC=C(Cl)Cl,9,6
+"1,4-Dioxane",C1COCCO1,9,9
+17-beta estradiol,CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O.CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O,9,9
+tris(2-chloroethyl) phosphate,C(CCl)OP(=O)(OCCCl)OCCCl,9,9
+Phosphamidon,CCN(CC)C(=O)C(=C(C)OP(=O)(OC)OC)Cl,8,6
+"2,4,6-Trinitrotoluene",CC1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-],7,7
+Dicamba,COC1=C(C=CC(=C1C(=O)O)Cl)Cl,6,6
+Carbamazepine,C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N,6,6
+"2,6-Dichlorophenol",C1=CC(=C(C(=C1)Cl)O)Cl,5,5
+Ciprofloxacin,C1CC1N2C=C(C(=O)C3=CC(=C(C=C32)N4CCNCC4)F)C(=O)O,5,5
+Erioglaucine,CCN(CC1=CC(=CC=C1)S(=O)(=O)[O-])C2=CC=C(C=C2)C(=C3C=CC(=[N+](CC)CC4=CC(=CC=C4)S(=O)(=O)[O-])C=C3)C5=CC=CC=C5S(=O)(=O)[O-].[Na+].[Na+],5,5
+Clofibric acid,CC(C)(C(=O)O)OC1=CC=C(C=C1)Cl,5,5
+Acetic acid,CC(=O)O,4,4
+2-Chlorobiphenyl,C1=CC=C(C=C1)C2=CC=CC=C2Cl,4,4
+2-Chlorophenol,C1=CC=C(C(=C1)O)Cl,4,4
+2-Propanol,CC(C)O,4,4
+2-Naphthol,C1=CC=C2C=C(C=CC2=C1)O,4,4
+Umbelliferone,C1=CC(=CC2=C1C=CC(=O)O2)O,4,4
+Ethyl acetate,CCOC(=O)C,4,4
+Iomeprol,CN(C1=C(C(=C(C(=C1I)C(=O)NCC(CO)O)I)C(=O)NCC(CO)O)I)C(=O)CO,4,4
+Formic acid,C(=O)O,4,4
+Benzoic acid,C1=CC=C(C=C1)C(=O)O,4,4
+Acetone,CC(=O)C,4,4
+Dichloroethane,CC(Cl)Cl,4,4
+Chlorobenzene,C1=CC=C(C=C1)Cl,4,4
+Ethanol,CCO,4,4
+n-Propanol,CCCO,4,4
+phthalic acid,C1=CC=C(C(=C1)C(=O)O)C(=O)O,4,4
+Sucrose,C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O,4,4
+Terbufos,CCOP(=S)(OCC)SCSC(C)(C)C,4,4
+Nitrobenzene,C1=CC=C(C=C1)[N+](=O)[O-],4,4
+Monuron,CN(C)C(=O)NC1=CC=C(C=C1)Cl,4,4
+Methanol,CO,4,4
+Salicyclic acid,C1=CC=C(C(=C1)C(=O)O)O,4,4
+Chloroform,C(Cl)(Cl)Cl,4,4
+Trichloroethylene,C(=C(Cl)Cl)Cl,4,4
+Phenol,C1=CC=C(C=C1)O,4,4
+sulfacetamide sodium salt,CC(=O)[N-]S(=O)(=O)C1=CC=C(C=C1)N.[Na+],3,3
+Phorate,CCOP(=S)(OCC)SCSCC,3,3
+Fluometuron,CN(C)C(=O)NC1=CC=CC(=C1)C(F)(F)F,3,3
+Imazapyr,CC(C)C1(C(=O)NC(=N1)C2=C(C=CC=N2)C(=O)O)C,3,3
+Acetaminophen,CC(=O)NC1=CC=C(C=C1)O,1,1
+Dichlofenthion,CCOP(=S)(OCC)OC1=C(C=C(C=C1)Cl)Cl,1,1
+Iopromide,CN(CC(CO)O)C(=O)C1=C(C(=C(C(=C1I)C(=O)NCC(CO)O)I)NC(=O)COC)I,1,1
+Cyanazine,CCNC1=NC(=NC(=N1)Cl)NC(C)(C)C#N,1,1
+Bromophos ethyl,CCOP(=S)(OCC)OC1=CC(=C(C=C1Cl)Br)Cl,1,1
+Atrazine,CCNC1=NC(=NC(=N1)Cl)NC(C)C,1,1
+Bromophos methyl,COP(=S)(OC)OC1=CC(=C(C=C1Cl)Br)Cl,1,1
+Irgarol,CC(C)(C)NC1=NC(=NC(=N1)NC2CC2)SC,1,1
+Propazine,CC(C)NC1=NC(=NC(=N1)Cl)NC(C)C,1,1
+Prometryne,CC(C)NC1=NC(=NC(=N1)SC)NC(C)C,1,1
+Parathion ethyl,CCOP(=S)(OCC)OC1=CC=C(C=C1)[N+](=O)[O-],1,1
+Parathion methyl,COP(=S)(OC)OC1=CC=C(C=C1)[N+](=O)[O-],1,1
+Sulfathiazole,C1=CC(=CC=C1N)S(=O)(=O)NC2=NC=CS2,1,1
+Sulfisoxazole,CC1=C(ON=C1C)NS(=O)(=O)C2=CC=C(C=C2)N,1,1
+Sulfamethizole,CC1=NN=C(S1)NS(=O)(=O)C2=CC=C(C=C2)N,1,1
+Sulfanilamide,C1=CC(=CC=C1N)S(=O)(=O)N,1,1

@@ -1,0 +1,75 @@
+{
+  "pollutant_id": "sulfamethoxazole",
+  "request_supported": true,
+  "all_materials_assessed": 15,
+  "ranked_candidates": 1,
+  "top_candidates": [
+    "M08"
+  ],
+  "unique_policy_winner": "M08",
+  "recommendation_type": "unique conditional policy candidate",
+  "ranking_scope": "Among scored candidates and chosen profiles only; unscored evidence gaps can conceal other effective materials.",
+  "weight_sensitive": false,
+  "alternative_weight_results": [
+    {
+      "weights": {
+        "suitability": 0.5,
+        "setup": 0.3,
+        "recovery": 0.2
+      },
+      "top_candidates": [
+        "M08"
+      ]
+    },
+    {
+      "weights": {
+        "suitability": 0.7,
+        "setup": 0.2,
+        "recovery": 0.1
+      },
+      "top_candidates": [
+        "M08"
+      ]
+    }
+  ],
+  "score_meaning": "Project chosen evidence applicability and practical setup preference score. Not a removal percentage, efficiency prediction or probability.",
+  "sensitivity_scope": "Two alternate weight choices with chosen material profiles held fixed; not proof of global ranking robustness.",
+  "profile_selection_policy": "Within each family: status, then largest lower score bound, then profile ID for stable display. Overlapping profile alternatives are flagged.",
+  "assumptions": [
+    "Batch mixing is a prototype setup requirement; where the abstract does not describe agitation, this is an engineering assumption rather than an extracted experiment parameter.",
+    "Unknown criterion ratings span zero to two; no midpoint or weight renormalisation is used.",
+    "One family row describes a named chosen profile, not universal performance of every material in that family.",
+    "Conditional candidates are ranked only when allow_conditional_ranking is explicitly true.",
+    "The policy never gives extra score merely because a candidate has an ML prediction.",
+    "Known mismatched conditions imply conditional transferability, not proof of poor removal.",
+    "Study profile proposals accepted: True.",
+    "Conditional research candidates included in ranking: True.",
+    "Matching a literature observation is not an independent validation or proof of the requested performance.",
+    "No source quantity or ML prediction is numerically added to the decision score."
+  ],
+  "scenario": {
+    "pollutant_id": "sulfamethoxazole",
+    "light_type": "dark",
+    "water_matrix": "laboratory_solution",
+    "requested_endpoint": "qualitative_remediation",
+    "light_intensity_mW_cm2": 1.51,
+    "temperature_C": 25.0,
+    "dose_g_L": 0.1,
+    "concentration_mg_L": 24.82,
+    "pH": 3.0,
+    "demo_note": "First eligible sulfamethoxazole holdout row, otherwise first eligible holdout row; chosen by inputs, not smallest prediction error.",
+    "source_row": 256,
+    "prediction_endpoint": "mlogk",
+    "include_ml": true,
+    "profile_choices": {
+      "M02": "dataset_unspecified_tio2"
+    },
+    "consider_study_profiles": true,
+    "allow_conditional_ranking": true,
+    "available_equipment": [
+      "mixer",
+      "centrifuge",
+      "filtration"
+    ]
+  }
+}

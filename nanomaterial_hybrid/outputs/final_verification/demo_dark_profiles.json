@@ -1,0 +1,156 @@
+[
+  {
+    "material_id": "M02",
+    "profile_id": "dataset_unspecified_tio2",
+    "formulation": "Unspecified TiO2 grade in the training dataset",
+    "status": "incompatible_with_setup",
+    "suitability": 1,
+    "setup": 0,
+    "recovery": null,
+    "profile_accepted": true,
+    "evidence_ids": [],
+    "source_ids": [
+      "A01",
+      "A02"
+    ],
+    "source_scope": "model_scope_only_no_eligible_prediction",
+    "matched_target_evidence_ids": [],
+    "condition_matches": [],
+    "prediction": null,
+    "prediction_target": null,
+    "prediction_unit": null,
+    "prediction_basis": null,
+    "prediction_profile_id": null,
+    "ml_fallback_reasons": [
+      "The dataset describes UV irradiation; this model does not support dark, visible only or sunlight scenarios."
+    ],
+    "reasons": [
+      "This pollutant is in the TiO2 training categories, but this request is not eligible for numerical prediction.",
+      "The dataset describes UV irradiation; this model does not support dark, visible only or sunlight scenarios."
+    ],
+    "score_min": 30.0,
+    "score_max": 45.0
+  },
+  {
+    "material_id": "M03",
+    "profile_id": "P03",
+    "formulation": "ZnO vertical nanorods grown on kanthal wire using direct heating",
+    "status": "incompatible_with_setup",
+    "suitability": 1,
+    "setup": 0,
+    "recovery": null,
+    "profile_accepted": true,
+    "evidence_ids": [
+      "E003",
+      "E004",
+      "E005"
+    ],
+    "source_ids": [
+      "B03"
+    ],
+    "source_scope": "indexed_publisher_abstract",
+    "matched_target_evidence_ids": [],
+    "condition_matches": [
+      {
+        "evidence_id": "E003",
+        "matched": [],
+        "different": [
+          "concentration_mg_L"
+        ],
+        "unknown": [
+          "pH",
+          "dose_g_L",
+          "temperature_C",
+          "time_min"
+        ]
+      },
+      {
+        "evidence_id": "E004",
+        "matched": [],
+        "different": [
+          "concentration_mg_L"
+        ],
+        "unknown": [
+          "pH",
+          "dose_g_L",
+          "temperature_C",
+          "time_min"
+        ]
+      },
+      {
+        "evidence_id": "E005",
+        "matched": [],
+        "different": [
+          "concentration_mg_L"
+        ],
+        "unknown": [
+          "pH",
+          "dose_g_L",
+          "temperature_C",
+          "time_min"
+        ]
+      }
+    ],
+    "prediction": null,
+    "prediction_target": null,
+    "prediction_unit": null,
+    "prediction_basis": null,
+    "prediction_profile_id": null,
+    "ml_fallback_reasons": [],
+    "reasons": [
+      "Relevant formulation and pollutant evidence exists, but the requested treatment objective is not fully matched by an extracted observation.",
+      "Closest extracted observation E003: matching fields none; different fields concentration_mg_L; unknown fields pH, dose_g_L, temperature_C, time_min.",
+      "The documented photocatalytic route requires light, which is explicitly unavailable.",
+      "Recovery performance is not established by the inspected source scope."
+    ],
+    "score_min": 30.0,
+    "score_max": 45.0
+  },
+  {
+    "material_id": "M08",
+    "profile_id": "P04",
+    "formulation": "Study specific CNT adsorbent; detailed grade not resolved from abstract",
+    "status": "conditional",
+    "suitability": 1,
+    "setup": 2,
+    "recovery": null,
+    "profile_accepted": true,
+    "evidence_ids": [
+      "E006"
+    ],
+    "source_ids": [
+      "B04"
+    ],
+    "source_scope": "indexed_publisher_abstract",
+    "matched_target_evidence_ids": [],
+    "condition_matches": [
+      {
+        "evidence_id": "E006",
+        "matched": [
+          "pH"
+        ],
+        "different": [],
+        "unknown": [
+          "concentration_mg_L",
+          "dose_g_L",
+          "temperature_C",
+          "time_min"
+        ]
+      }
+    ],
+    "prediction": null,
+    "prediction_target": null,
+    "prediction_unit": null,
+    "prediction_basis": null,
+    "prediction_profile_id": null,
+    "ml_fallback_reasons": [],
+    "reasons": [
+      "Relevant formulation and pollutant evidence exists, but the requested treatment objective is not fully matched by an extracted observation.",
+      "Closest extracted observation E006: matching fields pH; different fields none; unknown fields concentration_mg_L, dose_g_L, temperature_C, time_min.",
+      "The reported adsorption route does not require illumination.",
+      "Recovery performance is not established by the inspected source scope."
+    ],
+    "score_min": 55.0,
+    "score_max": 70.0
+  }
+]

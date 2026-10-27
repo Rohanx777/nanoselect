@@ -1,0 +1,441 @@
+source_row,input_group_id,pollutant,split
+4,966ebb2f532f088e,Phenol,train
+5,0e05264349e226fe,phthalic acid,train
+6,df770381180f337f,2-Chlorophenol,train
+7,90ffd4d21d38d137,4-Chlorophenol,train
+8,3c10012cbc294ec6,Chlorobenzene,train
+10,920da99bd7c204f5,Methanol,train
+11,e39f1d986b5381aa,Ethanol,train
+12,814ec780f364c162,n-Propanol,train
+13,6a7ea0faa8ae8827,2-Propanol,train
+14,92969ab07945804b,Acetone,train
+15,841094426cc87da2,Ethyl acetate,train
+17,f6720a33efbe216e,Formic acid,train
+18,79f2d0a85e2993d0,Sucrose,train
+19,0bf4c74de7f0221e,2-Naphthol,train
+21,8cb814c37d2b6fd0,Chloroform,train
+22,e4467f407a309c9a,Trichloroethylene,train
+23,c1edcb87cfebb8a3,Dichloroethane,train
+24,5d2f0fe3e84b4eb2,Benzoic acid,train
+25,27c30e8c8474ca9c,Salicyclic acid,train
+26,701976975536900d,Phenol,train
+27,cc51742e7ed7795c,phthalic acid,train
+28,6ab1dce39dd10889,2-Chlorophenol,train
+29,659b90a6f8b877d8,4-Chlorophenol,train
+30,4daab8cbc79bb63f,Chlorobenzene,train
+32,02c46dcbaa815ab1,Methanol,train
+33,070705b266a666b1,Ethanol,train
+34,b9e3fafe785a5223,n-Propanol,train
+35,741dafdb40f40f5f,2-Propanol,train
+36,292d1d317b70fffe,Acetone,train
+37,8f838e6f9cec1cea,Ethyl acetate,train
+38,14abfab7e3177829,Acetic acid,train
+40,c8d8326da4f54e28,Sucrose,train
+41,a28d711b899fcc07,2-Naphthol,train
+42,22fec4afb478af82,Umbelliferone,train
+43,d9471bfb450affa5,Chloroform,train
+44,8a3807c335d5340f,Trichloroethylene,train
+45,637f80ead844617f,Dichloroethane,train
+47,57c0009084b30cb3,Salicyclic acid,train
+49,7421bc2bd09d739a,phthalic acid,train
+50,7bfe8605ab5a6488,2-Chlorophenol,train
+53,e6079677fde33485,Nitrobenzene,train
+55,405a1363c58843be,Ethanol,train
+56,e02b713456f44a1d,n-Propanol,train
+57,7b473fb5c27ce19b,2-Propanol,train
+58,ea761fc128f6036e,Acetone,train
+61,9cc5d7c08ad15d99,Formic acid,train
+62,cd08faa7e1d888bb,Sucrose,train
+63,dbc223521c4f8624,2-Naphthol,train
+64,525b7c22f1d973e0,Umbelliferone,train
+65,bc47e2392a86fc42,Chloroform,train
+66,07aaef757f635347,Trichloroethylene,train
+67,0bf84bc6f2a7c1b5,Dichloroethane,train
+68,40e22230dac1b973,Benzoic acid,train
+70,0a81bfcc856e7f6e,Phenol,train
+71,aac8183df9a1e502,phthalic acid,train
+72,ece31d0c3ecf507b,2-Chlorophenol,train
+73,6ac709f83fc989c0,4-Chlorophenol,train
+74,eceb015586557d26,Chlorobenzene,train
+76,d8a75d56eb17ff20,Methanol,train
+77,b85393ba8104e631,Ethanol,train
+79,e5d317f74afba5f1,2-Propanol,train
+80,ad43e5695160e2f1,Acetone,train
+81,3016a83349a1d082,Ethyl acetate,train
+82,5eeb8948a6ca74ad,Acetic acid,train
+84,5bce6fa3bc4cde08,Sucrose,train
+85,47d09073d18cebed,2-Naphthol,train
+86,3c328d5fe9768e72,Umbelliferone,train
+87,383962a9840f2f70,Chloroform,train
+88,6971c4a0b493dfab,Trichloroethylene,train
+92,954b6c55ab87cdb9,"1,4-Dioxane",train
+93,10feee7da7945e68,"1,4-Dioxane",train
+94,1098b67d1a6dee03,"1,4-Dioxane",train
+95,9f79970a53a36b01,"1,4-Dioxane",train
+96,ea161fe9e85c66b3,"1,4-Dioxane",train
+97,f7ec6c0f6c73a78f,"1,4-Dioxane",train
+98,3fe135a301598ea4,"1,4-Dioxane",train
+100,ddabc0f27ff30af9,n-Nitrosodimethylamine,train
+101,dd1f68498cba2b84,n-Nitrosodimethylamine,train
+102,e536b729c4a50a70,n-Nitrosodimethylamine,train
+103,41cddf46cd3be6da,n-Nitrosodimethylamine,train
+105,caed5e493c52e256,n-Nitrosodimethylamine,train
+106,bd5d9b44eb8a268a,n-Nitrosodimethylamine,train
+107,89eb304d5158285c,n-Nitrosodimethylamine,train
+108,77fb9ba8e60dc294,tris(2-chloroethyl) phosphate,train
+109,98bd6e8429bed7af,tris(2-chloroethyl) phosphate,train
+110,154a76706c1c0890,tris(2-chloroethyl) phosphate,train
+111,7347dd6e77c5fe81,tris(2-chloroethyl) phosphate,train
+113,675443e57d8c999d,tris(2-chloroethyl) phosphate,train
+114,d5fcc1a3102563f4,tris(2-chloroethyl) phosphate,train
+115,95fcf4af4b7dd005,tris(2-chloroethyl) phosphate,train
+116,1618a27a36cabcd3,tris(2-chloroethyl) phosphate,train
+117,bb5679ab20217598,Gemfibrozil,train
+118,878fb27e32eb6792,Gemfibrozil,train
+119,b13bce652c457724,Gemfibrozil,train
+121,631ae6788b67e726,Gemfibrozil,train
+122,99bb4b47624b1051,Gemfibrozil,train
+123,9dc4403b875fbd40,Gemfibrozil,train
+124,bf4f7b42af2dd30a,Gemfibrozil,train
+126,f6c7b0d62bf902b0,17-beta estradiol,train
+127,73801967c23dabf9,17-beta estradiol,train
+128,33bd674b828fad10,17-beta estradiol,train
+129,ed571e7991fd4435,17-beta estradiol,train
+130,f81c5a1f74f3e61f,17-beta estradiol,train
+131,58e5a135e0cdef72,17-beta estradiol,train
+132,224b35584fd6b4a4,17-beta estradiol,train
+133,cd564640cc35680e,17-beta estradiol,train
+134,e201efd0398d2d81,17-beta estradiol,train
+135,73ea554cb84395eb,2-Chlorobiphenyl,train
+136,88f71c081587c632,2-Chlorobiphenyl,train
+137,8364651d62a26387,2-Chlorobiphenyl,train
+138,1988bfa3dac7771e,2-Chlorobiphenyl,train
+139,829871b50cc30183,Benzylparaben,train
+140,3d70a9f8eacd7f31,Benzylparaben,train
+143,133f9823f3fba6d3,Benzylparaben,train
+144,86d41feabf4b52c6,Benzylparaben,train
+145,51b3da9054b9ddfb,Benzylparaben,train
+146,8147740b3fbf49df,Benzylparaben,train
+147,2a8ec4edbbe9b55d,Benzylparaben,train
+149,c5115c6bafcf742f,Benzylparaben,train
+150,f2168d7768c73bdb,Benzylparaben,train
+151,49fd342eb1241e57,Benzylparaben,train
+152,69702a8432959c8a,Benzylparaben,train
+154,f045490d15bd506d,Ofloxacin,train
+155,382638ff2b106895,Ofloxacin,train
+156,29badac4e4762eb1,Ofloxacin,train
+157,65dff9a351f5ea04,Ofloxacin,train
+158,f69a67b8184c9b98,Ofloxacin,train
+160,1ef6287f5a4c7768,Ofloxacin,train
+161,9d34c684f4ffc3a3,Ofloxacin,train
+163,61b8008d06c63a24,Ofloxacin,train
+164,d8e349defcbfe6fa,Atenolol,train
+165,01f7cf4af63a3d16,Atenolol,train
+166,757f3bf8883d2791,Atenolol,train
+167,e4fe66dbd262457a,Atenolol,train
+168,7c237ad37b3cf146,Atenolol,train
+169,bb662305702c7cb3,Atenolol,train
+170,00474d83b10f5137,Atenolol,train
+171,73e473a69491d2cd,Atenolol,train
+172,1e0a9744bdd51785,Atenolol,train
+174,96dccf252a04943d,Atenolol,train
+175,9f2436ee17159c2a,Atenolol,train
+176,aee404f55d8d2c98,Ciprofloxacin,train
+177,6d9b4584dd0dde67,Ciprofloxacin,train
+178,1d61c0da1da5c77a,Ciprofloxacin,train
+180,0cc349220726cb78,Ciprofloxacin,train
+183,ddfb3bead50031ec,Lamivudine,train
+187,6fd416458cda0908,Lamivudine,train
+188,daecc57bf823b35a,Lamivudine,train
+189,4d0bb81635cf3403,Lamivudine,train
+190,cf06a7c102a21f1d,Lamivudine,train
+191,8a59e99a8de0bd2c,Acetaminophen,train
+193,94d501b5533a79fb,Erioglaucine,train
+194,95449f931219669b,Erioglaucine,train
+195,19f9bc8999c51f39,Erioglaucine,train
+197,88cde5514b7f9197,Erioglaucine,train
+198,e5983c119e404a80,Triclopyr,train
+199,ea04dccadbab73ef,Triclopyr,train
+200,d75ae017408d1eee,Triclopyr,train
+201,bc445b177e010e3d,Triclopyr,train
+202,28545953aeb1701f,Triclopyr,train
+203,8be79087cff5f055,Triclopyr,train
+204,56835a9237baae38,Triclopyr,train
+205,019e6cd5d9e7827a,Triclopyr,train
+207,e4eb2f24e7aed9e2,Triclopyr,train
+210,5be67ad48d86de3a,Daminozide,train
+211,3cdcbd7a9db84be2,Daminozide,train
+212,48006734b95cf1bb,Daminozide,train
+213,942754dda5c595ee,Daminozide,train
+215,13301ee2aaa5b084,Daminozide,train
+216,dc58447f10587666,Daminozide,train
+217,c44115629e020265,Daminozide,train
+218,c03399d210040df9,Propham,train
+219,df7a63b798d45009,Propham,train
+221,cf6ce3dc8fae6bc3,Propham,train
+222,f5783735d7cc7dd1,Propham,train
+223,ed43ba1e36c24081,Propham,train
+224,4c04e2509ee651fb,Propham,train
+225,0d5545956d9011f7,Propham,train
+226,59702b36b900b5a3,Propham,train
+227,c5623930461d07d4,Propham,train
+228,ba5363ec9d6460e4,Propham,train
+229,78640328fe8ddd71,Propham,train
+230,30c1b488d5225ce3,Propachlor,train
+232,3e7bfa7b6d1c5c08,Propachlor,train
+233,1733c3e9664a6e42,Propachlor,train
+234,d0bd6ece62093b5b,Propachlor,train
+235,73292fd62b7715c6,Propachlor,train
+236,d11847afc67bc3c8,Propachlor,train
+237,0d88e4c2b5a9794d,Propachlor,train
+238,ea5a23b7dc35b942,Propachlor,train
+240,8335d43349c63c7b,Propachlor,train
+241,620d91c5fbdb356a,Propachlor,train
+242,99cb59279cff571c,Propachlor,train
+243,f73330b533fba24f,Tebuthiuron,train
+244,7370820d0266ba63,Tebuthiuron,train
+245,ca3020b6c42d5121,Tebuthiuron,train
+247,c2e3a263f3ad4097,Tebuthiuron,train
+248,88016aa00155654d,Tebuthiuron,train
+250,4df6daa7a922e002,Tebuthiuron,train
+251,0b25a81e67316cdb,Tebuthiuron,train
+252,48253f3a7c8bb2b3,Tebuthiuron,train
+253,470cb3818c0e6072,Tebuthiuron,train
+254,cde9e14052235cc1,Tebuthiuron,train
+255,4928ca812cebf5cb,Tebuthiuron,train
+258,bd10e574e0ae0bfe,Sulfamethoxazole,train
+259,74ff314995261b67,Sulfamethoxazole,train
+260,4ff3669b6d8e1978,Sulfamethoxazole,train
+261,30041b3db904bb7f,Sulfamethoxazole,train
+262,a929c17406b23004,Sulfamethoxazole,train
+263,45a3966139b22eee,Sulfamethoxazole,train
+264,72ce5d6984f475be,Sulfamethoxazole,train
+265,517e8e4aaa839e94,Sulfamethoxazole,train
+267,4001ad07f452b709,Sulfamethoxazole,train
+268,050f8003f0be6297,Sulfamethoxazole,train
+275,fc1f295f0268a52b,Sulfamethoxazole,train
+277,10d1ca865ad31d13,Sulfamethoxazole,train
+278,aa8a274126a50592,Sulfamethoxazole,train
+279,41eecef6d25c5830,Sulfamethoxazole,train
+280,01cc3f3ab8f4fb98,Sulfisoxazole,train
+281,c3497d334e275882,Sulfathiazole,train
+282,513423e564d1c781,Sulfamethizole,train
+283,88baa8ba6a591d81,4-Chlorophenol,train
+284,979672fd4e1d2e0b,4-Chlorophenol,train
+285,69d25aa1164b190b,4-Chlorophenol,train
+286,c8288aeaa4c8892c,4-Chlorophenol,train
+288,7a1ccedc2c3613c6,4-Chlorophenol,train
+289,215db52648b9b2db,4-Chlorophenol,train
+290,32ce4f08cb76e7f8,"2,6-Dichlorophenol",train
+291,bdb9a7e67c130559,"2,6-Dichlorophenol",train
+292,fba2c9cb58e835f3,"2,6-Dichlorophenol",train
+294,c95167151f3bdb29,"2,6-Dichlorophenol",train
+295,536a520f6778322a,Sulfanilamide,train
+296,dec649811f75e748,sulfacetamide sodium salt,train
+297,c53373d12705b473,Sulfamethoxazole,train
+298,b15314ccb5238b7d,sulfacetamide sodium salt,train
+302,5875bc59ec08b556,Carbamazepine,train
+304,9fe0513e0fb9e693,Carbamazepine,train
+306,abe1185af9218870,Carbamazepine,train
+307,72d32ca5c3edf32a,Carbamazepine,train
+308,240dc5857ff02f22,Clofibric acid,train
+309,7f1f4914162e5cbe,Clofibric acid,train
+310,390612ee938f6494,Clofibric acid,train
+311,2c688688544139ed,Clofibric acid,train
+312,6d6453590c5b9646,Clofibric acid,train
+313,b560f9daee4aa6b4,Iomeprol,train
+314,bbeaa3960dba6357,Iomeprol,train
+315,56a710ddbaddd223,Iomeprol,train
+316,ceebdb48298c7427,Iomeprol,train
+317,327fddce16a37468,Iopromide,train
+318,588f771a319737e5,Atrazine,train
+319,6820e772aacee67a,Cyanazine,train
+320,ef6209c71b1e27f6,Irgarol,train
+321,f9bec1fd8889118c,Prometryne,train
+322,19e20260bf5295c5,Propazine,train
+323,508b6d1901632a07,Dichlofenthion,train
+324,b00575e7e5917fe4,Bromophos ethyl,train
+325,19f005fe49ce93ee,Bromophos methyl,train
+326,c271c612725f8681,Parathion ethyl,train
+327,d780837d6a477e3c,Parathion methyl,train
+328,f3e7d1792bc4e0aa,Dinoseb,train
+329,726884bc8231d5ce,Dinoseb,train
+331,1560958f8bdf63f0,Dinoseb,train
+333,ab91055df0f661c5,Dinoseb,train
+334,f269d6d9b335dbb7,Dinoseb,train
+335,079c1e9a97a0a414,Dinoseb,train
+336,864348385dc1a0e1,Dinoseb,train
+337,b64c7c2a4cbe57fe,Dinoseb,train
+338,0b686993cd067808,Dinoseb,train
+339,01a060fc71c56a2f,Dinoseb,train
+340,5773d1e0dcaedd62,Dicamba,train
+341,43b2c8b597035e94,Dicamba,train
+342,2ee8fcd976b22420,Dicamba,train
+343,af244e9be6e91672,Dicamba,train
+344,f1ea37957fb13f42,Dicamba,train
+346,c371f9197f7dfa9b,Fluometuron,train
+348,d6c93e9ae456b8e2,Fluometuron,train
+350,87c56406755a53dc,Monuron,train
+351,3b96090f6737fef4,Monuron,train
+352,e00adef5852e7d14,Monuron,train
+353,33290aefba050f68,Bisphenol A,train
+354,e8574b7034118926,Bisphenol A,train
+355,029769f6f51edcac,Bisphenol A,train
+357,341d6bd424bdd0bb,Bisphenol A,train
+359,845915e9b3a51ae8,Bisphenol A,train
+360,21a90deb26c8fbbd,Bisphenol A,train
+361,7da29b5426cc5efe,Bisphenol A,train
+362,7aa4091aac63e6b2,Bisphenol A,train
+363,5e0c479cfd37c86a,Bisphenol A,train
+364,8fbf5ce023535529,Bisphenol A,train
+365,031ec0ca0c46b1a4,Bisphenol A,train
+366,1d433605bfab43ef,Amaranth,train
+367,bfd88cde6eb84f05,Amaranth,train
+368,3eeb353b768e3d1c,Amaranth,train
+369,f71d25fabb20da12,Amaranth,train
+371,52450aebe1d47d67,Amaranth,train
+373,f541ff79997b3bf9,Amaranth,train
+375,aec15ea7fd5f7060,Amaranth,train
+376,9baff186cb2b9684,Amaranth,train
+377,8af4b1a2e53bbef3,Amaranth,train
+378,3bb68e28f320018e,Amaranth,train
+379,a5b77e203bebf264,Amaranth,train
+380,a74bb6ea9e2e5668,Amaranth,train
+381,9dacba4dfd2d0b95,Amaranth,train
+382,ffb0541b69c8da90,Amaranth,train
+383,0ce03eb6774bf3e8,Amaranth,train
+384,75c7d8f7c12d3786,Amaranth,train
+386,f44e48f636e5c62a,Amaranth,train
+387,65cf873433064284,Amaranth,train
+390,165cbb2ea3186284,"2,4,6-Trinitrotoluene",train
+391,92c427bd3c72ca05,"2,4,6-Trinitrotoluene",train
+393,2bd669c68749e340,"2,4,6-Trinitrotoluene",train
+394,04ce167ff9c62dc2,"2,4,6-Trinitrotoluene",train
+395,4aef834f6aaffff2,"2,4,6-Trinitrotoluene",train
+396,cbcd676335e7ac1e,"2,4,6-Trinitrotoluene",train
+397,ec7d1eccfc23dfaa,Phorate,train
+398,66cc6178d4a0abbb,Phorate,train
+399,0eabff2226665d93,Phorate,train
+400,15fd617cd0a1a312,Dichlorvos,train
+401,4b0118252bdb302b,Dichlorvos,train
+402,aad0fe0534eb83c0,Dichlorvos,train
+403,ca7ed026f502ede1,Phosphamidon,train
+406,613f6339b722f065,Dichlorvos,train
+408,43a415debeb2baae,Dichlorvos,train
+409,56f7b4c685bf17ec,Phosphamidon,train
+411,6ae03e6cde621170,Phosphamidon,train
+412,15fd617cd0a1a312,Dichlorvos,train
+413,15fd617cd0a1a312,Dichlorvos,train
+414,15fd617cd0a1a312,Dichlorvos,train
+415,ca7ed026f502ede1,Phosphamidon,train
+416,ca7ed026f502ede1,Phosphamidon,train
+420,d9d35d1f7ed57bdb,Indole-3-acetic acid,train
+421,28b2f358b0594de0,Indole-3-acetic acid,train
+423,72dbf23f0f962e81,Indole-3-acetic acid,train
+425,14fe95c48b684338,Indole-3-acetic acid,train
+426,052fcf75465707b8,Indole-3-acetic acid,train
+427,bbe5282cb2f6c9d3,Indole-3-acetic acid,train
+428,600b34b8fadf9a25,Indole-3-butyric acid,train
+429,bbbd4238c55d9ef9,Indole-3-butyric acid,train
+430,938501425d9ba3bf,Indole-3-butyric acid,train
+431,8faf5cd93060537a,Indole-3-butyric acid,train
+432,6eae480948993515,Indole-3-butyric acid,train
+433,09614de320a89a39,Indole-3-butyric acid,train
+435,d3c4b80259ed3ca7,Indole-3-butyric acid,train
+436,cb5d27f54c6f2e84,Indole-3-butyric acid,train
+437,130a69d2bd49d185,Indole-3-butyric acid,train
+439,051bc982be7a14f0,Terbufos,train
+441,821dae4dcfb50fe2,Terbufos,train
+442,056db2ef8c5b13ab,Imazapyr,train
+443,4114bf66bae4c812,Imazapyr,train
+444,69267ecff40c2217,Imazapyr,train
+2,04b5cfa77b71c950,Benzoic acid,test
+3,236e588e76de4b84,Salicyclic acid,test
+9,227daa3cb9a41a5a,Nitrobenzene,test
+16,10b1ef10eb995759,Acetic acid,test
+20,5852ce0f3fd20019,Umbelliferone,test
+31,a772b5ac808d4ac3,Nitrobenzene,test
+39,0adc75cfc7d11738,Formic acid,test
+46,e711ab06ae72de2f,Benzoic acid,test
+48,c1b1977bfaea3715,Phenol,test
+51,b0f52c4880b1195f,4-Chlorophenol,test
+52,db5a0bb49492cc64,Chlorobenzene,test
+54,d3396d3ce72b6765,Methanol,test
+59,4039881dc438e2b0,Ethyl acetate,test
+60,46f90c8c14ab1b56,Acetic acid,test
+69,28738f2c3116aff0,Salicyclic acid,test
+75,685f4574a88ad89b,Nitrobenzene,test
+78,f7556f6fd7b52bb8,n-Propanol,test
+83,e33846447a25ecad,Formic acid,test
+89,173f1cdf1bf43644,Dichloroethane,test
+90,bf2ace8208ee71c5,"1,4-Dioxane",test
+91,62d11c87d6e77235,"1,4-Dioxane",test
+99,25659ef62cfe9056,n-Nitrosodimethylamine,test
+104,62f93c47ecfc38be,n-Nitrosodimethylamine,test
+112,60e48404f329632d,tris(2-chloroethyl) phosphate,test
+120,184c28680b5c9968,Gemfibrozil,test
+125,ead74d0ddbd35d76,Gemfibrozil,test
+141,247e54857356c68f,Benzylparaben,test
+142,c8095816fe6c3080,Benzylparaben,test
+148,0c151062985afb9c,Benzylparaben,test
+153,0aeb6b76f5d76b72,Ofloxacin,test
+159,2f6274cb4e948fad,Ofloxacin,test
+162,57678cb8ce06b01e,Ofloxacin,test
+173,c80b82e5087766f5,Atenolol,test
+179,af6f50aaefec977b,Ciprofloxacin,test
+181,fa037e99cf80bb9a,Lamivudine,test
+182,248ba25fd799e2b6,Lamivudine,test
+184,f9013e25dacaf2ef,Lamivudine,test
+185,8cb8f9ddb7e6a05c,Lamivudine,test
+186,24582df4bec87af7,Lamivudine,test
+192,66b38e33d0eb4bf5,Atenolol,test
+196,a82b849f31e4f9bc,Erioglaucine,test
+206,a7c7d541edb7d106,Triclopyr,test
+208,a2749041158bb2c0,Daminozide,test
+209,072e7618b025db30,Daminozide,test
+214,0d4723136f8967c5,Daminozide,test
+220,b758cd0cb07898bf,Propham,test
+231,00147648b1533c9c,Propachlor,test
+239,f66ae736f8420a38,Propachlor,test
+246,7fe2c1cdda6720eb,Tebuthiuron,test
+249,9f5be4ad4f01d31b,Tebuthiuron,test
+256,3eec2abf3155a2ad,Sulfamethoxazole,test
+257,3eec2abf3155a2ad,Sulfamethoxazole,test
+266,07a2f489de5de69b,Sulfamethoxazole,test
+269,573b109d1f113933,Sulfamethoxazole,test
+270,fa8da207dd7909f2,Sulfamethoxazole,test
+271,149e3bbd64175dc9,Sulfamethoxazole,test
+272,233e840f14ea1e86,Sulfamethoxazole,test
+273,233e840f14ea1e86,Sulfamethoxazole,test
+274,dee0bfd10967ad8f,Sulfamethoxazole,test
+276,dee0bfd10967ad8f,Sulfamethoxazole,test
+287,e991b3f7fe245774,4-Chlorophenol,test
+293,3040bc66565a2053,"2,6-Dichlorophenol",test
+299,d06161a0b62fd314,sulfacetamide sodium salt,test
+303,d26bea12cd31ce1a,Carbamazepine,test
+305,25df28052cf929f8,Carbamazepine,test
+330,e1223136d4c3ee38,Dinoseb,test
+332,57705f1374b829cf,Dinoseb,test
+345,302902df3e4a6daf,Dicamba,test
+347,e85198337428bc3b,Fluometuron,test
+349,70da6b09434219e5,Monuron,test
+356,c736e9ee317222b5,Bisphenol A,test
+358,c2a063e4e35a580f,Bisphenol A,test
+370,0a5c35569af9b098,Amaranth,test
+372,e37743f81372a78a,Amaranth,test
+374,1308f8037bb93e23,Amaranth,test
+385,6409aa9ca8d17544,Amaranth,test
+388,cb1aa9c58215be27,Amaranth,test
+389,f83a37ea07a65dc8,Amaranth,test
+392,3a972bcf19c6d9d9,"2,4,6-Trinitrotoluene",test
+404,6e2498c5f2f552fa,Phosphamidon,test
+405,55eacf2c1179ca04,Phosphamidon,test
+407,1f903c0a46eb5f83,Dichlorvos,test
+410,9e17e3599c2cd13c,Phosphamidon,test
+418,17f0ce23a947c054,Indole-3-acetic acid,test
+419,8ad76ef70cb7e18b,Indole-3-acetic acid,test
+422,50556bccde34beca,Indole-3-acetic acid,test
+424,fa824078a7f6ae37,Indole-3-acetic acid,test
+434,06a3c6b9e76ef0eb,Indole-3-butyric acid,test
+438,87db6dd6f3020e30,Terbufos,test
+440,44dd0b6c462bf763,Terbufos,test

@@ -1,0 +1,25 @@
+{
+  "pollutant_id": "unknown_pollutant",
+  "light_type": "UV",
+  "water_matrix": "laboratory_solution",
+  "requested_endpoint": "qualitative_remediation",
+  "light_intensity_mW_cm2": 1.51,
+  "temperature_C": 25.0,
+  "dose_g_L": 0.1,
+  "concentration_mg_L": 24.82,
+  "pH": 3.0,
+  "demo_note": "First eligible sulfamethoxazole holdout row, otherwise first eligible holdout row; chosen by inputs, not smallest prediction error.",
+  "source_row": 256,
+  "prediction_endpoint": "mlogk",
+  "include_ml": true,
+  "profile_choices": {
+    "M02": "dataset_unspecified_tio2"
+  },
+  "consider_study_profiles": true,
+  "allow_conditional_ranking": true,
+  "available_equipment": [
+    "mixer",
+    "centrifuge",
+    "filtration"
+  ]
+}

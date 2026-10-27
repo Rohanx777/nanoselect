@@ -1,0 +1,15 @@
+{
+  "material_id": "M02",
+  "profile_id": "dataset_unspecified_tio2",
+  "pollutant_id": "Sulfamethoxazole",
+  "light_type": "UV",
+  "water_matrix": "laboratory_solution",
+  "requested_endpoint": "mlogk",
+  "light_intensity_mW_cm2": 1.51,
+  "temperature_C": 25.0,
+  "dose_g_L": 0.1,
+  "concentration_mg_L": 24.82,
+  "pH": 3.0,
+  "demo_note": "First eligible sulfamethoxazole holdout row, otherwise first eligible holdout row; chosen by inputs, not smallest prediction error.",
+  "source_row": 256
+}

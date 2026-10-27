@@ -1,0 +1,12 @@
+profile_id,material_id,source_id,formulation,formulation_type,required_setup,light_requirement,recovery_method,size_nm,surface_area_m2_g,diameter_nm,length_nm,size_min_nm,size_max_nm
+P01,M02,B01,Nanophase TiO2 aqueous suspension; phases varied,oxide_phase_variants,UVA illumination and suspended catalyst separation,UVA,,,,,,,
+P02,M02,B02,Phase pure brookite TiO2 nanoparticles,specific_crystal_phase,UVA illumination and suspended catalyst separation,UVA,,,,,,,
+P03,M03,B03,ZnO vertical nanorods grown on kanthal wire using direct heating,immobilized_on_support,Specified wire supported nanorod formulation and UV illumination,UV_unspecified_band,,,36.0,12.0,755.0,,
+P04,M08,B04,Study specific CNT adsorbent; detailed grade not resolved from abstract,unresolved_CNT_grade,Batch contact and validated solid liquid separation,not_required_for_reported_adsorption,,,,,,,
+P05,M02,B05,Urea assisted sol gel mesoporous anatase TiO2,specific_synthesis,Natural sunlight exposure and suspended catalyst separation,natural_sunlight,,,,,,,
+P06,M03,B06,Ethylene glycol synthesized ZnO nanoparticles,specific_synthesis,Light activation; wavelength unresolved from abstract,light_unspecified,,,,,,,
+P07,M01,B07,Commercial Nanjing Emperor magnetite nanoparticles used as received,commercial_uncoated_oxide,Batch agitation and 0.2 micrometre analytical filtration,not_required_for_reported_adsorption,Analytical samples passed through 0.2 micrometre filter; magnetic recovery not demonstrated in inspected method,,115.3,10.0,,,
+P08,M06,B08,Few layered graphene oxide from modified Hummers synthesis,specific_synthesis,Batch contact and validated sheet recovery,not_required_for_reported_adsorption,,,,,,,
+P09,M13,B09,Clam shell derived hydroxyapatite rod nanocrystals CS HA,specific_synthesis,Batch contact with centrifugation or specified packed bed,not_required_for_reported_adsorption,Centrifugation in batch measurement; packed bed retention in column configuration,,,20.0,80.0,,
+P10,M15,B10,Ionic gelation chitosan tripolyphosphate nanoparticles with freeze drying,crosslinked_polymer,Specific phosphate containing formulation and particle recovery,not_required_for_reported_adsorption,,,,,,40.0,100.0
+P11,M10,B11,Sol gel nMgO standalone control in MgO bentonite study,standalone_control,Batch contact; standalone control conditions incompletely specified,not_required_for_reported_adsorption,,,,,,,

@@ -1,0 +1,7 @@
+.venv/
+.runtime/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+data/raw/
+# The saved model is intentionally versioned for a ready-to-run demo.

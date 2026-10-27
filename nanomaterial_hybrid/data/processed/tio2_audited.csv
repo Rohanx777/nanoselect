@@ -1,0 +1,441 @@
+source_row,I,T,D,C0,pH,mlogk,SMILES,Molecule_Name,input_group_id,material_id,material_profile_status
+2,0.176,40,1.875,1.0,3.6,0.5246,C1=CC=C(C=C1)C(=O)O,Benzoic acid,04b5cfa77b71c950,M02,TiO2 family only; grade and batch unavailable
+3,0.176,40,1.875,1.0,3.6,0.406,C1=CC=C(C(=C1)C(=O)O)O,Salicyclic acid,236e588e76de4b84,M02,TiO2 family only; grade and batch unavailable
+4,0.176,40,1.875,1.0,3.6,0.6215,C1=CC=C(C=C1)O,Phenol,966ebb2f532f088e,M02,TiO2 family only; grade and batch unavailable
+5,0.176,40,1.875,1.0,3.6,0.6068,C1=CC=C(C(=C1)C(=O)O)C(=O)O,phthalic acid,0e05264349e226fe,M02,TiO2 family only; grade and batch unavailable
+6,0.176,40,1.875,1.0,3.6,0.7395,C1=CC=C(C(=C1)O)Cl,2-Chlorophenol,df770381180f337f,M02,TiO2 family only; grade and batch unavailable
+7,0.176,40,1.875,1.0,3.6,0.4278,C1=CC(=CC=C1O)Cl,4-Chlorophenol,90ffd4d21d38d137,M02,TiO2 family only; grade and batch unavailable
+8,0.176,40,1.875,1.0,3.6,0.6302,C1=CC=C(C=C1)Cl,Chlorobenzene,3c10012cbc294ec6,M02,TiO2 family only; grade and batch unavailable
+9,0.176,40,1.875,1.0,3.6,0.5616,C1=CC=C(C=C1)[N+](=O)[O-],Nitrobenzene,227daa3cb9a41a5a,M02,TiO2 family only; grade and batch unavailable
+10,0.176,40,1.875,1.0,3.6,0.7992,CO,Methanol,920da99bd7c204f5,M02,TiO2 family only; grade and batch unavailable
+11,0.176,40,1.875,1.0,3.6,0.6825,CCO,Ethanol,e39f1d986b5381aa,M02,TiO2 family only; grade and batch unavailable
+12,0.176,40,1.875,1.0,3.6,0.699,CCCO,n-Propanol,814ec780f364c162,M02,TiO2 family only; grade and batch unavailable
+13,0.176,40,1.875,1.0,3.6,0.8374,CC(C)O,2-Propanol,6a7ea0faa8ae8827,M02,TiO2 family only; grade and batch unavailable
+14,0.176,40,1.875,1.0,3.6,1.0414,CC(=O)C,Acetone,92969ab07945804b,M02,TiO2 family only; grade and batch unavailable
+15,0.176,40,1.875,1.0,3.6,0.8491,CCOC(=O)C,Ethyl acetate,841094426cc87da2,M02,TiO2 family only; grade and batch unavailable
+16,0.176,40,1.875,1.0,3.6,0.6905,CC(=O)O,Acetic acid,10b1ef10eb995759,M02,TiO2 family only; grade and batch unavailable
+17,0.176,40,1.875,1.0,3.6,0.4566,C(=O)O,Formic acid,f6720a33efbe216e,M02,TiO2 family only; grade and batch unavailable
+18,0.176,40,1.875,1.0,3.6,0.6508,C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O,Sucrose,79f2d0a85e2993d0,M02,TiO2 family only; grade and batch unavailable
+19,0.176,40,1.875,1.0,3.6,0.6677,C1=CC=C2C=C(C=CC2=C1)O,2-Naphthol,0bf4c74de7f0221e,M02,TiO2 family only; grade and batch unavailable
+20,0.176,40,1.875,1.0,3.6,0.6865,C1=CC(=CC2=C1C=CC(=O)O2)O,Umbelliferone,5852ce0f3fd20019,M02,TiO2 family only; grade and batch unavailable
+21,0.176,40,1.875,1.0,3.6,0.8322,C(Cl)(Cl)Cl,Chloroform,8cb814c37d2b6fd0,M02,TiO2 family only; grade and batch unavailable
+22,0.176,40,1.875,1.0,3.6,0.7945,C(=C(Cl)Cl)Cl,Trichloroethylene,e4467f407a309c9a,M02,TiO2 family only; grade and batch unavailable
+23,0.176,40,1.875,1.0,3.6,1.0356,CC(Cl)Cl,Dichloroethane,c1edcb87cfebb8a3,M02,TiO2 family only; grade and batch unavailable
+24,0.176,40,1.875,10.0,3.6,0.6491,C1=CC=C(C=C1)C(=O)O,Benzoic acid,5d2f0fe3e84b4eb2,M02,TiO2 family only; grade and batch unavailable
+25,0.176,40,1.875,10.0,3.6,0.5242,C1=CC=C(C(=C1)C(=O)O)O,Salicyclic acid,27c30e8c8474ca9c,M02,TiO2 family only; grade and batch unavailable
+26,0.176,40,1.875,10.0,3.6,0.7046,C1=CC=C(C=C1)O,Phenol,701976975536900d,M02,TiO2 family only; grade and batch unavailable
+27,0.176,40,1.875,10.0,3.6,0.6868,C1=CC=C(C(=C1)C(=O)O)C(=O)O,phthalic acid,cc51742e7ed7795c,M02,TiO2 family only; grade and batch unavailable
+28,0.176,40,1.875,10.0,3.6,0.7766,C1=CC=C(C(=C1)O)Cl,2-Chlorophenol,6ab1dce39dd10889,M02,TiO2 family only; grade and batch unavailable
+29,0.176,40,1.875,10.0,3.6,0.5515,C1=CC(=CC=C1O)Cl,4-Chlorophenol,659b90a6f8b877d8,M02,TiO2 family only; grade and batch unavailable
+30,0.176,40,1.875,10.0,3.6,0.7539,C1=CC=C(C=C1)Cl,Chlorobenzene,4daab8cbc79bb63f,M02,TiO2 family only; grade and batch unavailable
+31,0.176,40,1.875,10.0,3.6,0.745,C1=CC=C(C=C1)[N+](=O)[O-],Nitrobenzene,a772b5ac808d4ac3,M02,TiO2 family only; grade and batch unavailable
+32,0.176,40,1.875,10.0,3.6,0.8501,CO,Methanol,02c46dcbaa815ab1,M02,TiO2 family only; grade and batch unavailable
+33,0.176,40,1.875,10.0,3.6,0.7562,CCO,Ethanol,070705b266a666b1,M02,TiO2 family only; grade and batch unavailable
+34,0.176,40,1.875,10.0,3.6,0.7696,CCCO,n-Propanol,b9e3fafe785a5223,M02,TiO2 family only; grade and batch unavailable
+35,0.176,40,1.875,10.0,3.6,0.9528,CC(C)O,2-Propanol,741dafdb40f40f5f,M02,TiO2 family only; grade and batch unavailable
+36,0.176,40,1.875,10.0,3.6,1.1007,CC(=O)C,Acetone,292d1d317b70fffe,M02,TiO2 family only; grade and batch unavailable
+37,0.176,40,1.875,10.0,3.6,0.906,CCOC(=O)C,Ethyl acetate,8f838e6f9cec1cea,M02,TiO2 family only; grade and batch unavailable
+38,0.176,40,1.875,10.0,3.6,0.7812,CC(=O)O,Acetic acid,14abfab7e3177829,M02,TiO2 family only; grade and batch unavailable
+39,0.176,40,1.875,10.0,3.6,0.5162,C(=O)O,Formic acid,0adc75cfc7d11738,M02,TiO2 family only; grade and batch unavailable
+40,0.176,40,1.875,10.0,3.6,0.743,C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O,Sucrose,c8d8326da4f54e28,M02,TiO2 family only; grade and batch unavailable
+41,0.176,40,1.875,10.0,3.6,0.8073,C1=CC=C2C=C(C=CC2=C1)O,2-Naphthol,a28d711b899fcc07,M02,TiO2 family only; grade and batch unavailable
+42,0.176,40,1.875,10.0,3.6,0.7954,C1=CC(=CC2=C1C=CC(=O)O2)O,Umbelliferone,22fec4afb478af82,M02,TiO2 family only; grade and batch unavailable
+43,0.176,40,1.875,10.0,3.6,0.8657,C(Cl)(Cl)Cl,Chloroform,d9471bfb450affa5,M02,TiO2 family only; grade and batch unavailable
+44,0.176,40,1.875,10.0,3.6,0.8284,C(=C(Cl)Cl)Cl,Trichloroethylene,8a3807c335d5340f,M02,TiO2 family only; grade and batch unavailable
+45,0.176,40,1.875,10.0,3.6,1.0789,CC(Cl)Cl,Dichloroethane,637f80ead844617f,M02,TiO2 family only; grade and batch unavailable
+46,0.176,40,1.875,50.0,3.6,0.973,C1=CC=C(C=C1)C(=O)O,Benzoic acid,e711ab06ae72de2f,M02,TiO2 family only; grade and batch unavailable
+47,0.176,40,1.875,50.0,3.6,0.8378,C1=CC=C(C(=C1)C(=O)O)O,Salicyclic acid,57c0009084b30cb3,M02,TiO2 family only; grade and batch unavailable
+48,0.176,40,1.875,50.0,3.6,0.9536,C1=CC=C(C=C1)O,Phenol,c1b1977bfaea3715,M02,TiO2 family only; grade and batch unavailable
+49,0.176,40,1.875,50.0,3.6,0.9293,C1=CC=C(C(=C1)C(=O)O)C(=O)O,phthalic acid,7421bc2bd09d739a,M02,TiO2 family only; grade and batch unavailable
+50,0.176,40,1.875,50.0,3.6,0.9113,C1=CC=C(C(=C1)O)Cl,2-Chlorophenol,7bfe8605ab5a6488,M02,TiO2 family only; grade and batch unavailable
+51,0.176,40,1.875,50.0,3.6,0.874,C1=CC(=CC=C1O)Cl,4-Chlorophenol,b0f52c4880b1195f,M02,TiO2 family only; grade and batch unavailable
+52,0.176,40,1.875,50.0,3.6,1.0764,C1=CC=C(C=C1)Cl,Chlorobenzene,db5a0bb49492cc64,M02,TiO2 family only; grade and batch unavailable
+53,0.176,40,1.875,50.0,3.6,1.1483,C1=CC=C(C=C1)[N+](=O)[O-],Nitrobenzene,e6079677fde33485,M02,TiO2 family only; grade and batch unavailable
+54,0.176,40,1.875,50.0,3.6,1.0236,CO,Methanol,d3396d3ce72b6765,M02,TiO2 family only; grade and batch unavailable
+55,0.176,40,1.875,50.0,3.6,0.9852,CCO,Ethanol,405a1363c58843be,M02,TiO2 family only; grade and batch unavailable
+56,0.176,40,1.875,50.0,3.6,0.9914,CCCO,n-Propanol,e02b713456f44a1d,M02,TiO2 family only; grade and batch unavailable
+57,0.176,40,1.875,50.0,3.6,1.2618,CC(C)O,2-Propanol,7b473fb5c27ce19b,M02,TiO2 family only; grade and batch unavailable
+58,0.176,40,1.875,50.0,3.6,1.2956,CC(=O)C,Acetone,ea761fc128f6036e,M02,TiO2 family only; grade and batch unavailable
+59,0.176,40,1.875,50.0,3.6,1.0952,CCOC(=O)C,Ethyl acetate,4039881dc438e2b0,M02,TiO2 family only; grade and batch unavailable
+60,0.176,40,1.875,50.0,3.6,1.0455,CC(=O)O,Acetic acid,46f90c8c14ab1b56,M02,TiO2 family only; grade and batch unavailable
+61,0.176,40,1.875,50.0,3.6,0.7119,C(=O)O,Formic acid,9cc5d7c08ad15d99,M02,TiO2 family only; grade and batch unavailable
+62,0.176,40,1.875,50.0,3.6,1.0103,C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O,Sucrose,cd08faa7e1d888bb,M02,TiO2 family only; grade and batch unavailable
+63,0.176,40,1.875,50.0,3.6,1.1541,C1=CC=C2C=C(C=CC2=C1)O,2-Naphthol,dbc223521c4f8624,M02,TiO2 family only; grade and batch unavailable
+64,0.176,40,1.875,50.0,3.6,1.0933,C1=CC(=CC2=C1C=CC(=O)O2)O,Umbelliferone,525b7c22f1d973e0,M02,TiO2 family only; grade and batch unavailable
+65,0.176,40,1.875,50.0,3.6,0.9896,C(Cl)(Cl)Cl,Chloroform,bc47e2392a86fc42,M02,TiO2 family only; grade and batch unavailable
+66,0.176,40,1.875,50.0,3.6,0.9534,C(=C(Cl)Cl)Cl,Trichloroethylene,07aaef757f635347,M02,TiO2 family only; grade and batch unavailable
+67,0.176,40,1.875,50.0,3.6,1.2319,CC(Cl)Cl,Dichloroethane,0bf84bc6f2a7c1b5,M02,TiO2 family only; grade and batch unavailable
+68,0.176,40,1.875,100.0,3.6,1.1923,C1=CC=C(C=C1)C(=O)O,Benzoic acid,40e22230dac1b973,M02,TiO2 family only; grade and batch unavailable
+69,0.176,40,1.875,100.0,3.6,1.0534,C1=CC=C(C(=C1)C(=O)O)O,Salicyclic acid,28738f2c3116aff0,M02,TiO2 family only; grade and batch unavailable
+70,0.176,40,1.875,100.0,3.6,1.1427,C1=CC=C(C=C1)O,Phenol,0a81bfcc856e7f6e,M02,TiO2 family only; grade and batch unavailable
+71,0.176,40,1.875,100.0,3.6,1.1154,C1=CC=C(C(=C1)C(=O)O)C(=O)O,phthalic acid,aac8183df9a1e502,M02,TiO2 family only; grade and batch unavailable
+72,0.176,40,1.875,100.0,3.6,1.0362,C1=CC=C(C(=C1)O)Cl,2-Chlorophenol,ece31d0c3ecf507b,M02,TiO2 family only; grade and batch unavailable
+73,0.176,40,1.875,100.0,3.6,1.0929,C1=CC(=CC=C1O)Cl,4-Chlorophenol,6ac709f83fc989c0,M02,TiO2 family only; grade and batch unavailable
+74,0.176,40,1.875,100.0,3.6,1.2953,C1=CC=C(C=C1)Cl,Chlorobenzene,eceb015586557d26,M02,TiO2 family only; grade and batch unavailable
+75,0.176,40,1.875,100.0,3.6,1.3928,C1=CC=C(C=C1)[N+](=O)[O-],Nitrobenzene,685f4574a88ad89b,M02,TiO2 family only; grade and batch unavailable
+76,0.176,40,1.875,100.0,3.6,1.1734,CO,Methanol,d8a75d56eb17ff20,M02,TiO2 family only; grade and batch unavailable
+77,0.176,40,1.875,100.0,3.6,1.1648,CCO,Ethanol,b85393ba8104e631,M02,TiO2 family only; grade and batch unavailable
+78,0.176,40,1.875,100.0,3.6,1.1675,CCCO,n-Propanol,f7556f6fd7b52bb8,M02,TiO2 family only; grade and batch unavailable
+79,0.176,40,1.875,100.0,3.6,1.4757,CC(C)O,2-Propanol,e5d317f74afba5f1,M02,TiO2 family only; grade and batch unavailable
+80,0.176,40,1.875,100.0,3.6,1.4576,CC(=O)C,Acetone,ad43e5695160e2f1,M02,TiO2 family only; grade and batch unavailable
+81,0.176,40,1.875,100.0,3.6,1.2539,CCOC(=O)C,Ethyl acetate,3016a83349a1d082,M02,TiO2 family only; grade and batch unavailable
+82,0.176,40,1.875,100.0,3.6,1.2414,CC(=O)O,Acetic acid,5eeb8948a6ca74ad,M02,TiO2 family only; grade and batch unavailable
+83,0.176,40,1.875,100.0,3.6,0.8744,C(=O)O,Formic acid,e33846447a25ecad,M02,TiO2 family only; grade and batch unavailable
+84,0.176,40,1.875,100.0,3.6,1.2074,C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O,Sucrose,5bce6fa3bc4cde08,M02,TiO2 family only; grade and batch unavailable
+85,0.176,40,1.875,100.0,3.6,1.3814,C1=CC=C2C=C(C=CC2=C1)O,2-Naphthol,47d09073d18cebed,M02,TiO2 family only; grade and batch unavailable
+86,0.176,40,1.875,100.0,3.6,1.303,C1=CC(=CC2=C1C=CC(=O)O2)O,Umbelliferone,3c328d5fe9768e72,M02,TiO2 family only; grade and batch unavailable
+87,0.176,40,1.875,100.0,3.6,1.107,C(Cl)(Cl)Cl,Chloroform,383962a9840f2f70,M02,TiO2 family only; grade and batch unavailable
+88,0.176,40,1.875,100.0,3.6,1.0716,C(=C(Cl)Cl)Cl,Trichloroethylene,6971c4a0b493dfab,M02,TiO2 family only; grade and batch unavailable
+89,0.176,40,1.875,100.0,3.6,1.3689,CC(Cl)Cl,Dichloroethane,173f1cdf1bf43644,M02,TiO2 family only; grade and batch unavailable
+90,1.4,20,0.1,2.0,5.0,0.5229,C1COCCO1,"1,4-Dioxane",bf2ace8208ee71c5,M02,TiO2 family only; grade and batch unavailable
+91,1.4,20,0.5,2.0,5.0,0.5528,C1COCCO1,"1,4-Dioxane",62d11c87d6e77235,M02,TiO2 family only; grade and batch unavailable
+92,1.4,20,1.0,2.0,5.0,0.5229,C1COCCO1,"1,4-Dioxane",954b6c55ab87cdb9,M02,TiO2 family only; grade and batch unavailable
+93,1.4,20,1.5,2.0,5.0,0.3979,C1COCCO1,"1,4-Dioxane",10feee7da7945e68,M02,TiO2 family only; grade and batch unavailable
+94,1.4,20,2.0,2.0,5.0,0.4949,C1COCCO1,"1,4-Dioxane",1098b67d1a6dee03,M02,TiO2 family only; grade and batch unavailable
+95,1.4,20,2.5,2.0,5.0,0.5528,C1COCCO1,"1,4-Dioxane",9f79970a53a36b01,M02,TiO2 family only; grade and batch unavailable
+96,1.4,20,0.1,2.0,3.0,0.8239,C1COCCO1,"1,4-Dioxane",ea161fe9e85c66b3,M02,TiO2 family only; grade and batch unavailable
+97,1.4,20,0.1,2.0,7.0,0.7447,C1COCCO1,"1,4-Dioxane",f7ec6c0f6c73a78f,M02,TiO2 family only; grade and batch unavailable
+98,1.4,20,0.1,2.0,9.0,0.7959,C1COCCO1,"1,4-Dioxane",3fe135a301598ea4,M02,TiO2 family only; grade and batch unavailable
+99,1.4,20,0.1,2.0,5.0,0.7447,CN(C)N=O,n-Nitrosodimethylamine,25659ef62cfe9056,M02,TiO2 family only; grade and batch unavailable
+100,1.4,20,0.5,2.0,5.0,0.5376,CN(C)N=O,n-Nitrosodimethylamine,ddabc0f27ff30af9,M02,TiO2 family only; grade and batch unavailable
+101,1.4,20,1.0,2.0,5.0,0.4949,CN(C)N=O,n-Nitrosodimethylamine,dd1f68498cba2b84,M02,TiO2 family only; grade and batch unavailable
+102,1.4,20,1.5,2.0,5.0,0.3665,CN(C)N=O,n-Nitrosodimethylamine,e536b729c4a50a70,M02,TiO2 family only; grade and batch unavailable
+103,1.4,20,2.0,2.0,5.0,0.4318,CN(C)N=O,n-Nitrosodimethylamine,41cddf46cd3be6da,M02,TiO2 family only; grade and batch unavailable
+104,1.4,20,2.5,2.0,5.0,0.5376,CN(C)N=O,n-Nitrosodimethylamine,62f93c47ecfc38be,M02,TiO2 family only; grade and batch unavailable
+105,1.4,20,0.1,2.0,3.0,0.6778,CN(C)N=O,n-Nitrosodimethylamine,caed5e493c52e256,M02,TiO2 family only; grade and batch unavailable
+106,1.4,20,0.1,2.0,7.0,0.6778,CN(C)N=O,n-Nitrosodimethylamine,bd5d9b44eb8a268a,M02,TiO2 family only; grade and batch unavailable
+107,1.4,20,0.1,2.0,9.0,0.7212,CN(C)N=O,n-Nitrosodimethylamine,89eb304d5158285c,M02,TiO2 family only; grade and batch unavailable
+108,1.4,20,0.1,2.0,5.0,1.5229,C(CCl)OP(=O)(OCCCl)OCCCl,tris(2-chloroethyl) phosphate,77fb9ba8e60dc294,M02,TiO2 family only; grade and batch unavailable
+109,1.4,20,0.5,2.0,5.0,1.3979,C(CCl)OP(=O)(OCCCl)OCCCl,tris(2-chloroethyl) phosphate,98bd6e8429bed7af,M02,TiO2 family only; grade and batch unavailable
+110,1.4,20,1.0,2.0,5.0,1.1549,C(CCl)OP(=O)(OCCCl)OCCCl,tris(2-chloroethyl) phosphate,154a76706c1c0890,M02,TiO2 family only; grade and batch unavailable
+111,1.4,20,1.5,2.0,5.0,0.8239,C(CCl)OP(=O)(OCCCl)OCCCl,tris(2-chloroethyl) phosphate,7347dd6e77c5fe81,M02,TiO2 family only; grade and batch unavailable
+112,1.4,20,2.0,2.0,5.0,1.0,C(CCl)OP(=O)(OCCCl)OCCCl,tris(2-chloroethyl) phosphate,60e48404f329632d,M02,TiO2 family only; grade and batch unavailable
+113,1.4,20,2.5,2.0,5.0,1.301,C(CCl)OP(=O)(OCCCl)OCCCl,tris(2-chloroethyl) phosphate,675443e57d8c999d,M02,TiO2 family only; grade and batch unavailable
+114,1.4,20,0.1,2.0,3.0,1.7212,C(CCl)OP(=O)(OCCCl)OCCCl,tris(2-chloroethyl) phosphate,d5fcc1a3102563f4,M02,TiO2 family only; grade and batch unavailable
+115,1.4,20,0.1,2.0,7.0,1.5528,C(CCl)OP(=O)(OCCCl)OCCCl,tris(2-chloroethyl) phosphate,95fcf4af4b7dd005,M02,TiO2 family only; grade and batch unavailable
+116,1.4,20,0.1,2.0,9.0,1.5528,C(CCl)OP(=O)(OCCCl)OCCCl,tris(2-chloroethyl) phosphate,1618a27a36cabcd3,M02,TiO2 family only; grade and batch unavailable
+117,1.4,20,0.1,2.0,5.0,0.2757,CC1=CC(=C(C=C1)C)OCCCC(C)(C)C(=O)O,Gemfibrozil,bb5679ab20217598,M02,TiO2 family only; grade and batch unavailable
+118,1.4,20,0.5,2.0,5.0,0.1308,CC1=CC(=C(C=C1)C)OCCCC(C)(C)C(=O)O,Gemfibrozil,878fb27e32eb6792,M02,TiO2 family only; grade and batch unavailable
+119,1.4,20,1.0,2.0,5.0,0.1024,CC1=CC(=C(C=C1)C)OCCCC(C)(C)C(=O)O,Gemfibrozil,b13bce652c457724,M02,TiO2 family only; grade and batch unavailable
+120,1.4,20,1.5,2.0,5.0,0.0757,CC1=CC(=C(C=C1)C)OCCCC(C)(C)C(=O)O,Gemfibrozil,184c28680b5c9968,M02,TiO2 family only; grade and batch unavailable
+121,1.4,20,2.0,2.0,5.0,0.1079,CC1=CC(=C(C=C1)C)OCCCC(C)(C)C(=O)O,Gemfibrozil,631ae6788b67e726,M02,TiO2 family only; grade and batch unavailable
+122,1.4,20,2.5,2.0,5.0,0.1192,CC1=CC(=C(C=C1)C)OCCCC(C)(C)C(=O)O,Gemfibrozil,99bb4b47624b1051,M02,TiO2 family only; grade and batch unavailable
+123,1.4,20,0.1,2.0,3.0,0.4437,CC1=CC(=C(C=C1)C)OCCCC(C)(C)C(=O)O,Gemfibrozil,9dc4403b875fbd40,M02,TiO2 family only; grade and batch unavailable
+124,1.4,20,0.1,2.0,7.0,0.4318,CC1=CC(=C(C=C1)C)OCCCC(C)(C)C(=O)O,Gemfibrozil,bf4f7b42af2dd30a,M02,TiO2 family only; grade and batch unavailable
+125,1.4,20,0.1,2.0,9.0,0.4815,CC1=CC(=C(C=C1)C)OCCCC(C)(C)C(=O)O,Gemfibrozil,ead74d0ddbd35d76,M02,TiO2 family only; grade and batch unavailable
+126,1.4,20,0.1,2.0,5.0,0.4815,CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O.CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O,17-beta estradiol,f6c7b0d62bf902b0,M02,TiO2 family only; grade and batch unavailable
+127,1.4,20,0.5,2.0,5.0,0.4685,CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O.CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O,17-beta estradiol,73801967c23dabf9,M02,TiO2 family only; grade and batch unavailable
+128,1.4,20,1.0,2.0,5.0,0.4202,CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O.CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O,17-beta estradiol,33bd674b828fad10,M02,TiO2 family only; grade and batch unavailable
+129,1.4,20,1.5,2.0,5.0,0.3098,CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O.CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O,17-beta estradiol,ed571e7991fd4435,M02,TiO2 family only; grade and batch unavailable
+130,1.4,20,2.0,2.0,5.0,0.3468,CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O.CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O,17-beta estradiol,f81c5a1f74f3e61f,M02,TiO2 family only; grade and batch unavailable
+131,1.4,20,2.5,2.0,5.0,0.4318,CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O.CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O,17-beta estradiol,58e5a135e0cdef72,M02,TiO2 family only; grade and batch unavailable
+132,1.4,20,0.1,2.0,3.0,0.5086,CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O.CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O,17-beta estradiol,224b35584fd6b4a4,M02,TiO2 family only; grade and batch unavailable
+133,1.4,20,0.1,2.0,7.0,0.4949,CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O.CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O,17-beta estradiol,cd564640cc35680e,M02,TiO2 family only; grade and batch unavailable
+134,1.4,20,0.1,2.0,9.0,0.5376,CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O.CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O,17-beta estradiol,e201efd0398d2d81,M02,TiO2 family only; grade and batch unavailable
+135,1.9,23,0.025,0.13,7.7,0.7394,C1=CC=C(C=C1)C2=CC=CC=C2Cl,2-Chlorobiphenyl,73ea554cb84395eb,M02,TiO2 family only; grade and batch unavailable
+136,1.9,23,0.025,0.43,7.7,0.9318,C1=CC=C(C=C1)C2=CC=CC=C2Cl,2-Chlorobiphenyl,88f71c081587c632,M02,TiO2 family only; grade and batch unavailable
+137,1.9,23,0.025,1.3,7.7,1.2409,C1=CC=C(C=C1)C2=CC=CC=C2Cl,2-Chlorobiphenyl,8364651d62a26387,M02,TiO2 family only; grade and batch unavailable
+138,1.9,23,0.025,3.8,7.7,1.6324,C1=CC=C(C=C1)C2=CC=CC=C2Cl,2-Chlorobiphenyl,1988bfa3dac7771e,M02,TiO2 family only; grade and batch unavailable
+139,3.15,20,0.5,10.0,7.0,1.8539,C1=CC=C(C=C1)COC(=O)C2=CC=C(C=C2)O,Benzylparaben,829871b50cc30183,M02,TiO2 family only; grade and batch unavailable
+140,3.15,20,1.0,10.0,7.0,1.7696,C1=CC=C(C=C1)COC(=O)C2=CC=C(C=C2)O,Benzylparaben,3d70a9f8eacd7f31,M02,TiO2 family only; grade and batch unavailable
+141,3.15,20,1.5,10.0,7.0,1.7447,C1=CC=C(C=C1)COC(=O)C2=CC=C(C=C2)O,Benzylparaben,247e54857356c68f,M02,TiO2 family only; grade and batch unavailable
+142,3.15,20,2.0,10.0,7.0,1.699,C1=CC=C(C=C1)COC(=O)C2=CC=C(C=C2)O,Benzylparaben,c8095816fe6c3080,M02,TiO2 family only; grade and batch unavailable
+143,3.15,20,2.5,10.0,7.0,1.6383,C1=CC=C(C=C1)COC(=O)C2=CC=C(C=C2)O,Benzylparaben,133f9823f3fba6d3,M02,TiO2 family only; grade and batch unavailable
+144,3.15,20,3.0,10.0,7.0,1.6576,C1=CC=C(C=C1)COC(=O)C2=CC=C(C=C2)O,Benzylparaben,86d41feabf4b52c6,M02,TiO2 family only; grade and batch unavailable
+145,3.15,20,2.5,5.0,7.0,1.528,C1=CC=C(C=C1)COC(=O)C2=CC=C(C=C2)O,Benzylparaben,51b3da9054b9ddfb,M02,TiO2 family only; grade and batch unavailable
+146,3.15,20,2.5,15.0,7.0,1.9104,C1=CC=C(C=C1)COC(=O)C2=CC=C(C=C2)O,Benzylparaben,8147740b3fbf49df,M02,TiO2 family only; grade and batch unavailable
+147,3.15,20,2.5,20.0,7.0,2.0218,C1=CC=C(C=C1)COC(=O)C2=CC=C(C=C2)O,Benzylparaben,2a8ec4edbbe9b55d,M02,TiO2 family only; grade and batch unavailable
+148,3.15,20,2.5,25.0,7.0,2.1105,C1=CC=C(C=C1)COC(=O)C2=CC=C(C=C2)O,Benzylparaben,0c151062985afb9c,M02,TiO2 family only; grade and batch unavailable
+149,3.15,20,2.5,10.0,3.0,2.1549,C1=CC=C(C=C1)COC(=O)C2=CC=C(C=C2)O,Benzylparaben,c5115c6bafcf742f,M02,TiO2 family only; grade and batch unavailable
+150,3.15,20,2.5,10.0,5.0,1.8539,C1=CC=C(C=C1)COC(=O)C2=CC=C(C=C2)O,Benzylparaben,f2168d7768c73bdb,M02,TiO2 family only; grade and batch unavailable
+151,3.15,20,2.5,10.0,9.0,1.7212,C1=CC=C(C=C1)COC(=O)C2=CC=C(C=C2)O,Benzylparaben,49fd342eb1241e57,M02,TiO2 family only; grade and batch unavailable
+152,3.15,20,2.5,10.0,11.0,1.7212,C1=CC=C(C=C1)COC(=O)C2=CC=C(C=C2)O,Benzylparaben,69702a8432959c8a,M02,TiO2 family only; grade and batch unavailable
+153,0.855,25,0.15,20.0,7.0,1.1972,CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O,Ofloxacin,0aeb6b76f5d76b72,M02,TiO2 family only; grade and batch unavailable
+154,0.855,25,0.25,20.0,7.0,1.0783,CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O,Ofloxacin,f045490d15bd506d,M02,TiO2 family only; grade and batch unavailable
+155,0.855,25,1.0,20.0,7.0,1.0362,CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O,Ofloxacin,382638ff2b106895,M02,TiO2 family only; grade and batch unavailable
+156,0.855,25,1.5,20.0,7.0,1.0915,CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O,Ofloxacin,29badac4e4762eb1,M02,TiO2 family only; grade and batch unavailable
+157,0.855,25,0.05,10.0,7.0,1.3188,CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O,Ofloxacin,65dff9a351f5ea04,M02,TiO2 family only; grade and batch unavailable
+158,0.855,25,0.15,10.0,7.0,1.0788,CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O,Ofloxacin,f69a67b8184c9b98,M02,TiO2 family only; grade and batch unavailable
+159,0.855,25,0.5,10.0,7.0,0.9957,CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O,Ofloxacin,2f6274cb4e948fad,M02,TiO2 family only; grade and batch unavailable
+160,0.855,25,0.8,10.0,7.0,1.0269,CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O,Ofloxacin,1ef6287f5a4c7768,M02,TiO2 family only; grade and batch unavailable
+161,0.855,25,0.05,5.0,7.0,1.1524,CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O,Ofloxacin,9d34c684f4ffc3a3,M02,TiO2 family only; grade and batch unavailable
+162,0.855,25,0.25,5.0,7.0,0.9965,CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O,Ofloxacin,57678cb8ce06b01e,M02,TiO2 family only; grade and batch unavailable
+163,0.855,25,0.5,5.0,7.0,1.041,CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O,Ofloxacin,61b8008d06c63a24,M02,TiO2 family only; grade and batch unavailable
+164,0.855,25,0.15,20.0,7.0,1.5017,CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O,Atenolol,d8e349defcbfe6fa,M02,TiO2 family only; grade and batch unavailable
+165,0.855,25,0.3,20.0,7.0,1.4622,CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O,Atenolol,01f7cf4af63a3d16,M02,TiO2 family only; grade and batch unavailable
+166,0.855,25,1.0,20.0,7.0,1.8697,CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O,Atenolol,757f3bf8883d2791,M02,TiO2 family only; grade and batch unavailable
+167,0.855,25,0.05,10.0,7.0,1.8239,CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O,Atenolol,e4fe66dbd262457a,M02,TiO2 family only; grade and batch unavailable
+168,0.855,25,0.15,10.0,7.0,1.3768,CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O,Atenolol,7c237ad37b3cf146,M02,TiO2 family only; grade and batch unavailable
+169,0.855,25,0.25,10.0,7.0,1.5229,CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O,Atenolol,bb662305702c7cb3,M02,TiO2 family only; grade and batch unavailable
+170,0.855,25,0.5,10.0,7.0,1.6383,CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O,Atenolol,00474d83b10f5137,M02,TiO2 family only; grade and batch unavailable
+171,0.855,25,0.8,10.0,7.0,1.7212,CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O,Atenolol,73e473a69491d2cd,M02,TiO2 family only; grade and batch unavailable
+172,0.855,25,0.05,5.0,7.0,1.7696,CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O,Atenolol,1e0a9744bdd51785,M02,TiO2 family only; grade and batch unavailable
+173,0.855,25,0.075,5.0,7.0,1.2248,CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O,Atenolol,c80b82e5087766f5,M02,TiO2 family only; grade and batch unavailable
+174,0.855,25,0.25,5.0,7.0,1.3625,CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O,Atenolol,96dccf252a04943d,M02,TiO2 family only; grade and batch unavailable
+175,0.855,25,0.5,5.0,7.0,1.4413,CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O,Atenolol,9f2436ee17159c2a,M02,TiO2 family only; grade and batch unavailable
+176,0.38,25,1.5,33.13,3.0,1.2218,C1CC1N2C=C(C(=O)C3=CC(=C(C=C32)N4CCNCC4)F)C(=O)O,Ciprofloxacin,aee404f55d8d2c98,M02,TiO2 family only; grade and batch unavailable
+177,0.38,25,1.5,33.13,5.0,0.8539,C1CC1N2C=C(C(=O)C3=CC(=C(C=C32)N4CCNCC4)F)C(=O)O,Ciprofloxacin,6d9b4584dd0dde67,M02,TiO2 family only; grade and batch unavailable
+178,0.38,25,1.5,33.13,7.0,0.6021,C1CC1N2C=C(C(=O)C3=CC(=C(C=C32)N4CCNCC4)F)C(=O)O,Ciprofloxacin,1d61c0da1da5c77a,M02,TiO2 family only; grade and batch unavailable
+179,0.38,25,1.5,33.13,9.0,0.4202,C1CC1N2C=C(C(=O)C3=CC(=C(C=C32)N4CCNCC4)F)C(=O)O,Ciprofloxacin,af6f50aaefec977b,M02,TiO2 family only; grade and batch unavailable
+180,0.38,25,1.5,33.13,11.0,1.1549,C1CC1N2C=C(C(=O)C3=CC(=C(C=C32)N4CCNCC4)F)C(=O)O,Ciprofloxacin,0cc349220726cb78,M02,TiO2 family only; grade and batch unavailable
+181,0.38,25,0.25,22.93,7.0,1.4089,C1C(OC(S1)CO)N2C=CC(=NC2=O)N,Lamivudine,fa037e99cf80bb9a,M02,TiO2 family only; grade and batch unavailable
+182,0.38,25,0.5,22.93,7.0,1.3768,C1C(OC(S1)CO)N2C=CC(=NC2=O)N,Lamivudine,248ba25fd799e2b6,M02,TiO2 family only; grade and batch unavailable
+183,0.38,25,1.0,22.93,7.0,1.2676,C1C(OC(S1)CO)N2C=CC(=NC2=O)N,Lamivudine,ddfb3bead50031ec,M02,TiO2 family only; grade and batch unavailable
+184,0.38,25,1.5,22.9,7.0,1.2924,C1C(OC(S1)CO)N2C=CC(=NC2=O)N,Lamivudine,f9013e25dacaf2ef,M02,TiO2 family only; grade and batch unavailable
+185,0.38,25,2.0,22.9,7.0,1.3565,C1C(OC(S1)CO)N2C=CC(=NC2=O)N,Lamivudine,8cb8f9ddb7e6a05c,M02,TiO2 family only; grade and batch unavailable
+186,0.38,25,3.0,22.9,7.0,1.3768,C1C(OC(S1)CO)N2C=CC(=NC2=O)N,Lamivudine,24582df4bec87af7,M02,TiO2 family only; grade and batch unavailable
+187,0.38,25,1.0,22.9,3.0,1.2441,C1C(OC(S1)CO)N2C=CC(=NC2=O)N,Lamivudine,6fd416458cda0908,M02,TiO2 family only; grade and batch unavailable
+188,0.38,25,1.0,22.9,5.0,1.3279,C1C(OC(S1)CO)N2C=CC(=NC2=O)N,Lamivudine,daecc57bf823b35a,M02,TiO2 family only; grade and batch unavailable
+189,0.38,25,1.0,22.9,9.0,1.2218,C1C(OC(S1)CO)N2C=CC(=NC2=O)N,Lamivudine,4d0bb81635cf3403,M02,TiO2 family only; grade and batch unavailable
+190,0.38,25,1.0,22.9,11.0,1.4815,C1C(OC(S1)CO)N2C=CC(=NC2=O)N,Lamivudine,cf06a7c102a21f1d,M02,TiO2 family only; grade and batch unavailable
+191,3.0,35,0.2,10.0,7.0,0.9739,CC(=O)NC1=CC=C(C=C1)O,Acetaminophen,8a59e99a8de0bd2c,M02,TiO2 family only; grade and batch unavailable
+192,3.0,35,0.2,10.0,7.0,0.7423,CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O,Atenolol,66b38e33d0eb4bf5,M02,TiO2 family only; grade and batch unavailable
+193,0.75,25,0.15,10.0,6.3,0.4844,CCN(CC1=CC(=CC=C1)S(=O)(=O)[O-])C2=CC=C(C=C2)C(=C3C=CC(=[N+](CC)CC4=CC(=CC=C4)S(=O)(=O)[O-])C=C3)C5=CC=CC=C5S(=O)(=O)[O-].[Na+].[Na+],Erioglaucine,94d501b5533a79fb,M02,TiO2 family only; grade and batch unavailable
+194,0.75,25,0.15,15.0,6.3,0.7158,CCN(CC1=CC(=CC=C1)S(=O)(=O)[O-])C2=CC=C(C=C2)C(=C3C=CC(=[N+](CC)CC4=CC(=CC=C4)S(=O)(=O)[O-])C=C3)C5=CC=CC=C5S(=O)(=O)[O-].[Na+].[Na+],Erioglaucine,95449f931219669b,M02,TiO2 family only; grade and batch unavailable
+195,0.75,25,0.15,20.0,6.3,0.9427,CCN(CC1=CC(=CC=C1)S(=O)(=O)[O-])C2=CC=C(C=C2)C(=C3C=CC(=[N+](CC)CC4=CC(=CC=C4)S(=O)(=O)[O-])C=C3)C5=CC=CC=C5S(=O)(=O)[O-].[Na+].[Na+],Erioglaucine,19f9bc8999c51f39,M02,TiO2 family only; grade and batch unavailable
+196,0.75,25,0.15,25.0,6.3,1.2976,CCN(CC1=CC(=CC=C1)S(=O)(=O)[O-])C2=CC=C(C=C2)C(=C3C=CC(=[N+](CC)CC4=CC(=CC=C4)S(=O)(=O)[O-])C=C3)C5=CC=CC=C5S(=O)(=O)[O-].[Na+].[Na+],Erioglaucine,a82b849f31e4f9bc,M02,TiO2 family only; grade and batch unavailable
+197,0.75,25,0.15,30.0,6.3,1.3251,CCN(CC1=CC(=CC=C1)S(=O)(=O)[O-])C2=CC=C(C=C2)C(=C3C=CC(=[N+](CC)CC4=CC(=CC=C4)S(=O)(=O)[O-])C=C3)C5=CC=CC=C5S(=O)(=O)[O-].[Na+].[Na+],Erioglaucine,88cde5514b7f9197,M02,TiO2 family only; grade and batch unavailable
+198,0.26,25,1.0,128.23,3.3,0.9666,C1=C(C(=NC(=C1Cl)Cl)OCC(=O)O)Cl,Triclopyr,e5983c119e404a80,M02,TiO2 family only; grade and batch unavailable
+199,0.26,25,1.0,128.23,5.0,0.9431,C1=C(C(=NC(=C1Cl)Cl)OCC(=O)O)Cl,Triclopyr,ea04dccadbab73ef,M02,TiO2 family only; grade and batch unavailable
+200,0.26,25,1.0,128.23,9.0,-0.1399,C1=C(C(=NC(=C1Cl)Cl)OCC(=O)O)Cl,Triclopyr,d75ae017408d1eee,M02,TiO2 family only; grade and batch unavailable
+201,0.26,25,1.0,128.23,10.5,1.1549,C1=C(C(=NC(=C1Cl)Cl)OCC(=O)O)Cl,Triclopyr,bc445b177e010e3d,M02,TiO2 family only; grade and batch unavailable
+202,0.26,25,1.0,64.12,3.3,0.8665,C1=C(C(=NC(=C1Cl)Cl)OCC(=O)O)Cl,Triclopyr,28545953aeb1701f,M02,TiO2 family only; grade and batch unavailable
+203,0.26,25,1.0,192.35,3.3,1.0555,C1=C(C(=NC(=C1Cl)Cl)OCC(=O)O)Cl,Triclopyr,8be79087cff5f055,M02,TiO2 family only; grade and batch unavailable
+204,0.26,25,1.0,256.46,3.3,1.3098,C1=C(C(=NC(=C1Cl)Cl)OCC(=O)O)Cl,Triclopyr,56835a9237baae38,M02,TiO2 family only; grade and batch unavailable
+205,0.26,25,0.5,128.23,3.3,1.0223,C1=C(C(=NC(=C1Cl)Cl)OCC(=O)O)Cl,Triclopyr,019e6cd5d9e7827a,M02,TiO2 family only; grade and batch unavailable
+206,0.26,25,2.0,128.23,3.3,0.8013,C1=C(C(=NC(=C1Cl)Cl)OCC(=O)O)Cl,Triclopyr,a7c7d541edb7d106,M02,TiO2 family only; grade and batch unavailable
+207,0.26,25,5.0,128.23,3.3,0.9508,C1=C(C(=NC(=C1Cl)Cl)OCC(=O)O)Cl,Triclopyr,e4eb2f24e7aed9e2,M02,TiO2 family only; grade and batch unavailable
+208,0.26,25,1.0,120.13,3.5,1.5326,CN(C)NC(=O)CCC(=O)O,Daminozide,a2749041158bb2c0,M02,TiO2 family only; grade and batch unavailable
+209,0.26,25,1.0,120.13,5.1,1.4685,CN(C)NC(=O)CCC(=O)O,Daminozide,072e7618b025db30,M02,TiO2 family only; grade and batch unavailable
+210,0.26,25,1.0,120.13,9.2,1.4437,CN(C)NC(=O)CCC(=O)O,Daminozide,5be67ad48d86de3a,M02,TiO2 family only; grade and batch unavailable
+211,0.26,25,1.0,120.13,10.6,1.4453,CN(C)NC(=O)CCC(=O)O,Daminozide,3cdcbd7a9db84be2,M02,TiO2 family only; grade and batch unavailable
+212,0.26,25,1.0,80.09,3.5,1.3979,CN(C)NC(=O)CCC(=O)O,Daminozide,48006734b95cf1bb,M02,TiO2 family only; grade and batch unavailable
+213,0.26,25,1.0,160.17,3.5,1.71,CN(C)NC(=O)CCC(=O)O,Daminozide,942754dda5c595ee,M02,TiO2 family only; grade and batch unavailable
+214,0.26,25,1.0,240.26,3.5,1.9042,CN(C)NC(=O)CCC(=O)O,Daminozide,0d4723136f8967c5,M02,TiO2 family only; grade and batch unavailable
+215,0.26,25,0.5,120.13,3.5,1.5963,CN(C)NC(=O)CCC(=O)O,Daminozide,13301ee2aaa5b084,M02,TiO2 family only; grade and batch unavailable
+216,0.26,25,2.0,120.13,3.5,1.4685,CN(C)NC(=O)CCC(=O)O,Daminozide,dc58447f10587666,M02,TiO2 family only; grade and batch unavailable
+217,0.26,25,5.0,120.13,3.5,1.4949,CN(C)NC(=O)CCC(=O)O,Daminozide,c44115629e020265,M02,TiO2 family only; grade and batch unavailable
+218,0.26,25,1.0,89.61,3.0,1.1938,CC(C)OC(=O)NC1=CC=CC=C1,Propham,c03399d210040df9,M02,TiO2 family only; grade and batch unavailable
+219,0.26,25,1.0,89.61,5.0,1.1549,CC(C)OC(=O)NC1=CC=CC=C1,Propham,df7a63b798d45009,M02,TiO2 family only; grade and batch unavailable
+220,0.26,25,1.0,89.61,7.0,1.1805,CC(C)OC(=O)NC1=CC=CC=C1,Propham,b758cd0cb07898bf,M02,TiO2 family only; grade and batch unavailable
+221,0.26,25,1.0,89.61,9.0,1.2676,CC(C)OC(=O)NC1=CC=CC=C1,Propham,cf6ce3dc8fae6bc3,M02,TiO2 family only; grade and batch unavailable
+222,0.26,25,1.0,89.61,11.0,1.301,CC(C)OC(=O)NC1=CC=CC=C1,Propham,f5783735d7cc7dd1,M02,TiO2 family only; grade and batch unavailable
+223,0.26,25,1.0,44.8,5.0,1.1675,CC(C)OC(=O)NC1=CC=CC=C1,Propham,ed43ba1e36c24081,M02,TiO2 family only; grade and batch unavailable
+224,0.26,25,1.0,134.41,5.0,1.03,CC(C)OC(=O)NC1=CC=CC=C1,Propham,4c04e2509ee651fb,M02,TiO2 family only; grade and batch unavailable
+225,0.26,25,1.0,179.21,5.0,1.1675,CC(C)OC(=O)NC1=CC=CC=C1,Propham,0d5545956d9011f7,M02,TiO2 family only; grade and batch unavailable
+226,0.26,25,1.0,232.98,5.0,1.301,CC(C)OC(=O)NC1=CC=CC=C1,Propham,59702b36b900b5a3,M02,TiO2 family only; grade and batch unavailable
+227,0.26,25,0.5,89.61,5.0,1.1938,CC(C)OC(=O)NC1=CC=CC=C1,Propham,c5623930461d07d4,M02,TiO2 family only; grade and batch unavailable
+228,0.26,25,2.0,89.61,5.0,0.983,CC(C)OC(=O)NC1=CC=CC=C1,Propham,ba5363ec9d6460e4,M02,TiO2 family only; grade and batch unavailable
+229,0.26,25,5.0,89.61,5.0,0.9508,CC(C)OC(=O)NC1=CC=CC=C1,Propham,78640328fe8ddd71,M02,TiO2 family only; grade and batch unavailable
+230,0.26,25,1.0,126.6,3.0,1.3632,CC(C)N(C1=CC=CC=C1)C(=O)CCl,Propachlor,30c1b488d5225ce3,M02,TiO2 family only; grade and batch unavailable
+231,0.26,25,1.0,126.6,5.0,1.3802,CC(C)N(C1=CC=CC=C1)C(=O)CCl,Propachlor,00147648b1533c9c,M02,TiO2 family only; grade and batch unavailable
+232,0.26,25,1.0,126.6,7.0,1.4164,CC(C)N(C1=CC=CC=C1)C(=O)CCl,Propachlor,3e7bfa7b6d1c5c08,M02,TiO2 family only; grade and batch unavailable
+233,0.26,25,1.0,126.6,9.0,1.4559,CC(C)N(C1=CC=CC=C1)C(=O)CCl,Propachlor,1733c3e9664a6e42,M02,TiO2 family only; grade and batch unavailable
+234,0.26,25,1.0,126.6,11.0,1.574,CC(C)N(C1=CC=CC=C1)C(=O)CCl,Propachlor,d0bd6ece62093b5b,M02,TiO2 family only; grade and batch unavailable
+235,0.26,25,1.0,42.2,5.0,1.1249,CC(C)N(C1=CC=CC=C1)C(=O)CCl,Propachlor,73292fd62b7715c6,M02,TiO2 family only; grade and batch unavailable
+236,0.26,25,1.0,84.4,5.0,1.3468,CC(C)N(C1=CC=CC=C1)C(=O)CCl,Propachlor,d11847afc67bc3c8,M02,TiO2 family only; grade and batch unavailable
+237,0.26,25,1.0,168.8,5.0,1.4881,CC(C)N(C1=CC=CC=C1)C(=O)CCl,Propachlor,0d88e4c2b5a9794d,M02,TiO2 family only; grade and batch unavailable
+238,0.26,25,1.0,284.85,5.0,1.6679,CC(C)N(C1=CC=CC=C1)C(=O)CCl,Propachlor,ea5a23b7dc35b942,M02,TiO2 family only; grade and batch unavailable
+239,0.26,25,0.5,126.6,5.0,1.4164,CC(C)N(C1=CC=CC=C1)C(=O)CCl,Propachlor,f66ae736f8420a38,M02,TiO2 family only; grade and batch unavailable
+240,0.26,25,2.0,126.6,5.0,1.3632,CC(C)N(C1=CC=CC=C1)C(=O)CCl,Propachlor,8335d43349c63c7b,M02,TiO2 family only; grade and batch unavailable
+241,0.26,25,5.0,126.6,5.0,1.301,CC(C)N(C1=CC=CC=C1)C(=O)CCl,Propachlor,620d91c5fbdb356a,M02,TiO2 family only; grade and batch unavailable
+242,0.26,25,7.5,126.6,5.0,1.2868,CC(C)N(C1=CC=CC=C1)C(=O)CCl,Propachlor,99cb59279cff571c,M02,TiO2 family only; grade and batch unavailable
+243,0.26,25,1.0,114.16,3.0,1.7212,CC(C)(C)C1=NN=C(S1)N(C)C(=O)NC,Tebuthiuron,f73330b533fba24f,M02,TiO2 family only; grade and batch unavailable
+244,0.26,25,1.0,114.16,5.0,1.6198,CC(C)(C)C1=NN=C(S1)N(C)C(=O)NC,Tebuthiuron,7370820d0266ba63,M02,TiO2 family only; grade and batch unavailable
+245,0.26,25,1.0,114.16,7.0,1.6021,CC(C)(C)C1=NN=C(S1)N(C)C(=O)NC,Tebuthiuron,ca3020b6c42d5121,M02,TiO2 family only; grade and batch unavailable
+246,0.26,25,1.0,114.16,9.0,1.585,CC(C)(C)C1=NN=C(S1)N(C)C(=O)NC,Tebuthiuron,7fe2c1cdda6720eb,M02,TiO2 family only; grade and batch unavailable
+247,0.26,25,1.0,114.16,11.0,1.4437,CC(C)(C)C1=NN=C(S1)N(C)C(=O)NC,Tebuthiuron,c2e3a263f3ad4097,M02,TiO2 family only; grade and batch unavailable
+248,0.26,25,1.0,57.08,5.0,1.4437,CC(C)(C)C1=NN=C(S1)N(C)C(=O)NC,Tebuthiuron,88016aa00155654d,M02,TiO2 family only; grade and batch unavailable
+249,0.26,25,1.0,171.23,5.0,1.7611,CC(C)(C)C1=NN=C(S1)N(C)C(=O)NC,Tebuthiuron,9f5be4ad4f01d31b,M02,TiO2 family only; grade and batch unavailable
+250,0.26,25,1.0,228.31,5.0,1.8539,CC(C)(C)C1=NN=C(S1)N(C)C(=O)NC,Tebuthiuron,4df6daa7a922e002,M02,TiO2 family only; grade and batch unavailable
+251,0.26,25,1.0,342.47,5.0,2.1347,CC(C)(C)C1=NN=C(S1)N(C)C(=O)NC,Tebuthiuron,0b25a81e67316cdb,M02,TiO2 family only; grade and batch unavailable
+252,0.26,25,0.5,114.16,5.0,1.7696,CC(C)(C)C1=NN=C(S1)N(C)C(=O)NC,Tebuthiuron,48253f3a7c8bb2b3,M02,TiO2 family only; grade and batch unavailable
+253,0.26,25,2.0,114.16,5.0,1.5528,CC(C)(C)C1=NN=C(S1)N(C)C(=O)NC,Tebuthiuron,470cb3818c0e6072,M02,TiO2 family only; grade and batch unavailable
+254,0.26,25,5.0,114.16,5.0,1.4318,CC(C)(C)C1=NN=C(S1)N(C)C(=O)NC,Tebuthiuron,cde9e14052235cc1,M02,TiO2 family only; grade and batch unavailable
+255,0.26,25,7.5,114.16,5.0,1.4437,CC(C)(C)C1=NN=C(S1)N(C)C(=O)NC,Tebuthiuron,4928ca812cebf5cb,M02,TiO2 family only; grade and batch unavailable
+256,1.51,25,0.1,24.82,3.0,1.2676,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,3eec2abf3155a2ad,M02,TiO2 family only; grade and batch unavailable
+257,1.51,25,0.1,24.82,3.0,1.1192,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,3eec2abf3155a2ad,M02,TiO2 family only; grade and batch unavailable
+258,1.51,25,0.1,1.27,3.0,0.4437,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,bd10e574e0ae0bfe,M02,TiO2 family only; grade and batch unavailable
+259,1.51,25,0.1,2.28,3.0,0.5229,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,74ff314995261b67,M02,TiO2 family only; grade and batch unavailable
+260,1.51,25,0.1,11.9,3.0,0.9586,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,4ff3669b6d8e1978,M02,TiO2 family only; grade and batch unavailable
+261,1.51,25,0.1,22.8,3.0,1.3098,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,30041b3db904bb7f,M02,TiO2 family only; grade and batch unavailable
+262,1.51,25,0.1,58.25,3.0,1.6021,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,a929c17406b23004,M02,TiO2 family only; grade and batch unavailable
+263,1.51,25,0.1,121.57,3.0,1.8239,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,45a3966139b22eee,M02,TiO2 family only; grade and batch unavailable
+264,1.51,25,0.01,23.55,3.0,2.0655,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,72ce5d6984f475be,M02,TiO2 family only; grade and batch unavailable
+265,1.51,25,0.05,23.3,3.0,1.3872,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,517e8e4aaa839e94,M02,TiO2 family only; grade and batch unavailable
+266,1.51,25,0.1,23.3,3.0,1.2676,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,07a2f489de5de69b,M02,TiO2 family only; grade and batch unavailable
+267,1.51,25,0.5,22.04,3.0,1.0506,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,4001ad07f452b709,M02,TiO2 family only; grade and batch unavailable
+268,1.51,25,1.0,20.52,3.0,0.9586,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,050f8003f0be6297,M02,TiO2 family only; grade and batch unavailable
+269,1.51,25,0.1,25.07,5.0,1.3768,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,573b109d1f113933,M02,TiO2 family only; grade and batch unavailable
+270,1.51,25,0.1,25.07,9.0,1.1938,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,fa8da207dd7909f2,M02,TiO2 family only; grade and batch unavailable
+271,1.51,25,0.1,25.33,11.0,1.1739,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,149e3bbd64175dc9,M02,TiO2 family only; grade and batch unavailable
+272,1.51,25,0.1,5.32,9.0,0.699,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,233e840f14ea1e86,M02,TiO2 family only; grade and batch unavailable
+273,1.51,25,0.1,5.32,9.0,0.6576,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,233e840f14ea1e86,M02,TiO2 family only; grade and batch unavailable
+274,1.51,25,0.1,4.81,9.0,0.4089,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,dee0bfd10967ad8f,M02,TiO2 family only; grade and batch unavailable
+275,1.51,25,0.1,4.56,9.0,0.1805,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,fc1f295f0268a52b,M02,TiO2 family only; grade and batch unavailable
+276,1.51,25,0.1,4.81,9.0,0.1871,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,dee0bfd10967ad8f,M02,TiO2 family only; grade and batch unavailable
+277,1.51,25,0.1,5.07,5.0,0.5686,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,10d1ca865ad31d13,M02,TiO2 family only; grade and batch unavailable
+278,1.51,25,0.1,5.07,9.0,0.699,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,aa8a274126a50592,M02,TiO2 family only; grade and batch unavailable
+279,1.51,25,0.1,23.81,3.0,1.2291,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,41eecef6d25c5830,M02,TiO2 family only; grade and batch unavailable
+280,1.51,25,0.1,26.2,3.0,1.2596,CC1=C(ON=C1C)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfisoxazole,01cc3f3ab8f4fb98,M02,TiO2 family only; grade and batch unavailable
+281,1.51,25,0.1,24.77,3.0,1.2757,C1=CC(=CC=C1N)S(=O)(=O)NC2=NC=CS2,Sulfathiazole,c3497d334e275882,M02,TiO2 family only; grade and batch unavailable
+282,1.51,25,0.1,25.68,3.0,1.4815,CC1=NN=C(S1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethizole,513423e564d1c781,M02,TiO2 family only; grade and batch unavailable
+283,1.0,21,0.5,1.29,3.8,1.2441,C1=CC(=CC=C1O)Cl,4-Chlorophenol,88baa8ba6a591d81,M02,TiO2 family only; grade and batch unavailable
+284,1.0,21,0.5,2.57,3.8,1.3665,C1=CC(=CC=C1O)Cl,4-Chlorophenol,979672fd4e1d2e0b,M02,TiO2 family only; grade and batch unavailable
+285,1.0,21,0.5,5.14,3.8,1.5229,C1=CC(=CC=C1O)Cl,4-Chlorophenol,69d25aa1164b190b,M02,TiO2 family only; grade and batch unavailable
+286,1.0,21,0.5,6.43,3.8,1.5686,C1=CC(=CC=C1O)Cl,4-Chlorophenol,c8288aeaa4c8892c,M02,TiO2 family only; grade and batch unavailable
+287,1.0,21,0.5,10.28,3.8,1.7447,C1=CC(=CC=C1O)Cl,4-Chlorophenol,e991b3f7fe245774,M02,TiO2 family only; grade and batch unavailable
+288,1.0,21,0.5,12.86,3.8,1.7959,C1=CC(=CC=C1O)Cl,4-Chlorophenol,7a1ccedc2c3613c6,M02,TiO2 family only; grade and batch unavailable
+289,1.0,21,0.5,16.2,3.8,1.9208,C1=CC(=CC=C1O)Cl,4-Chlorophenol,215db52648b9b2db,M02,TiO2 family only; grade and batch unavailable
+290,1.0,21,0.5,3.26,3.8,1.301,C1=CC(=C(C(=C1)Cl)O)Cl,"2,6-Dichlorophenol",32ce4f08cb76e7f8,M02,TiO2 family only; grade and batch unavailable
+291,1.0,21,0.5,6.52,3.8,1.4318,C1=CC(=C(C(=C1)Cl)O)Cl,"2,6-Dichlorophenol",bdb9a7e67c130559,M02,TiO2 family only; grade and batch unavailable
+292,1.0,21,0.5,8.15,3.8,1.5086,C1=CC(=C(C(=C1)Cl)O)Cl,"2,6-Dichlorophenol",fba2c9cb58e835f3,M02,TiO2 family only; grade and batch unavailable
+293,1.0,21,0.5,13.04,3.8,1.6198,C1=CC(=C(C(=C1)Cl)O)Cl,"2,6-Dichlorophenol",3040bc66565a2053,M02,TiO2 family only; grade and batch unavailable
+294,1.0,21,0.5,16.3,3.8,1.7447,C1=CC(=C(C(=C1)Cl)O)Cl,"2,6-Dichlorophenol",c95167151f3bdb29,M02,TiO2 family only; grade and batch unavailable
+295,2.9,21,2.5,17.22,6.2,1.4078,C1=CC(=CC=C1N)S(=O)(=O)N,Sulfanilamide,536a520f6778322a,M02,TiO2 family only; grade and batch unavailable
+296,2.9,21,2.5,23.62,6.5,1.4112,CC(=O)[N-]S(=O)(=O)C1=CC=C(C=C1)N.[Na+],sulfacetamide sodium salt,dec649811f75e748,M02,TiO2 family only; grade and batch unavailable
+297,2.9,21,2.5,25.33,4.5,1.4976,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,Sulfamethoxazole,c53373d12705b473,M02,TiO2 family only; grade and batch unavailable
+298,2.9,21,2.5,27.23,6.0,1.3915,CC(=O)[N-]S(=O)(=O)C1=CC=C(C=C1)N.[Na+],sulfacetamide sodium salt,b15314ccb5238b7d,M02,TiO2 family only; grade and batch unavailable
+299,2.9,21,2.5,27.73,6.3,1.3979,CC(=O)[N-]S(=O)(=O)C1=CC=C(C=C1)N.[Na+],sulfacetamide sodium salt,d06161a0b62fd314,M02,TiO2 family only; grade and batch unavailable
+302,4.48,20,0.001,4.3,6.5,1.8539,C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N,Carbamazepine,5875bc59ec08b556,M02,TiO2 family only; grade and batch unavailable
+303,4.48,20,0.01,4.3,6.5,1.0506,C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N,Carbamazepine,d26bea12cd31ce1a,M02,TiO2 family only; grade and batch unavailable
+304,4.48,20,0.1,4.3,6.5,0.5528,C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N,Carbamazepine,9fe0513e0fb9e693,M02,TiO2 family only; grade and batch unavailable
+305,4.48,20,1.0,4.3,6.5,0.4437,C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N,Carbamazepine,25df28052cf929f8,M02,TiO2 family only; grade and batch unavailable
+306,4.48,20,0.1,1.0,6.5,0.1367,C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N,Carbamazepine,abe1185af9218870,M02,TiO2 family only; grade and batch unavailable
+307,4.48,20,1.0,1.0,6.5,0.0969,C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N,Carbamazepine,72d32ca5c3edf32a,M02,TiO2 family only; grade and batch unavailable
+308,4.48,20,0.05,5.0,6.5,0.7959,CC(C)(C(=O)O)OC1=CC=C(C=C1)Cl,Clofibric acid,240dc5857ff02f22,M02,TiO2 family only; grade and batch unavailable
+309,4.48,20,0.08,5.0,6.5,0.7212,CC(C)(C(=O)O)OC1=CC=C(C=C1)Cl,Clofibric acid,7f1f4914162e5cbe,M02,TiO2 family only; grade and batch unavailable
+310,4.48,20,0.5,5.0,6.5,0.4318,CC(C)(C(=O)O)OC1=CC=C(C=C1)Cl,Clofibric acid,390612ee938f6494,M02,TiO2 family only; grade and batch unavailable
+311,4.48,20,0.08,0.5,6.5,-0.017,CC(C)(C(=O)O)OC1=CC=C(C=C1)Cl,Clofibric acid,2c688688544139ed,M02,TiO2 family only; grade and batch unavailable
+312,4.48,20,0.5,0.5,6.5,-0.1139,CC(C)(C(=O)O)OC1=CC=C(C=C1)Cl,Clofibric acid,6d6453590c5b9646,M02,TiO2 family only; grade and batch unavailable
+313,4.48,20,0.5,10.0,6.5,0.6021,CN(C1=C(C(=C(C(=C1I)C(=O)NCC(CO)O)I)C(=O)NCC(CO)O)I)C(=O)CO,Iomeprol,b560f9daee4aa6b4,M02,TiO2 family only; grade and batch unavailable
+314,4.48,20,1.0,10.0,6.5,0.4089,CN(C1=C(C(=C(C(=C1I)C(=O)NCC(CO)O)I)C(=O)NCC(CO)O)I)C(=O)CO,Iomeprol,bbeaa3960dba6357,M02,TiO2 family only; grade and batch unavailable
+315,4.48,20,0.1,5.2,6.5,0.8239,CN(C1=C(C(=C(C(=C1I)C(=O)NCC(CO)O)I)C(=O)NCC(CO)O)I)C(=O)CO,Iomeprol,56a710ddbaddd223,M02,TiO2 family only; grade and batch unavailable
+316,4.48,20,0.5,5.2,6.5,0.4949,CN(C1=C(C(=C(C(=C1I)C(=O)NCC(CO)O)I)C(=O)NCC(CO)O)I)C(=O)CO,Iomeprol,ceebdb48298c7427,M02,TiO2 family only; grade and batch unavailable
+317,4.48,20,0.5,5.4,6.5,0.7212,CN(CC(CO)O)C(=O)C1=C(C(=C(C(=C1I)C(=O)NCC(CO)O)I)NC(=O)COC)I,Iopromide,327fddce16a37468,M02,TiO2 family only; grade and batch unavailable
+318,75.0,35,0.1,10.0,6.4,1.4283,CCNC1=NC(=NC(=N1)Cl)NC(C)C,Atrazine,588f771a319737e5,M02,TiO2 family only; grade and batch unavailable
+319,75.0,35,0.1,10.0,6.4,1.6126,CCNC1=NC(=NC(=N1)Cl)NC(C)(C)C#N,Cyanazine,6820e772aacee67a,M02,TiO2 family only; grade and batch unavailable
+320,75.0,35,0.1,10.0,6.4,1.7423,CC(C)(C)NC1=NC(=NC(=N1)NC2CC2)SC,Irgarol,ef6209c71b1e27f6,M02,TiO2 family only; grade and batch unavailable
+321,75.0,35,0.1,10.0,6.4,1.2924,CC(C)NC1=NC(=NC(=N1)SC)NC(C)C,Prometryne,f9bec1fd8889118c,M02,TiO2 family only; grade and batch unavailable
+322,75.0,35,0.1,10.0,6.4,1.1925,CC(C)NC1=NC(=NC(=N1)Cl)NC(C)C,Propazine,19e20260bf5295c5,M02,TiO2 family only; grade and batch unavailable
+323,75.0,35,0.1,1.0,6.4,1.341,CCOP(=S)(OCC)OC1=C(C=C(C=C1)Cl)Cl,Dichlofenthion,508b6d1901632a07,M02,TiO2 family only; grade and batch unavailable
+324,75.0,35,0.1,1.0,6.4,1.1675,CCOP(=S)(OCC)OC1=CC(=C(C=C1Cl)Br)Cl,Bromophos ethyl,b00575e7e5917fe4,M02,TiO2 family only; grade and batch unavailable
+325,75.0,35,0.1,1.0,6.4,1.71,COP(=S)(OC)OC1=CC(=C(C=C1Cl)Br)Cl,Bromophos methyl,19f005fe49ce93ee,M02,TiO2 family only; grade and batch unavailable
+326,75.0,35,0.1,1.0,6.4,1.341,CCOP(=S)(OCC)OC1=CC=C(C=C1)[N+](=O)[O-],Parathion ethyl,c271c612725f8681,M02,TiO2 family only; grade and batch unavailable
+327,75.0,35,0.1,1.0,6.4,1.4609,COP(=S)(OC)OC1=CC=C(C=C1)[N+](=O)[O-],Parathion methyl,d780837d6a477e3c,M02,TiO2 family only; grade and batch unavailable
+328,1.49,25,0.5,52.85,5.1,0.7404,CCC(C)C1=C(C(=CC(=C1)[N+](=O)[O-])[N+](=O)[O-])O,Dinoseb,f3e7d1792bc4e0aa,M02,TiO2 family only; grade and batch unavailable
+329,1.49,25,1.0,52.85,5.1,0.6021,CCC(C)C1=C(C(=CC(=C1)[N+](=O)[O-])[N+](=O)[O-])O,Dinoseb,726884bc8231d5ce,M02,TiO2 family only; grade and batch unavailable
+330,1.49,25,2.0,52.85,5.1,0.2632,CCC(C)C1=C(C(=CC(=C1)[N+](=O)[O-])[N+](=O)[O-])O,Dinoseb,e1223136d4c3ee38,M02,TiO2 family only; grade and batch unavailable
+331,1.49,25,3.0,52.85,5.1,0.7861,CCC(C)C1=C(C(=CC(=C1)[N+](=O)[O-])[N+](=O)[O-])O,Dinoseb,1560958f8bdf63f0,M02,TiO2 family only; grade and batch unavailable
+332,1.49,25,1.0,52.85,2.6,0.88,CCC(C)C1=C(C(=CC(=C1)[N+](=O)[O-])[N+](=O)[O-])O,Dinoseb,57705f1374b829cf,M02,TiO2 family only; grade and batch unavailable
+333,1.49,25,1.0,52.85,3.8,0.7404,CCC(C)C1=C(C(=CC(=C1)[N+](=O)[O-])[N+](=O)[O-])O,Dinoseb,ab91055df0f661c5,M02,TiO2 family only; grade and batch unavailable
+334,1.49,25,1.0,52.85,7.3,0.7742,CCC(C)C1=C(C(=CC(=C1)[N+](=O)[O-])[N+](=O)[O-])O,Dinoseb,f269d6d9b335dbb7,M02,TiO2 family only; grade and batch unavailable
+335,1.49,25,1.0,52.85,8.8,1.0872,CCC(C)C1=C(C(=CC(=C1)[N+](=O)[O-])[N+](=O)[O-])O,Dinoseb,079c1e9a97a0a414,M02,TiO2 family only; grade and batch unavailable
+336,1.49,25,1.0,52.85,11.0,1.7404,CCC(C)C1=C(C(=CC(=C1)[N+](=O)[O-])[N+](=O)[O-])O,Dinoseb,864348385dc1a0e1,M02,TiO2 family only; grade and batch unavailable
+337,1.49,25,1.0,24.02,5.1,0.5528,CCC(C)C1=C(C(=CC(=C1)[N+](=O)[O-])[N+](=O)[O-])O,Dinoseb,b64c7c2a4cbe57fe,M02,TiO2 family only; grade and batch unavailable
+338,1.49,25,1.0,36.03,5.1,0.6847,CCC(C)C1=C(C(=CC(=C1)[N+](=O)[O-])[N+](=O)[O-])O,Dinoseb,0b686993cd067808,M02,TiO2 family only; grade and batch unavailable
+339,1.49,25,1.0,48.04,5.1,0.699,CCC(C)C1=C(C(=CC(=C1)[N+](=O)[O-])[N+](=O)[O-])O,Dinoseb,01a060fc71c56a2f,M02,TiO2 family only; grade and batch unavailable
+340,1.49,25,1.0,44.21,2.5,1.6778,COC1=C(C=CC(=C1C(=O)O)Cl)Cl,Dicamba,5773d1e0dcaedd62,M02,TiO2 family only; grade and batch unavailable
+341,1.49,25,1.0,123.78,2.5,1.9923,COC1=C(C=CC(=C1C(=O)O)Cl)Cl,Dicamba,43b2c8b597035e94,M02,TiO2 family only; grade and batch unavailable
+342,1.49,25,1.0,170.2,2.5,2.6077,COC1=C(C=CC(=C1C(=O)O)Cl)Cl,Dicamba,2ee8fcd976b22420,M02,TiO2 family only; grade and batch unavailable
+343,1.49,25,0.5,123.78,2.5,2.4472,COC1=C(C=CC(=C1C(=O)O)Cl)Cl,Dicamba,af244e9be6e91672,M02,TiO2 family only; grade and batch unavailable
+344,1.49,25,2.0,123.78,2.5,1.7988,COC1=C(C=CC(=C1C(=O)O)Cl)Cl,Dicamba,f1ea37957fb13f42,M02,TiO2 family only; grade and batch unavailable
+345,1.49,25,3.0,123.78,2.5,1.3999,COC1=C(C=CC(=C1C(=O)O)Cl)Cl,Dicamba,302902df3e4a6daf,M02,TiO2 family only; grade and batch unavailable
+346,1.49,25,0.5,78.95,4.1,1.7911,CN(C)C(=O)NC1=CC=CC(=C1)C(F)(F)F,Fluometuron,c371f9197f7dfa9b,M02,TiO2 family only; grade and batch unavailable
+347,1.49,25,2.0,78.95,4.1,1.5272,CN(C)C(=O)NC1=CC=CC(=C1)C(F)(F)F,Fluometuron,e85198337428bc3b,M02,TiO2 family only; grade and batch unavailable
+348,1.49,25,3.0,78.95,4.1,1.4981,CN(C)C(=O)NC1=CC=CC(=C1)C(F)(F)F,Fluometuron,d6c93e9ae456b8e2,M02,TiO2 family only; grade and batch unavailable
+349,60.0,60,0.1,10.0,5.5,-0.3207,CN(C)C(=O)NC1=CC=C(C=C1)Cl,Monuron,70da6b09434219e5,M02,TiO2 family only; grade and batch unavailable
+350,60.0,60,0.1,20.0,5.5,-0.4872,CN(C)C(=O)NC1=CC=C(C=C1)Cl,Monuron,87c56406755a53dc,M02,TiO2 family only; grade and batch unavailable
+351,60.0,60,0.1,30.0,5.5,-0.7703,CN(C)C(=O)NC1=CC=C(C=C1)Cl,Monuron,3b96090f6737fef4,M02,TiO2 family only; grade and batch unavailable
+352,60.0,60,0.1,40.0,5.5,-0.8094,CN(C)C(=O)NC1=CC=C(C=C1)Cl,Monuron,e00adef5852e7d14,M02,TiO2 family only; grade and batch unavailable
+353,0.375,25,1.0,10.0,3.0,1.5686,CC(C)(C1=CC=C(C=C1)O)C2=CC=C(C=C2)O,Bisphenol A,33290aefba050f68,M02,TiO2 family only; grade and batch unavailable
+354,0.375,25,1.0,10.0,5.5,1.3625,CC(C)(C1=CC=C(C=C1)O)C2=CC=C(C=C2)O,Bisphenol A,e8574b7034118926,M02,TiO2 family only; grade and batch unavailable
+355,0.375,25,1.0,10.0,7.0,1.2573,CC(C)(C1=CC=C(C=C1)O)C2=CC=C(C=C2)O,Bisphenol A,029769f6f51edcac,M02,TiO2 family only; grade and batch unavailable
+356,0.375,25,1.0,10.0,9.5,1.2411,CC(C)(C1=CC=C(C=C1)O)C2=CC=C(C=C2)O,Bisphenol A,c736e9ee317222b5,M02,TiO2 family only; grade and batch unavailable
+357,0.375,25,1.0,10.0,11.0,1.2048,CC(C)(C1=CC=C(C=C1)O)C2=CC=C(C=C2)O,Bisphenol A,341d6bd424bdd0bb,M02,TiO2 family only; grade and batch unavailable
+358,0.375,25,0.2,10.0,5.5,1.762,CC(C)(C1=CC=C(C=C1)O)C2=CC=C(C=C2)O,Bisphenol A,c2a063e4e35a580f,M02,TiO2 family only; grade and batch unavailable
+359,0.375,25,0.5,10.0,5.5,1.7055,CC(C)(C1=CC=C(C=C1)O)C2=CC=C(C=C2)O,Bisphenol A,845915e9b3a51ae8,M02,TiO2 family only; grade and batch unavailable
+360,0.375,25,1.5,10.0,5.5,1.644,CC(C)(C1=CC=C(C=C1)O)C2=CC=C(C=C2)O,Bisphenol A,21a90deb26c8fbbd,M02,TiO2 family only; grade and batch unavailable
+361,0.375,25,2.0,10.0,5.5,1.7011,CC(C)(C1=CC=C(C=C1)O)C2=CC=C(C=C2)O,Bisphenol A,7da29b5426cc5efe,M02,TiO2 family only; grade and batch unavailable
+362,0.375,25,1.0,2.0,5.5,1.2269,CC(C)(C1=CC=C(C=C1)O)C2=CC=C(C=C2)O,Bisphenol A,7aa4091aac63e6b2,M02,TiO2 family only; grade and batch unavailable
+363,0.375,25,1.0,5.0,5.5,1.308,CC(C)(C1=CC=C(C=C1)O)C2=CC=C(C=C2)O,Bisphenol A,5e0c479cfd37c86a,M02,TiO2 family only; grade and batch unavailable
+364,0.375,25,1.0,20.0,5.5,1.6308,CC(C)(C1=CC=C(C=C1)O)C2=CC=C(C=C2)O,Bisphenol A,8fbf5ce023535529,M02,TiO2 family only; grade and batch unavailable
+365,0.375,25,1.0,50.0,5.5,1.7496,CC(C)(C1=CC=C(C=C1)O)C2=CC=C(C=C2)O,Bisphenol A,031ec0ca0c46b1a4,M02,TiO2 family only; grade and batch unavailable
+366,10.0,30,0.04,48.37,4.3,3.1203,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,1d433605bfab43ef,M02,TiO2 family only; grade and batch unavailable
+367,10.0,30,0.06,48.37,4.3,2.6975,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,bfd88cde6eb84f05,M02,TiO2 family only; grade and batch unavailable
+368,10.0,30,0.08,48.37,4.3,2.4355,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,3eeb353b768e3d1c,M02,TiO2 family only; grade and batch unavailable
+369,10.0,30,0.1,48.37,4.3,2.1401,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,f71d25fabb20da12,M02,TiO2 family only; grade and batch unavailable
+370,10.0,30,0.12,48.37,4.3,2.0753,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,0a5c35569af9b098,M02,TiO2 family only; grade and batch unavailable
+371,10.0,30,0.14,48.37,4.3,1.9657,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,52450aebe1d47d67,M02,TiO2 family only; grade and batch unavailable
+372,10.0,30,0.2,48.37,4.3,1.7876,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,e37743f81372a78a,M02,TiO2 family only; grade and batch unavailable
+373,10.0,30,0.16,6.05,4.3,1.3061,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,f541ff79997b3bf9,M02,TiO2 family only; grade and batch unavailable
+374,10.0,30,0.16,12.09,4.3,1.3191,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,1308f8037bb93e23,M02,TiO2 family only; grade and batch unavailable
+375,10.0,30,0.16,18.14,4.3,1.3888,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,aec15ea7fd5f7060,M02,TiO2 family only; grade and batch unavailable
+376,10.0,30,0.16,24.18,4.3,1.4128,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,9baff186cb2b9684,M02,TiO2 family only; grade and batch unavailable
+377,10.0,30,0.16,30.23,4.3,1.5182,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,8af4b1a2e53bbef3,M02,TiO2 family only; grade and batch unavailable
+378,10.0,30,0.16,36.28,4.3,1.6436,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,3bb68e28f320018e,M02,TiO2 family only; grade and batch unavailable
+379,10.0,30,0.16,42.32,4.3,1.7371,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,a5b77e203bebf264,M02,TiO2 family only; grade and batch unavailable
+380,10.0,30,0.16,48.37,4.3,1.8967,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,a74bb6ea9e2e5668,M02,TiO2 family only; grade and batch unavailable
+381,10.0,30,0.16,54.41,4.3,1.9052,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,9dacba4dfd2d0b95,M02,TiO2 family only; grade and batch unavailable
+382,10.0,30,0.16,60.46,4.3,1.9052,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,ffb0541b69c8da90,M02,TiO2 family only; grade and batch unavailable
+383,10.0,30,0.16,48.37,2.0,2.2055,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,0ce03eb6774bf3e8,M02,TiO2 family only; grade and batch unavailable
+384,10.0,30,0.16,48.37,3.6,2.2684,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,75c7d8f7c12d3786,M02,TiO2 family only; grade and batch unavailable
+385,10.0,30,0.16,48.37,4.5,2.2993,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,6409aa9ca8d17544,M02,TiO2 family only; grade and batch unavailable
+386,10.0,30,0.16,48.37,5.6,2.585,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,f44e48f636e5c62a,M02,TiO2 family only; grade and batch unavailable
+387,10.0,30,0.16,48.37,6.3,2.6861,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,65cf873433064284,M02,TiO2 family only; grade and batch unavailable
+388,10.0,30,0.16,48.37,7.3,3.1415,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,cb1aa9c58215be27,M02,TiO2 family only; grade and batch unavailable
+389,10.0,30,0.16,48.37,9.0,3.2976,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Amaranth,f83a37ea07a65dc8,M02,TiO2 family only; grade and batch unavailable
+390,8.2,25,1.0,10.0,7.0,1.0048,CC1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-],"2,4,6-Trinitrotoluene",165cbb2ea3186284,M02,TiO2 family only; grade and batch unavailable
+391,8.2,25,1.0,20.0,7.0,1.1911,CC1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-],"2,4,6-Trinitrotoluene",92c427bd3c72ca05,M02,TiO2 family only; grade and batch unavailable
+392,8.2,25,1.0,30.0,7.0,1.3925,CC1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-],"2,4,6-Trinitrotoluene",3a972bcf19c6d9d9,M02,TiO2 family only; grade and batch unavailable
+393,8.2,25,1.0,50.0,7.0,1.5702,CC1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-],"2,4,6-Trinitrotoluene",2bd669c68749e340,M02,TiO2 family only; grade and batch unavailable
+394,8.2,25,1.0,100.0,7.0,1.7825,CC1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-],"2,4,6-Trinitrotoluene",04ce167ff9c62dc2,M02,TiO2 family only; grade and batch unavailable
+395,8.2,25,1.0,30.0,3.0,1.762,CC1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-],"2,4,6-Trinitrotoluene",4aef834f6aaffff2,M02,TiO2 family only; grade and batch unavailable
+396,8.2,25,1.0,30.0,11.0,1.3458,CC1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-],"2,4,6-Trinitrotoluene",cbcd676335e7ac1e,M02,TiO2 family only; grade and batch unavailable
+397,1.74,25,0.5,12.0,4.0,1.1457,CCOP(=S)(OCC)SCSCC,Phorate,ec7d1eccfc23dfaa,M02,TiO2 family only; grade and batch unavailable
+398,1.74,25,0.5,12.0,6.0,0.9914,CCOP(=S)(OCC)SCSCC,Phorate,66cc6178d4a0abbb,M02,TiO2 family only; grade and batch unavailable
+399,1.74,25,0.5,12.0,8.0,0.914,CCOP(=S)(OCC)SCSCC,Phorate,0eabff2226665d93,M02,TiO2 family only; grade and batch unavailable
+400,1.49,25,1.0,110.49,4.4,1.4089,COP(=O)(OC)OC=C(Cl)Cl,Dichlorvos,15fd617cd0a1a312,M02,TiO2 family only; grade and batch unavailable
+401,1.49,25,1.0,110.49,7.0,1.5086,COP(=O)(OC)OC=C(Cl)Cl,Dichlorvos,4b0118252bdb302b,M02,TiO2 family only; grade and batch unavailable
+402,1.49,25,1.0,110.49,9.0,1.8742,COP(=O)(OC)OC=C(Cl)Cl,Dichlorvos,aad0fe0534eb83c0,M02,TiO2 family only; grade and batch unavailable
+403,1.49,25,1.0,74.92,3.7,2.1965,CCN(CC)C(=O)C(=C(C)OP(=O)(OC)OC)Cl,Phosphamidon,ca7ed026f502ede1,M02,TiO2 family only; grade and batch unavailable
+404,1.49,25,1.0,74.92,5.7,2.1965,CCN(CC)C(=O)C(=C(C)OP(=O)(OC)OC)Cl,Phosphamidon,6e2498c5f2f552fa,M02,TiO2 family only; grade and batch unavailable
+405,1.49,25,1.0,74.92,7.5,2.1752,CCN(CC)C(=O)C(=C(C)OP(=O)(OC)OC)Cl,Phosphamidon,55eacf2c1179ca04,M02,TiO2 family only; grade and batch unavailable
+406,1.49,25,1.0,55.25,4.4,1.4157,COP(=O)(OC)OC=C(Cl)Cl,Dichlorvos,613f6339b722f065,M02,TiO2 family only; grade and batch unavailable
+407,1.49,25,1.0,165.74,4.4,1.3936,COP(=O)(OC)OC=C(Cl)Cl,Dichlorvos,1f903c0a46eb5f83,M02,TiO2 family only; grade and batch unavailable
+408,1.49,25,1.0,220.98,4.4,1.217,COP(=O)(OC)OC=C(Cl)Cl,Dichlorvos,43a415debeb2baae,M02,TiO2 family only; grade and batch unavailable
+409,1.49,25,1.0,44.95,3.7,2.0058,CCN(CC)C(=O)C(=C(C)OP(=O)(OC)OC)Cl,Phosphamidon,56f7b4c685bf17ec,M02,TiO2 family only; grade and batch unavailable
+410,1.49,25,1.0,89.91,3.7,2.1984,CCN(CC)C(=O)C(=C(C)OP(=O)(OC)OC)Cl,Phosphamidon,9e17e3599c2cd13c,M02,TiO2 family only; grade and batch unavailable
+411,1.49,25,1.0,104.89,3.7,2.1823,CCN(CC)C(=O)C(=C(C)OP(=O)(OC)OC)Cl,Phosphamidon,6ae03e6cde621170,M02,TiO2 family only; grade and batch unavailable
+412,1.49,25,1.0,110.49,4.4,1.5528,COP(=O)(OC)OC=C(Cl)Cl,Dichlorvos,15fd617cd0a1a312,M02,TiO2 family only; grade and batch unavailable
+413,1.49,25,1.0,110.49,4.4,1.3822,COP(=O)(OC)OC=C(Cl)Cl,Dichlorvos,15fd617cd0a1a312,M02,TiO2 family only; grade and batch unavailable
+414,1.49,25,1.0,110.49,4.4,1.2376,COP(=O)(OC)OC=C(Cl)Cl,Dichlorvos,15fd617cd0a1a312,M02,TiO2 family only; grade and batch unavailable
+415,1.49,25,1.0,74.92,3.7,2.4001,CCN(CC)C(=O)C(=C(C)OP(=O)(OC)OC)Cl,Phosphamidon,ca7ed026f502ede1,M02,TiO2 family only; grade and batch unavailable
+416,1.49,25,1.0,74.92,3.7,2.1238,CCN(CC)C(=O)C(=C(C)OP(=O)(OC)OC)Cl,Phosphamidon,ca7ed026f502ede1,M02,TiO2 family only; grade and batch unavailable
+418,1.49,25,1.0,35.04,5.2,1.2007,C1=CC=C2C(=C1)C(=CN2)CC(=O)O,Indole-3-acetic acid,17f0ce23a947c054,M02,TiO2 family only; grade and batch unavailable
+419,1.49,25,1.0,35.04,7.0,1.1481,C1=CC=C2C(=C1)C(=CN2)CC(=O)O,Indole-3-acetic acid,8ad76ef70cb7e18b,M02,TiO2 family only; grade and batch unavailable
+420,1.49,25,1.0,35.04,9.1,1.1394,C1=CC=C2C(=C1)C(=CN2)CC(=O)O,Indole-3-acetic acid,d9d35d1f7ed57bdb,M02,TiO2 family only; grade and batch unavailable
+421,1.49,25,1.0,35.04,10.8,1.1805,C1=CC=C2C(=C1)C(=CN2)CC(=O)O,Indole-3-acetic acid,28b2f358b0594de0,M02,TiO2 family only; grade and batch unavailable
+422,1.49,25,1.0,52.56,5.2,1.2284,C1=CC=C2C(=C1)C(=CN2)CC(=O)O,Indole-3-acetic acid,50556bccde34beca,M02,TiO2 family only; grade and batch unavailable
+423,1.49,25,1.0,70.07,5.2,1.4682,C1=CC=C2C(=C1)C(=CN2)CC(=O)O,Indole-3-acetic acid,72dbf23f0f962e81,M02,TiO2 family only; grade and batch unavailable
+424,1.49,25,1.0,105.11,5.2,2.0284,C1=CC=C2C(=C1)C(=CN2)CC(=O)O,Indole-3-acetic acid,fa824078a7f6ae37,M02,TiO2 family only; grade and batch unavailable
+425,1.49,25,0.5,35.04,5.2,1.2328,C1=CC=C2C(=C1)C(=CN2)CC(=O)O,Indole-3-acetic acid,14fe95c48b684338,M02,TiO2 family only; grade and batch unavailable
+426,1.49,25,2.0,35.04,5.2,1.164,C1=CC=C2C(=C1)C(=CN2)CC(=O)O,Indole-3-acetic acid,052fcf75465707b8,M02,TiO2 family only; grade and batch unavailable
+427,1.49,25,5.0,35.04,5.2,1.1864,C1=CC=C2C(=C1)C(=CN2)CC(=O)O,Indole-3-acetic acid,bbe5282cb2f6c9d3,M02,TiO2 family only; grade and batch unavailable
+428,1.49,25,1.0,36.58,4.1,1.1725,C1=CC=C2C(=C1)C(=CN2)CCCC(=O)O,Indole-3-butyric acid,600b34b8fadf9a25,M02,TiO2 family only; grade and batch unavailable
+429,1.49,25,1.0,36.58,6.2,1.1088,C1=CC=C2C(=C1)C(=CN2)CCCC(=O)O,Indole-3-butyric acid,bbbd4238c55d9ef9,M02,TiO2 family only; grade and batch unavailable
+430,1.49,25,1.0,36.58,8.8,1.1018,C1=CC=C2C(=C1)C(=CN2)CCCC(=O)O,Indole-3-butyric acid,938501425d9ba3bf,M02,TiO2 family only; grade and batch unavailable
+431,1.49,25,1.0,36.58,11.0,1.1481,C1=CC=C2C(=C1)C(=CN2)CCCC(=O)O,Indole-3-butyric acid,8faf5cd93060537a,M02,TiO2 family only; grade and batch unavailable
+432,1.49,25,1.0,60.97,4.1,1.2698,C1=CC=C2C(=C1)C(=CN2)CCCC(=O)O,Indole-3-butyric acid,6eae480948993515,M02,TiO2 family only; grade and batch unavailable
+433,1.49,25,1.0,81.3,4.1,1.4315,C1=CC=C2C(=C1)C(=CN2)CCCC(=O)O,Indole-3-butyric acid,09614de320a89a39,M02,TiO2 family only; grade and batch unavailable
+434,1.49,25,1.0,121.94,4.1,1.8638,C1=CC=C2C(=C1)C(=CN2)CCCC(=O)O,Indole-3-butyric acid,06a3c6b9e76ef0eb,M02,TiO2 family only; grade and batch unavailable
+435,1.49,25,0.5,36.58,4.1,1.1938,C1=CC=C2C(=C1)C(=CN2)CCCC(=O)O,Indole-3-butyric acid,d3c4b80259ed3ca7,M02,TiO2 family only; grade and batch unavailable
+436,1.49,25,2.0,36.58,4.1,1.1474,C1=CC=C2C(=C1)C(=CN2)CCCC(=O)O,Indole-3-butyric acid,cb5d27f54c6f2e84,M02,TiO2 family only; grade and batch unavailable
+437,1.49,25,5.0,36.58,4.1,1.1437,C1=CC=C2C(=C1)C(=CN2)CCCC(=O)O,Indole-3-butyric acid,130a69d2bd49d185,M02,TiO2 family only; grade and batch unavailable
+438,1.74,25,0.5,5.0,3.0,1.2104,CCOP(=S)(OCC)SCSC(C)(C)C,Terbufos,87db6dd6f3020e30,M02,TiO2 family only; grade and batch unavailable
+439,1.74,25,0.5,5.0,4.0,1.1146,CCOP(=S)(OCC)SCSC(C)(C)C,Terbufos,051bc982be7a14f0,M02,TiO2 family only; grade and batch unavailable
+440,1.74,25,0.5,5.0,6.0,1.0894,CCOP(=S)(OCC)SCSC(C)(C)C,Terbufos,44dd0b6c462bf763,M02,TiO2 family only; grade and batch unavailable
+441,1.74,25,0.5,5.0,8.0,1.0685,CCOP(=S)(OCC)SCSC(C)(C)C,Terbufos,821dae4dcfb50fe2,M02,TiO2 family only; grade and batch unavailable
+442,4.9,25,2.5,6.7,4.3,0.3517,CC(C)C1(C(=O)NC(=N1)C2=C(C=CC=N2)C(=O)O)C,Imazapyr,056db2ef8c5b13ab,M02,TiO2 family only; grade and batch unavailable
+443,4.9,25,2.5,12.0,4.3,0.5918,CC(C)C1(C(=O)NC(=N1)C2=C(C=CC=N2)C(=O)O)C,Imazapyr,4114bf66bae4c812,M02,TiO2 family only; grade and batch unavailable
+444,4.9,25,2.5,20.0,4.3,0.7513,CC(C)C1(C(=O)NC(=N1)C2=C(C=CC=N2)C(=O)O)C,Imazapyr,69267ecff40c2217,M02,TiO2 family only; grade and batch unavailable

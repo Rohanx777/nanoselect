@@ -1,0 +1,91 @@
+source_row,input_group_id,Molecule_Name,mlogk,predicted_mlogk,baseline_mlogk,eligible_under_domain_policy,fallback_reason
+2,04b5cfa77b71c950,Benzoic acid,0.5246,0.7014,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.; concentration_mg_L is outside the pollutant specific training range.
+3,236e588e76de4b84,Salicyclic acid,0.406,0.698683,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.; concentration_mg_L is outside the pollutant specific training range.
+9,227daa3cb9a41a5a,Nitrobenzene,0.5616,0.7014929999999999,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.; concentration_mg_L is outside the pollutant specific training range.; Operating condition combination is too far from observed training conditions under the heuristic support rule.
+16,10b1ef10eb995759,Acetic acid,0.6905,0.7014929999999999,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.; concentration_mg_L is outside the pollutant specific training range.
+20,5852ce0f3fd20019,Umbelliferone,0.6865,0.7021315,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.; concentration_mg_L is outside the pollutant specific training range.
+31,a772b5ac808d4ac3,Nitrobenzene,0.745,0.7775800000000005,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.; concentration_mg_L is outside the pollutant specific training range.; Operating condition combination is too far from observed training conditions under the heuristic support rule.
+39,0adc75cfc7d11738,Formic acid,0.5162,0.7691500000000007,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.
+46,e711ab06ae72de2f,Benzoic acid,0.973,1.0232244999999993,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.
+48,c1b1977bfaea3715,Phenol,0.9536,1.0205124999999997,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.
+51,b0f52c4880b1195f,4-Chlorophenol,0.874,1.0181699999999994,1.1924,False,Operating condition combination is too far from observed training conditions under the heuristic support rule.
+52,db5a0bb49492cc64,Chlorobenzene,1.0764,1.0325364999999995,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.
+54,d3396d3ce72b6765,Methanol,1.0236,1.0234859999999992,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.
+59,4039881dc438e2b0,Ethyl acetate,1.0952,1.0290884999999994,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.
+60,46f90c8c14ab1b56,Acetic acid,1.0455,1.0263439999999995,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.
+69,28738f2c3116aff0,Salicyclic acid,1.0534,1.1301679999999987,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.; concentration_mg_L is outside the pollutant specific training range.; Operating condition combination is too far from observed training conditions under the heuristic support rule.
+75,685f4574a88ad89b,Nitrobenzene,1.3928,1.1617349999999993,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.; concentration_mg_L is outside the pollutant specific training range.; Operating condition combination is too far from observed training conditions under the heuristic support rule.
+78,f7556f6fd7b52bb8,n-Propanol,1.1675,1.155481999999999,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.; concentration_mg_L is outside the pollutant specific training range.; Operating condition combination is too far from observed training conditions under the heuristic support rule.
+83,e33846447a25ecad,Formic acid,0.8744,1.0956524999999993,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.; concentration_mg_L is outside the pollutant specific training range.; Operating condition combination is too far from observed training conditions under the heuristic support rule.
+89,173f1cdf1bf43644,Dichloroethane,1.3689,1.168871499999999,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.; concentration_mg_L is outside the pollutant specific training range.; Operating condition combination is too far from observed training conditions under the heuristic support rule.
+90,bf2ace8208ee71c5,"1,4-Dioxane",0.5229,0.6956224999999986,1.1924,True,
+91,62d11c87d6e77235,"1,4-Dioxane",0.5528,0.5667165,1.1924,True,
+99,25659ef62cfe9056,n-Nitrosodimethylamine,0.7447,0.6234725000000008,1.1924,True,
+104,62f93c47ecfc38be,n-Nitrosodimethylamine,0.5376,0.46515750000000006,1.1924,False,dose_g_L is outside the pollutant specific training range.
+112,60e48404f329632d,tris(2-chloroethyl) phosphate,1.0,1.1570799999999972,1.1924,True,
+120,184c28680b5c9968,Gemfibrozil,0.0757,0.11229899999999984,1.1924,True,
+125,ead74d0ddbd35d76,Gemfibrozil,0.4815,0.42101450000000007,1.1924,False,pH is outside the pollutant specific training range.
+141,247e54857356c68f,Benzylparaben,1.7447,1.7784295000000048,1.1924,True,
+142,c8095816fe6c3080,Benzylparaben,1.699,1.6922985000000008,1.1924,True,
+148,0c151062985afb9c,Benzylparaben,2.1105,1.896134499999999,1.1924,False,concentration_mg_L is outside the pollutant specific training range.
+153,0aeb6b76f5d76b72,Ofloxacin,1.1972,1.0916390000000025,1.1924,True,
+159,2f6274cb4e948fad,Ofloxacin,0.9957,1.0640555000000014,1.1924,True,
+162,57678cb8ce06b01e,Ofloxacin,0.9965,1.0998815,1.1924,True,
+173,c80b82e5087766f5,Atenolol,1.2248,1.611271500000003,1.1924,True,
+179,af6f50aaefec977b,Ciprofloxacin,0.4202,0.7830019999999988,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.
+181,fa037e99cf80bb9a,Lamivudine,1.4089,1.2707719999999967,1.1924,False,dose_g_L is outside the pollutant specific training range.
+182,248ba25fd799e2b6,Lamivudine,1.3768,1.2766034999999964,1.1924,False,dose_g_L is outside the pollutant specific training range.
+184,f9013e25dacaf2ef,Lamivudine,1.2924,1.1636559999999991,1.1924,False,dose_g_L is outside the pollutant specific training range.
+185,8cb8f9ddb7e6a05c,Lamivudine,1.3565,1.169086999999999,1.1924,False,dose_g_L is outside the pollutant specific training range.; Operating condition combination is too far from observed training conditions under the heuristic support rule.
+186,24582df4bec87af7,Lamivudine,1.3768,1.1579359999999992,1.1924,False,dose_g_L is outside the pollutant specific training range.; Operating condition combination is too far from observed training conditions under the heuristic support rule.
+192,66b38e33d0eb4bf5,Atenolol,0.7423,1.3830694999999997,1.1924,False,light_intensity_mW_cm2 is outside the pollutant specific training range.; temperature_C is outside the pollutant specific training range.; Operating condition combination is too far from observed training conditions under the heuristic support rule.
+196,a82b849f31e4f9bc,Erioglaucine,1.2976,1.2088719999999984,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.
+206,a7c7d541edb7d106,Triclopyr,0.8013,0.9703084999999991,1.1924,True,
+208,a2749041158bb2c0,Daminozide,1.5326,1.5099490166666671,1.1924,True,
+209,072e7618b025db30,Daminozide,1.4685,1.4739480833333332,1.1924,True,
+214,0d4723136f8967c5,Daminozide,1.9042,1.624012999999999,1.1924,False,concentration_mg_L is outside the pollutant specific training range.; Operating condition combination is too far from observed training conditions under the heuristic support rule.
+220,b758cd0cb07898bf,Propham,1.1805,1.2192209999999968,1.1924,True,
+231,00147648b1533c9c,Propachlor,1.3802,1.3959408000000015,1.1924,True,
+239,f66ae736f8420a38,Propachlor,1.4164,1.5686268000000014,1.1924,False,dose_g_L is outside the pollutant specific training range.
+246,7fe2c1cdda6720eb,Tebuthiuron,1.585,1.5636700000000026,1.1924,True,
+249,9f5be4ad4f01d31b,Tebuthiuron,1.7611,1.595081125,1.1924,True,
+256,3eec2abf3155a2ad,Sulfamethoxazole,1.2676,1.2776774999999987,1.1924,True,
+257,3eec2abf3155a2ad,Sulfamethoxazole,1.1192,1.2776774999999987,1.1924,True,
+266,07a2f489de5de69b,Sulfamethoxazole,1.2676,1.2890749999999989,1.1924,True,
+269,573b109d1f113933,Sulfamethoxazole,1.3768,1.2284789999999997,1.1924,True,
+270,fa8da207dd7909f2,Sulfamethoxazole,1.1938,1.163311,1.1924,True,
+271,149e3bbd64175dc9,Sulfamethoxazole,1.1739,1.2277090000000008,1.1924,False,pH is outside the pollutant specific training range.
+272,233e840f14ea1e86,Sulfamethoxazole,0.699,0.7404850000000006,1.1924,True,
+273,233e840f14ea1e86,Sulfamethoxazole,0.6576,0.7404850000000006,1.1924,True,
+274,dee0bfd10967ad8f,Sulfamethoxazole,0.4089,0.5804894999999988,1.1924,True,
+276,dee0bfd10967ad8f,Sulfamethoxazole,0.1871,0.5804894999999988,1.1924,True,
+287,e991b3f7fe245774,4-Chlorophenol,1.7447,1.6442040000000007,1.1924,True,
+293,3040bc66565a2053,"2,6-Dichlorophenol",1.6198,1.6577080000000022,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.
+299,d06161a0b62fd314,sulfacetamide sodium salt,1.3979,1.4089215000000026,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.; concentration_mg_L is outside the pollutant specific training range.
+303,d26bea12cd31ce1a,Carbamazepine,1.0506,1.456625500000002,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.
+305,25df28052cf929f8,Carbamazepine,0.4437,0.6179250000000005,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.
+330,e1223136d4c3ee38,Dinoseb,0.2632,0.7048384999999984,1.1924,True,
+332,57705f1374b829cf,Dinoseb,0.88,1.0769869999999977,1.1924,False,pH is outside the pollutant specific training range.
+345,302902df3e4a6daf,Dicamba,1.3999,1.901024000000005,1.1924,False,dose_g_L is outside the pollutant specific training range.
+347,e85198337428bc3b,Fluometuron,1.5272,1.464445025,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.
+349,70da6b09434219e5,Monuron,-0.3207,-0.4800625000000008,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.; concentration_mg_L is outside the pollutant specific training range.
+356,c736e9ee317222b5,Bisphenol A,1.2411,1.2374070000000013,1.1924,True,
+358,c2a063e4e35a580f,Bisphenol A,1.762,1.538746499999999,1.1924,False,dose_g_L is outside the pollutant specific training range.
+370,0a5c35569af9b098,Amaranth,2.0753,2.0991175000000046,1.1924,True,
+372,e37743f81372a78a,Amaranth,1.7876,1.9530350000000047,1.1924,False,dose_g_L is outside the pollutant specific training range.; Operating condition combination is too far from observed training conditions under the heuristic support rule.
+374,1308f8037bb93e23,Amaranth,1.3191,1.3529124999999984,1.1924,True,
+385,6409aa9ca8d17544,Amaranth,2.2993,1.9541110000000046,1.1924,True,
+388,cb1aa9c58215be27,Amaranth,3.1415,2.5781460000000043,1.1924,False,pH is outside the pollutant specific training range.
+389,f83a37ea07a65dc8,Amaranth,3.2976,2.5781460000000043,1.1924,False,pH is outside the pollutant specific training range.; Operating condition combination is too far from observed training conditions under the heuristic support rule.
+392,3a972bcf19c6d9d9,"2,4,6-Trinitrotoluene",1.3925,1.3489814999999996,1.1924,True,
+404,6e2498c5f2f552fa,Phosphamidon,2.1965,2.1393996855158743,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.; pH is outside the pollutant specific training range.; Operating condition combination is too far from observed training conditions under the heuristic support rule.
+405,55eacf2c1179ca04,Phosphamidon,2.1752,2.1465114188492085,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.; pH is outside the pollutant specific training range.; Operating condition combination is too far from observed training conditions under the heuristic support rule.
+407,1f903c0a46eb5f83,Dichlorvos,1.3936,1.4039754871212133,1.1924,True,
+410,9e17e3599c2cd13c,Phosphamidon,2.1984,2.1898271640873013,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.
+418,17f0ce23a947c054,Indole-3-acetic acid,1.2007,1.1798889999999984,1.1924,True,
+419,8ad76ef70cb7e18b,Indole-3-acetic acid,1.1481,1.1395174999999982,1.1924,True,
+422,50556bccde34beca,Indole-3-acetic acid,1.2284,1.383222499999999,1.1924,True,
+424,fa824078a7f6ae37,Indole-3-acetic acid,2.0284,1.4824827053571437,1.1924,False,concentration_mg_L is outside the pollutant specific training range.; Operating condition combination is too far from observed training conditions under the heuristic support rule.
+434,06a3c6b9e76ef0eb,Indole-3-butyric acid,1.8638,1.4323062579545462,1.1924,False,concentration_mg_L is outside the pollutant specific training range.; Operating condition combination is too far from observed training conditions under the heuristic support rule.
+438,87db6dd6f3020e30,Terbufos,1.2104,1.0262369999999985,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.; pH is outside the pollutant specific training range.
+440,44dd0b6c462bf763,Terbufos,1.0894,1.0809504999999993,1.1924,False,Too few distinct training conditions for this pollutant under the declared support policy.

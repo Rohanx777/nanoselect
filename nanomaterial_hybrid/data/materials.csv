@@ -1,0 +1,16 @@
+material_id,material_name,formula_or_family,seed_size_min_nm,seed_size_max_nm,seed_dimension_type,seed_surface_area_min_m2_g,seed_surface_area_max_m2_g,seed_processes,seed_source_id,seed_properties_verified,seed_properties_use
+M01,Iron oxide magnetite,Fe3O4,10,100,particle_size,30,150,adsorption;magnetic_recovery,USER_LIST,False,Display only; do not impute experimental values or train on these ranges
+M02,Titanium dioxide,TiO2,10,50,particle_size,30,200,photocatalysis,USER_LIST,False,Display only; do not impute experimental values or train on these ranges
+M03,Zinc oxide,ZnO,10,100,particle_size,10,100,photocatalysis;adsorption,USER_LIST,False,Display only; do not impute experimental values or train on these ranges
+M04,Silver nanoparticles,Ag,10,100,particle_size,5,50,antimicrobial_action,USER_LIST,False,Display only; do not impute experimental values or train on these ranges
+M05,Nanoscale zero valent iron,Fe0,10,100,particle_size,20,40,reduction;adsorption,USER_LIST,False,Display only; do not impute experimental values or train on these ranges
+M06,Graphene oxide,GO,1,10,sheet_thickness,100,700,adsorption,USER_LIST,False,Display only; do not impute experimental values or train on these ranges
+M07,Reduced graphene oxide,rGO,1,10,sheet_thickness,100,600,adsorption;filtration,USER_LIST,False,Display only; do not impute experimental values or train on these ranges
+M08,Carbon nanotubes,CNT,1,100,tube_diameter,100,500,adsorption,USER_LIST,False,Display only; do not impute experimental values or train on these ranges
+M09,Nano alumina,Al2O3,10,100,particle_size,50,200,adsorption,USER_LIST,False,Display only; do not impute experimental values or train on these ranges
+M10,Magnesium oxide,MgO,10,100,particle_size,50,200,adsorption;precipitation,USER_LIST,False,Display only; do not impute experimental values or train on these ranges
+M11,Manganese dioxide,MnO2,10,100,particle_size,50,300,adsorption;oxidation,USER_LIST,False,Display only; do not impute experimental values or train on these ranges
+M12,Cerium oxide,CeO2,5,50,particle_size,20,150,adsorption;catalytic_oxidation,USER_LIST,False,Display only; do not impute experimental values or train on these ranges
+M13,Nano hydroxyapatite,Ca10(PO4)6(OH)2,20,100,particle_size,20,100,adsorption;ion_exchange,USER_LIST,False,Display only; do not impute experimental values or train on these ranges
+M14,Nano clay montmorillonite,montmorillonite,1,100,layer_thickness,50,200,adsorption;ion_exchange,USER_LIST,False,Display only; do not impute experimental values or train on these ranges
+M15,Chitosan nanoparticles,chitosan,20,200,particle_size,20,100,adsorption;complexation,USER_LIST,False,Display only; do not impute experimental values or train on these ranges

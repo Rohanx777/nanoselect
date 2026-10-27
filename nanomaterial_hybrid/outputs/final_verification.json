@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "date": "2026-10-25",
+  "method": "Fresh Python processes with an audit hook blocking non-loopback socket connections and external name lookups; local notebook kernel traffic permitted.",
+  "runs": [
+    {
+      "task": "readiness",
+      "exit_code": 0,
+      "seconds": 1.78
+    },
+    {
+      "task": "demo_ml",
+      "exit_code": 0,
+      "seconds": 1.91
+    },
+    {
+      "task": "demo_dark",
+      "exit_code": 0,
+      "seconds": 1.76
+    },
+    {
+      "task": "demo_unknown",
+      "exit_code": 0,
+      "seconds": 1.76
+    },
+    {
+      "task": "demo_lead",
+      "exit_code": 0,
+      "seconds": 1.79
+    },
+    {
+      "task": "edited_input",
+      "exit_code": 0,
+      "seconds": 1.77
+    },
+    {
+      "task": "custom_cli",
+      "exit_code": 0,
+      "seconds": 1.77
+    },
+    {
+      "task": "tests",
+      "exit_code": 0,
+      "seconds": 3.34
+    },
+    {
+      "task": "notebook",
+      "exit_code": 0,
+      "seconds": 9.55
+    }
+  ],
+  "model_artifacts_unchanged": true,
+  "model_sha256": {
+    "models\\domain.json": "a3d5294261978ef817af51ca308c5cc6c40647e5c7cb984e7207a7937440d803",
+    "models\\model_card.json": "ba1905fd2f77f29078588e31767f7f89bbaab078f553a3f7762569f9e9aa082b",
+    "models\\tio2_pipeline.joblib": "e6075a8da46fe768d764933d6adb3d7517f511ce2499d2f88a0fd687f8b5169b"
+  },
+  "static_preview": {
+    "path": "outputs\\hybrid_demo.html",
+    "remote_asset_tags": [],
+    "executed_code_cells": 7
+  },
+  "scope": "Verifies local cached workflows, not scientific generalisation or a system wide network firewall."
+}

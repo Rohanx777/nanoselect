@@ -1,0 +1,4 @@
+pollutant_id,display_name,pollutant_class,species,aliases,ml_dataset_present
+sulfamethoxazole,Sulfamethoxazole,antibiotic,sulfamethoxazole,SMX;sulfamethoxazole,True
+amaranth,Amaranth dye,azo_dye,amaranth dye,amaranth;amaranth dye;Acid Red 27,True
+lead_ii,Dissolved lead II,metal_ion,Pb(II),Pb(II);Pb2+;lead(II),False

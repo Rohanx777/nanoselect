@@ -1,0 +1,20 @@
+{
+  "materials": 15,
+  "pollutants": 3,
+  "profiles": 11,
+  "evidence_records": 16,
+  "independent_studies": 11,
+  "covered_pairs": 10,
+  "total_pairs": 45,
+  "uncovered_materials": [
+    "M04",
+    "M05",
+    "M07",
+    "M09",
+    "M11",
+    "M12",
+    "M14"
+  ],
+  "seed_sha256": "9faa0576215f19969e718213eefeb2e7a1b2a0e2e9cb8690b007ebbe2b1e4a60",
+  "review_date": "2026-10-25"
+}

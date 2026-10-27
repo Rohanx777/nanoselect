@@ -1,0 +1,4 @@
+source_row,I,T,D,C0,pH,mlogk,SMILES,Molecule_Name,exclusion_reason
+300,4.48,20,0.0,4.3,6.5,4.0,C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N,Carbamazepine,invalid_or_nonpositive_operating_input
+301,4.48,20,0.0,4.3,6.5,2.9586,C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N,Carbamazepine,invalid_or_nonpositive_operating_input
+417,1.49,25,1.0,74.92,3.7,2.1238,CCN(CC)C(=O)C(=C(C)OP(=O)(OC)OC)Cl,Phosphamidon,exact_duplicate

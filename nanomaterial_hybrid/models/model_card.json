@@ -1,0 +1,82 @@
+{
+  "model_name": "Random Forest",
+  "enabled_for_prototype": true,
+  "artifact_filename": "tio2_pipeline.joblib",
+  "target": "mlogk",
+  "target_definition": "reported -log(k), k in min^-1; base unverified",
+  "input_features": [
+    "I",
+    "T",
+    "D",
+    "C0",
+    "pH",
+    "SMILES"
+  ],
+  "train_rows": 350,
+  "test_rows": 90,
+  "train_groups": 345,
+  "test_groups": 87,
+  "split_strategy": "GroupShuffleSplit on exact input groups; GroupKFold CV within training only",
+  "study_independent_validation": false,
+  "random_seed": 42,
+  "selected_parameters": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1
+  },
+  "cv_mae": 0.15941243733250876,
+  "cv_mae_std": 0.0244097239603241,
+  "cv_relative_mae_gain": 0.6174793101427052,
+  "cv_fold_wins_against_baseline": 5,
+  "test_relative_mae_gain": 0.6686144357570861,
+  "test_metrics": {
+    "n": 90,
+    "mae": 0.14585861968915356,
+    "rmse": 0.21276251222590753,
+    "r2": 0.8730814959819548
+  },
+  "baseline_test_metrics": {
+    "n": 90,
+    "mae": 0.4401477777777778,
+    "rmse": 0.5973934643283455,
+    "r2": -0.0005888500208619529
+  },
+  "eligible_test_rows": 38,
+  "eligible_test_metrics": {
+    "n": 38,
+    "mae": 0.10235815075757548,
+    "rmse": 0.1539438721183134,
+    "r2": 0.9028594677360161
+  },
+  "usefulness_checks": {
+    "selected_nonbaseline": true,
+    "cv_mae_improvement": true,
+    "majority_cv_folds": true,
+    "test_mae_improvement": true,
+    "positive_test_r2": true
+  },
+  "acceptance_policy": {
+    "minimum_relative_mae_improvement": 0.1,
+    "minimum_cv_folds_beating_baseline": 3,
+    "require_positive_test_r2": true,
+    "scope": "Predeclared prototype usefulness gate, not a chemical accuracy standard or study independent validation"
+  },
+  "data_sha256": "93fc84dada32453246bd5c61dbf4aa4487961a1428370944b86211c0572042a5",
+  "training_config_sha256": "20f5b76626e2f53d1a9b3bfb5fa0dbf39df834dec0c7bee6b7ccb32f27ba112b",
+  "package_versions": {
+    "python": "3.10.11",
+    "scikit_learn": "1.7.2",
+    "pandas": "2.3.3",
+    "numpy": "2.2.6",
+    "joblib": "1.6.0"
+  },
+  "limitations": [
+    "Preliminary input group holdout; missing study identifiers prevent independent study validation.",
+    "Only TiO2 family and known pollutants; catalyst phase, grade, size, surface area and reactor geometry are unmodelled.",
+    "Only the reported mlogk target is predicted; logarithm base is unverified so no physical k or removal percentage is returned.",
+    "Laboratory solution is a demonstration assumption; water matrix was not recorded per row, and real water effects are unvalidated.",
+    "Range and nearest condition checks are heuristics, not calibrated prediction intervals or proof of applicability.",
+    "Pollutant identity is encoded categorically; no generalisation to unseen chemicals is supported."
+  ],
+  "elapsed_training_seconds": 3.76,
+  "artifact_sha256": "e6075a8da46fe768d764933d6adb3d7517f511ce2499d2f88a0fd687f8b5169b"
+}

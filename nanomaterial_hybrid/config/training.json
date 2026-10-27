@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "test_fraction": 0.2,
+  "cv_folds": 5,
+  "ridge_alphas": [0.1, 1.0, 10.0, 100.0],
+  "forest_trees": 200,
+  "forest_max_depths": [8, null],
+  "forest_min_samples_leaf": [1, 3],
+  "forest_jobs": 2,
+  "acceptance_policy": {
+    "minimum_relative_mae_improvement": 0.1,
+    "minimum_cv_folds_beating_baseline": 3,
+    "require_positive_test_r2": true,
+    "scope": "Predeclared prototype usefulness gate, not a chemical accuracy standard or study independent validation"
+  },
+  "domain_policy": {
+    "minimum_distinct_training_conditions_per_pollutant": 5,
+    "local_distance_multiplier": 1.5,
+    "local_distance_quantile": 0.9,
+    "local_distance_cap": 1.0,
+    "local_distance_floor": 0.1,
+    "scope": "Heuristic range and nearest condition screening in pollutant specific scaled operating space; not a calibrated confidence region"
+  }
+}

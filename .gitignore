@@ -1,0 +1,23 @@
+# Machine-specific environments and caches
+**/.venv/
+**/.runtime/
+**/__pycache__/
+**/.pytest_cache/
+**/.ipynb_checkpoints/
+*.py[cod]
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Downloaded third-party originals are restored by src.acquire
+nanomaterial_hybrid/data/raw/
+nanomaterial_hybrid/outputs/paper_extracted.txt

@@ -1,0 +1,277 @@
+[
+  {
+    "material_id": "M01",
+    "profile_id": "P07",
+    "formulation": "Commercial Nanjing Emperor magnetite nanoparticles used as received",
+    "status": "conditional",
+    "suitability": 1,
+    "setup": 2,
+    "recovery": 1,
+    "profile_accepted": true,
+    "evidence_ids": [
+      "E009"
+    ],
+    "source_ids": [
+      "B07"
+    ],
+    "source_scope": "full_text_sections",
+    "matched_target_evidence_ids": [],
+    "condition_matches": [
+      {
+        "evidence_id": "E009",
+        "matched": [
+          "pH",
+          "temperature_C"
+        ],
+        "different": [
+          "dose_g_L",
+          "time_min"
+        ],
+        "unknown": [
+          "concentration_mg_L"
+        ]
+      }
+    ],
+    "prediction": null,
+    "prediction_target": null,
+    "prediction_unit": null,
+    "prediction_basis": null,
+    "prediction_profile_id": null,
+    "ml_fallback_reasons": [],
+    "reasons": [
+      "Relevant formulation and pollutant evidence exists, but the requested treatment objective is not fully matched by an extracted observation.",
+      "Closest extracted observation E009: matching fields pH, temperature_C; different fields dose_g_L, time_min; unknown fields concentration_mg_L.",
+      "The reported adsorption route does not require illumination.",
+      "Analytical samples passed through 0.2 micrometre filter; magnetic recovery not demonstrated in inspected method"
+    ],
+    "score_min": 62.5,
+    "score_max": 62.5
+  },
+  {
+    "material_id": "M06",
+    "profile_id": "P08",
+    "formulation": "Few layered graphene oxide from modified Hummers synthesis",
+    "status": "conditional",
+    "suitability": 1,
+    "setup": 2,
+    "recovery": null,
+    "profile_accepted": true,
+    "evidence_ids": [
+      "E010",
+      "E011",
+      "E012"
+    ],
+    "source_ids": [
+      "B08"
+    ],
+    "source_scope": "indexed_publisher_abstract",
+    "matched_target_evidence_ids": [],
+    "condition_matches": [
+      {
+        "evidence_id": "E010",
+        "matched": [],
+        "different": [],
+        "unknown": [
+          "pH",
+          "concentration_mg_L",
+          "dose_g_L",
+          "temperature_C",
+          "time_min"
+        ]
+      },
+      {
+        "evidence_id": "E011",
+        "matched": [],
+        "different": [],
+        "unknown": [
+          "pH",
+          "concentration_mg_L",
+          "dose_g_L",
+          "temperature_C",
+          "time_min"
+        ]
+      },
+      {
+        "evidence_id": "E012",
+        "matched": [],
+        "different": [],
+        "unknown": [
+          "pH",
+          "concentration_mg_L",
+          "dose_g_L",
+          "temperature_C",
+          "time_min"
+        ]
+      }
+    ],
+    "prediction": null,
+    "prediction_target": null,
+    "prediction_unit": null,
+    "prediction_basis": null,
+    "prediction_profile_id": null,
+    "ml_fallback_reasons": [],
+    "reasons": [
+      "Relevant formulation and pollutant evidence exists, but the requested treatment objective is not fully matched by an extracted observation.",
+      "Closest extracted observation E010: matching fields none; different fields none; unknown fields pH, concentration_mg_L, dose_g_L, temperature_C, time_min.",
+      "The reported adsorption route does not require illumination.",
+      "Recovery performance is not established by the inspected source scope."
+    ],
+    "score_min": 55.0,
+    "score_max": 70.0
+  },
+  {
+    "material_id": "M10",
+    "profile_id": "P11",
+    "formulation": "Sol gel nMgO standalone control in MgO bentonite study",
+    "status": "conditional",
+    "suitability": 1,
+    "setup": 1,
+    "recovery": null,
+    "profile_accepted": true,
+    "evidence_ids": [
+      "E016"
+    ],
+    "source_ids": [
+      "B11"
+    ],
+    "source_scope": "cached_full_text",
+    "matched_target_evidence_ids": [],
+    "condition_matches": [
+      {
+        "evidence_id": "E016",
+        "matched": [],
+        "different": [],
+        "unknown": [
+          "pH",
+          "concentration_mg_L",
+          "dose_g_L",
+          "temperature_C",
+          "time_min"
+        ]
+      }
+    ],
+    "prediction": null,
+    "prediction_target": null,
+    "prediction_unit": null,
+    "prediction_basis": null,
+    "prediction_profile_id": null,
+    "ml_fallback_reasons": [],
+    "reasons": [
+      "Relevant formulation and pollutant evidence exists, but the requested treatment objective is not fully matched by an extracted observation.",
+      "Closest extracted observation E016: matching fields none; different fields none; unknown fields pH, concentration_mg_L, dose_g_L, temperature_C, time_min.",
+      "The reported adsorption route does not require illumination.",
+      "Recovery performance is not established by the inspected source scope.",
+      "Standalone control setup details are incomplete; composite setup claims are not transferred."
+    ],
+    "score_min": 42.5,
+    "score_max": 57.5
+  },
+  {
+    "material_id": "M13",
+    "profile_id": "P09",
+    "formulation": "Clam shell derived hydroxyapatite rod nanocrystals CS HA",
+    "status": "supported",
+    "suitability": 2,
+    "setup": 2,
+    "recovery": 2,
+    "profile_accepted": true,
+    "evidence_ids": [
+      "E013",
+      "E014"
+    ],
+    "source_ids": [
+      "B09"
+    ],
+    "source_scope": "cached_full_text",
+    "matched_target_evidence_ids": [
+      "E014"
+    ],
+    "condition_matches": [
+      {
+        "evidence_id": "E013",
+        "matched": [
+          "pH",
+          "dose_g_L",
+          "temperature_C"
+        ],
+        "different": [],
+        "unknown": [
+          "concentration_mg_L",
+          "time_min"
+        ]
+      },
+      {
+        "evidence_id": "E014",
+        "matched": [
+          "pH",
+          "concentration_mg_L",
+          "dose_g_L",
+          "temperature_C",
+          "time_min"
+        ],
+        "different": [],
+        "unknown": []
+      }
+    ],
+    "prediction": null,
+    "prediction_target": null,
+    "prediction_unit": null,
+    "prediction_basis": null,
+    "prediction_profile_id": null,
+    "ml_fallback_reasons": [],
+    "reasons": [
+      "A source observation matches the five checked operating inputs and reports the requested removal target; this is literature support, not a new prediction.",
+      "Closest extracted observation E014: matching fields pH, concentration_mg_L, dose_g_L, temperature_C, time_min; different fields none; unknown fields none.",
+      "The reported adsorption route does not require illumination.",
+      "Centrifugation in batch measurement; packed bed retention in column configuration"
+    ],
+    "score_min": 100.0,
+    "score_max": 100.0
+  },
+  {
+    "material_id": "M15",
+    "profile_id": "P10",
+    "formulation": "Ionic gelation chitosan tripolyphosphate nanoparticles with freeze drying",
+    "status": "conditional",
+    "suitability": 1,
+    "setup": 2,
+    "recovery": null,
+    "profile_accepted": true,
+    "evidence_ids": [
+      "E015"
+    ],
+    "source_ids": [
+      "B10"
+    ],
+    "source_scope": "indexed_publisher_abstract",
+    "matched_target_evidence_ids": [],
+    "condition_matches": [
+      {
+        "evidence_id": "E015",
+        "matched": [],
+        "different": [],
+        "unknown": [
+          "pH",
+          "concentration_mg_L",
+          "dose_g_L",
+          "temperature_C",
+          "time_min"
+        ]
+      }
+    ],
+    "prediction": null,
+    "prediction_target": null,
+    "prediction_unit": null,
+    "prediction_basis": null,
+    "prediction_profile_id": null,
+    "ml_fallback_reasons": [],
+    "reasons": [
+      "Relevant formulation and pollutant evidence exists, but the requested treatment objective is not fully matched by an extracted observation.",
+      "Closest extracted observation E015: matching fields none; different fields none; unknown fields pH, concentration_mg_L, dose_g_L, temperature_C, time_min.",
+      "The reported adsorption route does not require illumination.",
+      "Recovery performance is not established by the inspected source scope."
+    ],
+    "score_min": 55.0,
+    "score_max": 70.0
+  }
+]

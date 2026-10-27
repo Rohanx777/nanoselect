@@ -1,0 +1,7 @@
+field,unit_or_definition
+I,mW/cm^2 (UV intensity)
+T,degrees C
+D,g/L (TiO2 dose)
+C0,mg/L (initial pollutant concentration)
+pH,dimensionless
+mlogk,reported -log(k); k in min^-1; logarithm base not yet independently confirmed

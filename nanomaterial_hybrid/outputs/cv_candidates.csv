@@ -1,0 +1,10 @@
+model,parameters,cv_mae_mean,cv_mae_std
+Dummy median,{},0.416742,0.05124167713484637
+Ridge,"{""model__alpha"": 0.1}",0.19147942824698144,0.022929912625850608
+Ridge,"{""model__alpha"": 1.0}",0.20118916560896621,0.026184832749989815
+Ridge,"{""model__alpha"": 10.0}",0.28373590909377555,0.03708234439085523
+Ridge,"{""model__alpha"": 100.0}",0.3649522422281115,0.04591704113997369
+Random Forest,"{""model__max_depth"": 8, ""model__min_samples_leaf"": 1}",0.20641007683653284,0.027629555462241943
+Random Forest,"{""model__max_depth"": 8, ""model__min_samples_leaf"": 3}",0.22401590942619692,0.03853684262593771
+Random Forest,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",0.15941243733250876,0.0244097239603241
+Random Forest,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",0.20002396549228213,0.037153117471172475

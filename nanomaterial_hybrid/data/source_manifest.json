@@ -1,0 +1,91 @@
+[
+  {
+    "path": "data\\raw\\tio2\\data\\curated_data.xlsx",
+    "url": "https://raw.githubusercontent.com/mahyavs/GNN_photodegradation/c59e1a748b36b87eb051d9ce0acf6962bab1d118/data/curated_data.xlsx",
+    "commit": "c59e1a748b36b87eb051d9ce0acf6962bab1d118",
+    "sha256": "e2265361d04f95fc84145433d57857b810d1cacac577369ed39bb9fbd4a5bfcd",
+    "size_bytes": 29723,
+    "accessed_utc": "2026-10-25T06:58:30.571796+00:00",
+    "reuse_terms": "No repository licence located in audited tree; attribution retained, redistribution permission unverified."
+  },
+  {
+    "path": "data\\raw\\tio2\\data\\original_data.xlsx",
+    "url": "https://raw.githubusercontent.com/mahyavs/GNN_photodegradation/c59e1a748b36b87eb051d9ce0acf6962bab1d118/data/original_data.xlsx",
+    "commit": "c59e1a748b36b87eb051d9ce0acf6962bab1d118",
+    "sha256": "6bc6420722aca8bdc23d66e74c882bb255e5f66ee57b9f163df8c41a0a8b3808",
+    "size_bytes": 29903,
+    "accessed_utc": "2026-10-25T06:58:30.571796+00:00",
+    "reuse_terms": "No repository licence located in audited tree; attribution retained, redistribution permission unverified."
+  },
+  {
+    "path": "data\\raw\\tio2\\README.md",
+    "url": "https://raw.githubusercontent.com/mahyavs/GNN_photodegradation/c59e1a748b36b87eb051d9ce0acf6962bab1d118/README.md",
+    "commit": "c59e1a748b36b87eb051d9ce0acf6962bab1d118",
+    "sha256": "e88cfe91f08fbce3d9a958523ab05dbc90cdc5ae165f0a1d80a1fe17e3ec8955",
+    "size_bytes": 471,
+    "accessed_utc": "2026-10-25T06:58:30.572814+00:00",
+    "reuse_terms": "No repository licence located in audited tree; attribution retained, redistribution permission unverified."
+  },
+  {
+    "path": "data\\raw\\tio2\\GNN_photodegradation\\data_utils.py",
+    "url": "https://raw.githubusercontent.com/mahyavs/GNN_photodegradation/c59e1a748b36b87eb051d9ce0acf6962bab1d118/GNN_photodegradation/data_utils.py",
+    "commit": "c59e1a748b36b87eb051d9ce0acf6962bab1d118",
+    "sha256": "6898068d4fc222a7ae730d1bf53a2678093a59ba29f0b8af03ebb3382726ac87",
+    "size_bytes": 4925,
+    "accessed_utc": "2026-10-25T06:58:30.572814+00:00",
+    "reuse_terms": "No repository licence located in audited tree; attribution retained, redistribution permission unverified."
+  },
+  {
+    "path": "data\\raw\\tio2\\GNN_photodegradation\\training.py",
+    "url": "https://raw.githubusercontent.com/mahyavs/GNN_photodegradation/c59e1a748b36b87eb051d9ce0acf6962bab1d118/GNN_photodegradation/training.py",
+    "commit": "c59e1a748b36b87eb051d9ce0acf6962bab1d118",
+    "sha256": "ed89d5b76d79421b266fc83cd308b200a914e66fceaf73cb7e38bad0c77b4d9b",
+    "size_bytes": 9184,
+    "accessed_utc": "2026-10-25T06:58:30.573797+00:00",
+    "reuse_terms": "No repository licence located in audited tree; attribution retained, redistribution permission unverified."
+  },
+  {
+    "path": "data\\raw\\tio2\\GNN_photodegradation\\evaluations.py",
+    "url": "https://raw.githubusercontent.com/mahyavs/GNN_photodegradation/c59e1a748b36b87eb051d9ce0acf6962bab1d118/GNN_photodegradation/evaluations.py",
+    "commit": "c59e1a748b36b87eb051d9ce0acf6962bab1d118",
+    "sha256": "853bc9527b4640ac316092ab81df7408f9581204f71df6661bbb18a071c6b406",
+    "size_bytes": 3022,
+    "accessed_utc": "2026-10-25T06:58:30.573797+00:00",
+    "reuse_terms": "No repository licence located in audited tree; attribution retained, redistribution permission unverified."
+  },
+  {
+    "path": "data\\raw\\tio2\\GNN_photodegradation\\config.py",
+    "url": "https://raw.githubusercontent.com/mahyavs/GNN_photodegradation/c59e1a748b36b87eb051d9ce0acf6962bab1d118/GNN_photodegradation/config.py",
+    "commit": "c59e1a748b36b87eb051d9ce0acf6962bab1d118",
+    "sha256": "dfc0ba01a3c830cb1458c82504fa1d0ab7e5e31c1842f830c3dc1ee657653578",
+    "size_bytes": 53,
+    "accessed_utc": "2026-10-25T06:58:30.574711+00:00",
+    "reuse_terms": "No repository licence located in audited tree; attribution retained, redistribution permission unverified."
+  },
+  {
+    "path": "data\\raw\\tio2\\GNN_photodegradation\\featurizer.py",
+    "url": "https://raw.githubusercontent.com/mahyavs/GNN_photodegradation/c59e1a748b36b87eb051d9ce0acf6962bab1d118/GNN_photodegradation/featurizer.py",
+    "commit": "c59e1a748b36b87eb051d9ce0acf6962bab1d118",
+    "sha256": "82d519cfa4acde1eacec9613efac16c2df95e9a0cf2430220017172161fbaa35",
+    "size_bytes": 2354,
+    "accessed_utc": "2026-10-25T06:58:30.575338+00:00",
+    "reuse_terms": "No repository licence located in audited tree; attribution retained, redistribution permission unverified."
+  },
+  {
+    "path": "data\\raw\\tio2\\requirements.txt",
+    "url": "https://raw.githubusercontent.com/mahyavs/GNN_photodegradation/c59e1a748b36b87eb051d9ce0acf6962bab1d118/requirements.txt",
+    "commit": "c59e1a748b36b87eb051d9ce0acf6962bab1d118",
+    "sha256": "2dcad58dc22687ddda253286ea56b3e6901fb63df45771ef9d0a2af969c98cac",
+    "size_bytes": 93,
+    "accessed_utc": "2026-10-25T06:58:30.575338+00:00",
+    "reuse_terms": "No repository licence located in audited tree; attribution retained, redistribution permission unverified."
+  },
+  {
+    "path": "data\\raw\\tio2\\paper.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12126497/fullTextXML",
+    "sha256": "3794ac7dcb0c16aae9b6947a7a552a966b8f74b61cab6fbefaee3106e5dc2007",
+    "size_bytes": 93239,
+    "accessed_utc": "2026-10-25T06:58:30.575338+00:00",
+    "reuse_terms": "See article licence in cached XML; separate from spreadsheet reuse terms."
+  }
+]

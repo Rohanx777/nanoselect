@@ -1,0 +1,18 @@
+{
+  "pollutant_id": "lead_ii",
+  "pH": 5,
+  "dose_g_L": 4,
+  "concentration_mg_L": 1,
+  "temperature_C": 25,
+  "time_min": 10,
+  "light_type": "dark",
+  "water_matrix": "laboratory_solution",
+  "available_equipment": ["mixer", "centrifuge", "filtration"],
+  "profile_choices": {"M13": "P09"},
+  "consider_study_profiles": true,
+  "allow_conditional_ranking": true,
+  "include_ml": false,
+  "requested_endpoint": "removal_percent",
+  "required_removal_percent": 90,
+  "demo_note": "Editable example. Lead concentration is changed from the source matched 200 mg/L case to 1 mg/L, so the evidence no longer matches exactly."
+}

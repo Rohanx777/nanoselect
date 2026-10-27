@@ -1,0 +1,5 @@
+exclusion_id,source_id,material_ids,formulation,reported_claim,reason
+X01,B11,M10;M14,MgO bentonite composite,Composite capacity 75 mg/g and repeated use results,Composite observations cannot be assigned to standalone MgO or nano clay. Bentonite used in this study was sieved at 53 micrometres; do not assume it meets the catalogue nanoclay dimensions.
+X02,B03,M03,ZnO on kanthal wire,80 W and 120 minutes,These describe synthesis of the most promising sample. They are not photoreactor power and pollutant treatment time.
+X03,B07,M01,Magnetite,About 10 nm pore diameter in abstract,Do not label a pore dimension as particle size. The 10 nm particle diameter used in profile P07 is separately supported by full text section 3.1.
+X04,B09,M13,CS HA batch and packed bed,265 mg/g measured batch versus 263.2 mg/g fitted batch versus 42.5 mg/g column,These are different outcomes and configurations. Only the measured batch value is attached to E013; no arbitrary conversion between them is allowed.
