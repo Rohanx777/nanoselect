@@ -1,0 +1,163 @@
+{
+  "checks": {
+    "model_hash_matches_card": true,
+    "training_data_hash_matches_card": false,
+    "training_config_hash_matches_card": true,
+    "training_data_crlf_hash_matches_card": true,
+    "training_data_matches_raw_or_crlf": true,
+    "all_source_rows_match_split": true,
+    "no_exact_input_group_overlap": true,
+    "saved_predictions_match": true,
+    "saved_eligibility_matches": true,
+    "reported_metrics_match": true,
+    "eligible_metrics_match": true
+  },
+  "holdout_metrics_recomputed": {
+    "n": 90,
+    "mae": 0.14585861968915356,
+    "rmse": 0.21276251222590753,
+    "r2": 0.8730814959819548
+  },
+  "baseline_saved_predictions_metrics": {
+    "n": 90,
+    "mae": 0.4401477777777778,
+    "rmse": 0.5973934643283455,
+    "r2": -0.0005888500208619529
+  },
+  "eligible_holdout_metrics_recomputed": {
+    "n": 38,
+    "mae": 0.10235815075757551,
+    "rmse": 0.1539438721183134,
+    "r2": 0.9028594677360161
+  },
+  "pollutant_holdout_breakdown": [
+    {
+      "pollutant": "Sulfamethoxazole",
+      "n": 10,
+      "eligible_n": 9,
+      "mae_all_holdout": 0.1111997999999996,
+      "mae_eligible_holdout": 0.11757655555555502
+    },
+    {
+      "pollutant": "Amaranth",
+      "n": 6,
+      "eligible_n": 3,
+      "mae_all_holdout": 0.3085103333333326,
+      "mae_eligible_holdout": 0.13427299999999973
+    }
+  ],
+  "test_rows_outside_domain": 52,
+  "training_pollutant_categories_supported": 25,
+  "study_independent_validation": false,
+  "material_evidence_summary": [
+    {
+      "material_id": "M01",
+      "material_name": "Iron oxide magnetite",
+      "literature_rows": 1,
+      "studies": 1,
+      "ml_training_eligible_rows": 0
+    },
+    {
+      "material_id": "M02",
+      "material_name": "Titanium dioxide",
+      "literature_rows": 3,
+      "studies": 3,
+      "ml_training_eligible_rows": 0
+    },
+    {
+      "material_id": "M03",
+      "material_name": "Zinc oxide",
+      "literature_rows": 4,
+      "studies": 2,
+      "ml_training_eligible_rows": 0
+    },
+    {
+      "material_id": "M04",
+      "material_name": "Silver nanoparticles",
+      "literature_rows": 0,
+      "studies": 0,
+      "ml_training_eligible_rows": 0
+    },
+    {
+      "material_id": "M05",
+      "material_name": "Nanoscale zero valent iron",
+      "literature_rows": 2,
+      "studies": 2,
+      "ml_training_eligible_rows": 0
+    },
+    {
+      "material_id": "M06",
+      "material_name": "Graphene oxide",
+      "literature_rows": 4,
+      "studies": 2,
+      "ml_training_eligible_rows": 0
+    },
+    {
+      "material_id": "M07",
+      "material_name": "Reduced graphene oxide",
+      "literature_rows": 0,
+      "studies": 0,
+      "ml_training_eligible_rows": 0
+    },
+    {
+      "material_id": "M08",
+      "material_name": "Carbon nanotubes",
+      "literature_rows": 1,
+      "studies": 1,
+      "ml_training_eligible_rows": 0
+    },
+    {
+      "material_id": "M09",
+      "material_name": "Nano alumina",
+      "literature_rows": 0,
+      "studies": 0,
+      "ml_training_eligible_rows": 0
+    },
+    {
+      "material_id": "M10",
+      "material_name": "Magnesium oxide",
+      "literature_rows": 1,
+      "studies": 1,
+      "ml_training_eligible_rows": 0
+    },
+    {
+      "material_id": "M11",
+      "material_name": "Manganese dioxide",
+      "literature_rows": 0,
+      "studies": 0,
+      "ml_training_eligible_rows": 0
+    },
+    {
+      "material_id": "M12",
+      "material_name": "Cerium oxide",
+      "literature_rows": 0,
+      "studies": 0,
+      "ml_training_eligible_rows": 0
+    },
+    {
+      "material_id": "M13",
+      "material_name": "Nano hydroxyapatite",
+      "literature_rows": 2,
+      "studies": 1,
+      "ml_training_eligible_rows": 0
+    },
+    {
+      "material_id": "M14",
+      "material_name": "Nano clay montmorillonite",
+      "literature_rows": 0,
+      "studies": 0,
+      "ml_training_eligible_rows": 0
+    },
+    {
+      "material_id": "M15",
+      "material_name": "Chitosan nanoparticles",
+      "literature_rows": 1,
+      "studies": 1,
+      "ml_training_eligible_rows": 0
+    }
+  ],
+  "staged_review_rows": 18,
+  "staged_independent_studies": 11,
+  "staged_experimental_rows_not_yet_training_data": true,
+  "caution": "Replaying a saved test set is a reproducibility check, not new independent validation."
+}

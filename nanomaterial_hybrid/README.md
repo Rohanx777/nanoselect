@@ -66,7 +66,7 @@ Read `outputs/data_audit.md` before training. Exact input grouping is available 
 
 ## Evidence catalogue
 
-The catalogue contains all 15 families. The initial evidence database contains 16 observations from 11 papers, covering 10 of 45 family and pollutant pairs across sulfamethoxazole, amaranth and dissolved lead II. Eight families have relevant profile evidence; the remaining seven are visible as evidence gaps. A zero in coverage means no verified record in this bounded database, not that treatment fails.
+The catalogue contains all 15 families. The evidence database contains 19 observations from 14 papers, covering 13 of 45 family and pollutant pairs across sulfamethoxazole, amaranth and dissolved lead II. Nine families have relevant profile evidence; the remaining six are visible as evidence gaps. The nZVI lead evidence concerns a specific shell-supported composite. The newer graphene oxide and nZVI SMX studies are distinct profiles with incomplete abstract-scoped operating conditions. A zero in coverage means no verified record in this bounded database, not that treatment fails.
 
 - `data/materials.csv`: supplied material descriptions, with seed ranges explicitly unverified.
 - `data/material_profiles.csv`: the actual study formulations, dimensions and light requirements.
@@ -89,7 +89,7 @@ The main user interface is now the local webpage in `web/`, served by `src.webap
 
 The webpage calls `recommend(scenario)` from `src.recommend`, which returns all 15 material IDs. The summary and profile assessments include source matching and policy boundaries. `notebooks/04_hybrid_demo.ipynb` remains a supporting development view. `outputs/hybrid_integration.md` documents exact inputs and policy boundaries. The full suite now has 58 passing tests, including the local HTTP API.
 
-The UV SMX example produces an uncertain shortlist of M02, M03 and M08. Only M02 receives an eligible numerical mlogk estimate. The dark version excludes the documented photocatalytic routes and retains CNTs as a conditional research candidate. The source matched lead example selects profile P09 of M13 under its stated laboratory assumptions. Unknown pollutants yield no invented preference rank.
+The UV SMX example produces an uncertain shortlist of M02, M03, M05, M06 and M08. Only M02 receives an eligible numerical mlogk estimate. The dark version excludes the documented photocatalytic routes and retains M05, M06 and M08 as conditional research candidates; illumination is unknown for M05 and M06, not verified to be suitable. The source matched lead example selects profile P09 of M13 under its stated laboratory assumptions. Unknown pollutants yield no invented preference rank.
 
 Scores use the declared 60/25/15 suitability, setup and recovery policy. They are not pollutant removal percentages. Unknown criteria retain score intervals; overlapping candidates remain uncertain. A preference tier is an interval dominance frontier, not a forced complete ordering. Source observations and ML predictions retain their units separately. This ranks scored profiles within current evidence coverage, not all possible material formulations in the world.
 

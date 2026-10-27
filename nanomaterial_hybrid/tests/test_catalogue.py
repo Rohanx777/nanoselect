@@ -36,6 +36,15 @@ def test_no_numeric_unit_or_profile_transfer():
     assert data.loc["E013","result_value"]==265
     assert data.loc["E016","result_value"]==55
     assert data.loc["E016","material_id"]=="M10"
+    assert data.loc["E017","material_id"]=="M05"
+    assert data.loc["E017","result_value"]==29.91
+    assert data.loc["E017","result_unit"]=="mg/g"
+    assert "shell" in profiles.set_index("profile_id").loc["P12","formulation"].lower()
+    assert pd.isna(data.loc["E017","dose_g_L"])
+    assert data.loc["E018","result_qualifier"]=="up_to"
+    assert data.loc["E019","result_min"]==83 and data.loc["E019","result_max"]==91
+    assert pd.isna(data.loc["E019","result_value"])
+    assert profiles.set_index("profile_id").loc["P14","light_requirement"]=="not_specified_in_source"
     assert not (evidence.material_id=="M14").any()
     assert not evidence.ml_training_eligible.any()
     assert evidence.requires_profile_match.all()
@@ -55,6 +64,13 @@ def test_invalid_percentage_is_rejected():
     seed=json.loads((ROOT / "data/curation/evidence_seed.json").read_text())
     seed["evidence"][1]["result_value"]=150
     with pytest.raises(ValueError,match="Invalid percentage"):
+        build_tables(seed)
+
+
+def test_invalid_percentage_range_is_rejected():
+    seed=json.loads((ROOT / "data/curation/evidence_seed.json").read_text())
+    seed["evidence"][-1]["result_min"]=95
+    with pytest.raises(ValueError,match="Invalid percentage range"):
         build_tables(seed)
 
 

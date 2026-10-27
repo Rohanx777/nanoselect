@@ -70,7 +70,7 @@ def build_tables(seed):
     evidence["reviewed_scope"] = evidence.source_id.map(sources.set_index("source_id").reviewed_scope)
     evidence["verified"] = True
     evidence["verification_meaning"] = "Claim checked against inspected source scope; not independent experimental replication"
-    evidence["review_date"] = seed["review_date"]
+    evidence["review_date"] = evidence.source_id.map({s["source_id"]:s.get("review_date",seed["review_date"]) for s in seed["sources"]})
     evidence["requires_profile_match"] = True
     evidence["ml_training_eligible"] = False
     evidence["applicability_status"] = "Evidence for profile and pollutant; scenario match not yet evaluated"
@@ -86,10 +86,15 @@ def build_tables(seed):
             lambda v: json.dumps(v) if isinstance(v,list) else None)
     numeric = pd.to_numeric(evidence.result_value, errors="coerce")
     percent = evidence.result_unit.eq("percent")
-    if not numeric[percent].between(0,100).all():
+    if not numeric[percent & numeric.notna()].between(0,100).all():
         raise ValueError("Invalid percentage observation")
     if evidence.loc[numeric.notna(),"result_unit"].isna().any():
         raise ValueError("Numeric outcome missing its unit")
+    for index, row in evidence.iterrows():
+        low,high=row.get("result_min"),row.get("result_max")
+        if pd.notna(low) or pd.notna(high):
+            if pd.isna(low) or pd.isna(high) or row.result_unit!="percent" or not 0<=float(low)<=float(high)<=100:
+                raise ValueError(f"Invalid percentage range for {row.evidence_id}")
     return materials, sources, profiles, evidence
 
 

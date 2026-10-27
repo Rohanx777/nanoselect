@@ -58,11 +58,19 @@ class Handler(BaseHTTPRequestHandler):
             return self._send({"app_id":APP_ID,"status":"ready"})
         if path=="/api/meta":
             card=json.loads((ROOT / "models/model_card.json").read_text())
+            engine=self.server.engine
+            coverage={str(row.pollutant_id):int(engine.evidence.loc[engine.evidence.pollutant_id.eq(row.pollutant_id),"material_id"].nunique())
+                      for row in engine.pollutants.itertuples()}
             return self._send({"pollutants":self.server.engine.pollutants.to_dict("records"),
                                "presets":{name:load_demo(name) for name in ["demo_ml","demo_dark","demo_lead","demo_unknown"]},
                                "model":{"name":card["model_name"],"mae":card["test_metrics"]["mae"],"r2":card["test_metrics"]["r2"]},
-                               "material_count":len(self.server.engine.materials)})
-        assets={"/":("index.html","text/html; charset=utf-8"),"/style.css":("style.css","text/css; charset=utf-8"),"/app.js":("app.js","text/javascript; charset=utf-8")}
+                               "material_count":len(self.server.engine.materials),
+                               "coverage":{"by_pollutant":coverage,"covered_pairs":sum(coverage.values()),
+                                           "total_pairs":len(engine.materials)*len(engine.pollutants),
+                                           "observations":len(engine.evidence),"studies":int(engine.evidence.study_id.nunique())},
+                               "materials":json.loads(self.server.engine.materials.to_json(orient="records")),
+                               "provided_impacts":json.loads((ROOT / "data/provided_material_info.json").read_text(encoding="utf-8"))})
+        assets={"/":("index.html","text/html; charset=utf-8"),"/style.css":("style.css","text/css; charset=utf-8"),"/enhancements.css":("enhancements.css","text/css; charset=utf-8"),"/app.js":("app.js","text/javascript; charset=utf-8")}
         if path in assets:
             name,mime=assets[path]
             return self._send((WEB / name).read_bytes(),content_type=mime)
@@ -83,9 +91,13 @@ class Handler(BaseHTTPRequestHandler):
             if not isinstance(body,dict) or not isinstance(body.get("scenario"),dict):
                 raise ValueError("Provide water conditions in a scenario object.")
             with self.server.engine_lock:
-                frame=self.server.engine.recommend(body["scenario"])
+                frame=self.server.engine.recommend(body["scenario"],weights=body.get("weights"))
+            evidence_ids={item for value in frame.evidence_ids for item in value.split(';') if item}
+            evidence=self.server.engine.evidence.loc[self.server.engine.evidence.evidence_id.isin(evidence_ids),
+                ["evidence_id","profile_id","mechanism","claim","limitations","source_url"]]
             result={"rows":json.loads(frame.to_json(orient="records")),
-                    "summary":frame.attrs["summary"],"profiles":frame.attrs["profile_assessments"]}
+                    "summary":frame.attrs["summary"],"profiles":frame.attrs["profile_assessments"],
+                    "evidence":json.loads(evidence.to_json(orient="records"))}
             self._send(result)
         except (ValueError,TypeError,KeyError) as error:
             self._send({"error":str(error)},400)

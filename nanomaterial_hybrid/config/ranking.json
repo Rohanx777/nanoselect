@@ -22,7 +22,8 @@
     "P08": {"mixing_required": true},
     "P09": {"mixing_required": true, "recovery_equipment": "centrifuge", "recovery_rating": 2},
     "P10": {"mixing_required": true},
-    "P11": {"mixing_required": true, "setup_incompletely_documented": true}
+    "P11": {"mixing_required": true, "setup_incompletely_documented": true},
+    "P12": {"mixing_required": true, "recovery_equipment": "filtration", "recovery_rating": 1}
   },
   "design_assumptions": [
     "Batch mixing is a prototype setup requirement; where the abstract does not describe agitation, this is an engineering assumption rather than an extracted experiment parameter.",

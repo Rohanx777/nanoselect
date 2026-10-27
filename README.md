@@ -37,7 +37,9 @@ The catalogue includes Fe3O4, TiO2, ZnO, Ag, nZVI, GO, rGO, CNTs, Al2O3, MgO, Mn
 
 ## Model and research limits
 
-The literature catalogue contains 16 observations from 11 papers, covering 10 of 45 family/pollutant pairs for three pollutants. Missing evidence does not mean a material fails. Numerical ML predictions are available only for supported TiO2 inputs; the other families use evidence rules.
+The literature catalogue contains 19 observations from 14 papers, covering 13 of 45 family/pollutant pairs for three pollutants. The lead nZVI observation applies to a specific shell-supported composite; the new SMX nZVI and graphene oxide profiles are based on abstracts with incomplete conditions. Missing evidence does not mean a material fails. Numerical ML predictions are available only for supported TiO2 inputs; the other families use evidence rules.
+
+The webpage supports side-by-side comparison, adjustable decision priorities, an HTML report that can be printed as PDF, and a reference table of the user-provided material properties. The supplied property ranges and uses are unverified background, not evidence used to fill gaps or rank unsupported materials.
 
 The regression used 440 audited records with 350 training and 90 test rows, grouping identical input conditions to avoid direct overlap. Held-out MAE is **0.1459**, RMSE **0.2128**, and R squared **0.8731** in the reported `mlogk` target. These values are not percentage accuracy. Study-independent validation was unavailable because source study identifiers were absent.
 

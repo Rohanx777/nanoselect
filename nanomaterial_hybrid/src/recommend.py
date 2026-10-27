@@ -96,6 +96,8 @@ def validate_scenario(scenario):
 
 def light_rating(requirement,provided):
     light=str(provided or "unspecified").casefold()
+    if requirement=="not_specified_in_source":
+        return None,"The reviewed source does not establish an illumination requirement for this specific study."
     if requirement=="not_required_for_reported_adsorption":
         return 2,"The reported adsorption route does not require illumination."
     if light in ["dark","none"]:
@@ -139,7 +141,8 @@ def observed_target_support(observation,scenario):
     qualifier=observation.get("result_qualifier")
     endpoint=scenario.get("requested_endpoint","qualitative_remediation")
     supported=(endpoint=="removal_percent" and target is not None and not missing(value)
-               and observation.get("result_unit")=="percent" and qualifier!="up_to"
+               and observation.get("result_unit")=="percent" and (missing(qualifier) or qualifier=="")
+               and observation.get("endpoint") in {"reported_removal_percent","reported_degradation_percent","reported_photodegradation_percent"}
                and len(matched)==len(MATCH_FIELDS) and not mismatched and not unknown
                and float(value)>=float(target) and scenario.get("water_matrix")=="laboratory_solution")
     return supported,matched,mismatched,unknown
@@ -258,9 +261,13 @@ class RecommendationEngine:
                 "reasons":["Eligible experimental ML estimate attached separately; no numerical treatment efficiency or extra ranking score is inferred.",
                            "Catalyst grade and recovery are unmodelled, so this remains a conditional research candidate."]+answer["limitations"]},[]
 
-    def recommend(self,scenario):
+    def recommend(self,scenario,weights=None):
         scenario=dict(scenario)
         validate_scenario(scenario)
+        weights=self.config["weights"] if weights is None else weights
+        if not isinstance(weights,dict) or any(isinstance(value,bool) for value in weights.values()):
+            raise ValueError("Ranking weights must be numbers for suitability, setup and recovery.")
+        score_bounds({criterion:None for criterion in CRITERIA},weights)
         if "light_type" in scenario:
             light=str(scenario["light_type"]).strip().casefold()
             scenario["light_type"]={"uv":"UV","uva":"UVA","uvb":"UVB","uvc":"UVC"}.get(light,light)
@@ -294,7 +301,7 @@ class RecommendationEngine:
                 if ml is not None:
                     candidates.append(ml)
             for candidate in candidates:
-                lo,hi=score_bounds(candidate,self.config["weights"])
+                lo,hi=score_bounds(candidate,weights)
                 candidate.update(score_min=lo,score_max=hi)
             if candidates:
                 # Documented conservative profile selection, never averaging unknown ratings.
@@ -333,14 +340,14 @@ class RecommendationEngine:
             row["source_urls"]="; ".join(self.source_urls[source_id] for source_id in row["source_ids"].split(";") if source_id in self.source_urls)
         top=rank_intervals(rows)
         sensitivity=[]
-        for weights in self.config["alternative_weights"]:
+        for alternative_weights in self.config["alternative_weights"]:
             alternate=[]
             for row in rows:
                 item=dict(row)
                 if item["rank_eligible"]:
-                    item["score_min"],item["score_max"]=score_bounds(item,weights)
+                    item["score_min"],item["score_max"]=score_bounds(item,alternative_weights)
                 alternate.append(item)
-            sensitivity.append({"weights":weights,"top_candidates":rank_intervals(alternate)})
+            sensitivity.append({"weights":alternative_weights,"top_candidates":rank_intervals(alternate)})
         winner=top[0] if len(top)==1 else None
         winner_status=next((row["status"] for row in rows if row["material_id"]==winner),None)
         summary={"pollutant_id":pollutant,"request_supported":pollutant is not None,
@@ -349,7 +356,7 @@ class RecommendationEngine:
                  "recommendation_type":("unique source matched policy candidate" if winner_status=="supported" else "unique conditional policy candidate") if winner else ("uncertain shortlist" if top else "no justified ranking"),
                  "ranking_scope":"Among scored candidates and chosen profiles only; unscored evidence gaps can conceal other effective materials.",
                  "weight_sensitive":any(item["top_candidates"]!=top for item in sensitivity),
-                 "alternative_weight_results":sensitivity,"score_meaning":self.config["score_meaning"],
+                 "alternative_weight_results":sensitivity,"weights":weights,"score_meaning":self.config["score_meaning"],
                  "sensitivity_scope":"Two alternate weight choices with chosen material profiles held fixed; not proof of global ranking robustness.",
                  "profile_selection_policy":"Within each family: status, then largest lower score bound, then profile ID for stable display. Overlapping profile alternatives are flagged.",
                  "assumptions":self.config["design_assumptions"]+[

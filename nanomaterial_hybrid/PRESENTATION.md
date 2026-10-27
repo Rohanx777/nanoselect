@@ -20,7 +20,7 @@ Show the model evaluation notebook or outputs/model_evaluation.md if asked. Rand
 
 Show the UV sulfamethoxazole case. Introduce sulfamethoxazole as SMX, an antibiotic.
 
-“The model produces an eligible TiO2 estimate under its dataset profile. The evidence engine also considers documented ZnO and CNT formulations. It returns a tied shortlist because the evidence and unknown recovery criteria do not justify a unique material winner.”
+“The model produces an eligible TiO2 estimate under its dataset profile. The evidence engine also considers ZnO, CNT, nZVI and graphene oxide study profiles. It returns an uncertain shortlist because the evidence and unknown setup and recovery criteria do not justify a unique material winner.”
 
 Point to the material profile and prediction target columns. The numeric ML value does not boost the decision score or transfer to a named literature grade. The preference score uses declared 60/25/15 weights for suitability, setup and recovery. Unknown criteria retain a range rather than an invented midpoint.
 
@@ -28,7 +28,7 @@ Point to the material profile and prediction target columns. The numeric ML valu
 
 Run the dark case.
 
-“Removing light makes the documented photocatalytic routes incompatible with the declared setup. CNT adsorption remains a conditional research candidate. This recommendation is based on suitability and evidence, not a guaranteed removal percentage.”
+“Removing light makes the documented photocatalytic routes incompatible with the declared setup. CNT, graphene oxide and nZVI remain conditional research candidates; the nZVI and graphene oxide abstracts do not establish illumination requirements. This is not a guaranteed removal percentage.”
 
 Show the lead case.
 
@@ -40,7 +40,7 @@ If time permits, run config/my_scenario.json. The changed lead concentration los
 
 Run the unknown pollutant case.
 
-“The system returns all 15 candidates but refuses to fabricate a ranking for unsupported pollutants. We currently have 16 literature observations from 11 papers covering 10 of 45 material and pollutant pairs. The other pairs are explicit evidence gaps.”
+“The system returns all 15 candidates but refuses to fabricate a ranking for unsupported pollutants. We currently have 19 literature observations from 14 papers covering 13 of 45 material and pollutant pairs. The other pairs are explicit evidence gaps.”
 
 “Our contribution is a reproducible local decision support prototype with explanations, source links, domain checks and a working hybrid pipeline. We used existing published data and performed computational checks. We have not performed independent laboratory validation or established drinking water safety.”
 

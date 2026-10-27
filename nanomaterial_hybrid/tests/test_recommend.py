@@ -5,7 +5,7 @@ import pandas as pd
 import pytest
 
 from src.predict import PROFILE,TiO2Predictor
-from src.recommend import RecommendationEngine,load_demo,recommend,rank_intervals,score_bounds
+from src.recommend import RecommendationEngine,load_demo,recommend,rank_intervals,score_bounds,observed_target_support
 
 
 def test_all_fifteen_families_are_returned_without_guessed_scores():
@@ -28,7 +28,7 @@ def test_unknown_pollutant_does_not_fabricate_ranking_or_prediction():
 
 def test_uv_scenario_preserves_overlapping_candidate_shortlist():
     frame=recommend(load_demo("demo_ml")).set_index("material_id")
-    assert set(frame.attrs["summary"]["top_candidates"])=={"M02","M03","M08"}
+    assert set(frame.attrs["summary"]["top_candidates"])=={"M02","M03","M05","M06","M08"}
     assert frame.attrs["summary"]["unique_policy_winner"] is None
     assert np.isfinite(frame.loc["M02","prediction"])
     assert frame.loc["M02","prediction_profile_id"]==PROFILE
@@ -43,7 +43,39 @@ def test_dark_excludes_photocatalytic_routes_but_not_adsorption():
     assert frame.loc["M03","status"]=="incompatible_with_setup"
     assert pd.isna(frame.loc["M02","prediction"])
     assert pd.isna(frame.loc["M02","preference_tier"])
-    assert frame.attrs["summary"]["top_candidates"]==["M08"]
+    assert frame.attrs["summary"]["top_candidates"]==["M05","M06","M08"]
+    assert pd.isna(frame.loc["M05","setup"])
+    assert pd.isna(frame.loc["M06","setup"])
+
+
+def test_new_abstract_evidence_preserves_uncertainty_and_profile_boundaries():
+    frame=recommend(load_demo("demo_ml")).set_index("material_id")
+    for material,profile,evidence in [("M05","P14","E019"),("M06","P13","E018")]:
+        row=frame.loc[material]
+        assert row["status"]=="conditional"
+        assert row["profile_id"]==profile
+        assert row["evidence_ids"]==evidence
+        assert pd.isna(row["setup"]) and pd.isna(row["recovery"])
+        assert row["score_min"]==30 and row["score_max"]==70
+        assert "does not establish an illumination requirement" in row["reason"]
+        assert pd.isna(row["prediction"])
+
+
+@pytest.mark.parametrize("qualifier",["up_to","maximum_reported","reported_range","approximately"])
+def test_qualified_results_cannot_become_exact_target_support(qualifier):
+    scenario=dict(load_demo("demo_lead"),required_removal_percent=90)
+    observation={field:scenario[field] for field in ["pH","dose_g_L","concentration_mg_L","temperature_C","time_min"]}
+    observation.update(result_value=99,result_unit="percent",result_qualifier=qualifier,endpoint="reported_removal_percent")
+    assert not observed_target_support(observation,scenario)[0]
+
+
+def test_unaccepted_new_profiles_remain_unranked():
+    scenario=load_demo("demo_ml")
+    scenario["consider_study_profiles"]=False
+    result=recommend(scenario).set_index("material_id")
+    for material in ("M05","M06"):
+        assert not result.loc[material,"rank_eligible"]
+        assert pd.isna(result.loc[material,"preference_tier"])
 
 
 def test_source_matched_lead_case_has_documented_policy_winner():
